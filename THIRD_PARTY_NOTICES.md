@@ -26,4 +26,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ## Repository-authored code
 
-The preceding upstream notice describes RCAEval. It does not automatically license the separate QA-SSEC analysis code or change ownership of the authors' work. No new reuse license for that code has been assigned during this packaging step. No source model weights or third-party software binaries are bundled.
+The preceding upstream notice describes RCAEval. It does not automatically license the separate QA-SSEC analysis code or change ownership of the authors' work. No new reuse license for that code has been assigned during this packaging step. No source model weights or third-party software binaries are bundled. Tokenizer/configuration data from the pinned SmolLM2 model are included as described below.
+
+## SmolLM2 tokenizer and configuration
+
+Upstream model: https://huggingface.co/HuggingFaceTB/SmolLM2-135M
+Pinned revision: 28e66ca6931668447a3bac213f23d990ad3b0e2b
+The model card declares Apache-2.0. The included tokenizer.json,
+tokenizer_config.json, special_tokens_map.json and config.json are preserved
+from the author's pinned snapshot; per-file SHA256 values are in
+historical/INPUT_MANIFEST.csv. They are not a newly trained model and no weights
+are bundled. The Apache License 2.0 text is in licenses/Apache-2.0.txt.
+The existing author-code rights statement above is unchanged.

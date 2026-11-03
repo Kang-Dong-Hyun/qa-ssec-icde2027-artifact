@@ -1,0 +1,170 @@
+[
+  {
+    "extraction": "Original definition text; import shell supplied; no algorithm changes",
+    "file": "pipeline_reference/PACKING_CORE.py",
+    "source_name": "06_FROZEN_V4_CORE.py",
+    "source_sha256": "7ec4ed463e226f3e454ba9fd04b535de06fcf9632bd541a266f0e5c5ad6dbaaf",
+    "symbols": [
+      {
+        "source_lines": [
+          49,
+          49
+        ],
+        "source_text_sha256": "436bbc47df6153f5cf11a8b448821f0362bcbc796639bbbc07e5a33dac4783f4",
+        "symbol": "BUDGET"
+      },
+      {
+        "source_lines": [
+          50,
+          50
+        ],
+        "source_text_sha256": "d61660f164488839ee201c800733e423b7ec20c784cbc955dab43a4bb453731b",
+        "symbol": "CAP"
+      },
+      {
+        "source_lines": [
+          52,
+          60
+        ],
+        "source_text_sha256": "744d8a2a548504e215de6549c9bcd8bf05213568be4b50e09de481bb2a51a27e",
+        "symbol": "METRIC_MAP"
+      },
+      {
+        "source_lines": [
+          89,
+          91
+        ],
+        "source_text_sha256": "262f099fd9de6b1be4dc948a50dc7c108393b61ba33d0a52e1a9f33981548aab",
+        "symbol": "stable_json"
+      },
+      {
+        "source_lines": [
+          94,
+          97
+        ],
+        "source_text_sha256": "148ca7df40d989f944b64143a389205d6c3bb36fafebccd2949a70946bc4237d",
+        "symbol": "numeric"
+      },
+      {
+        "source_lines": [
+          100,
+          100
+        ],
+        "source_text_sha256": "e86a739c0010f6301338ad0016c76bcbe7b1aa3b717b08bc10ee67966e1e00a4",
+        "symbol": "case_key"
+      },
+      {
+        "source_lines": [
+          103,
+          106
+        ],
+        "source_text_sha256": "2d8478bbe56fdea13997421715ca8c6602463257506da0c759d542bfb1be1388",
+        "symbol": "seed_hash"
+      },
+      {
+        "source_lines": [
+          229,
+          232
+        ],
+        "source_text_sha256": "1f1d8dbeb19f1138c19ca7fd00ca344f854027e7d5ec72a7b782b175c90f5bdc",
+        "symbol": "compact_metric"
+      },
+      {
+        "source_lines": [
+          235,
+          242
+        ],
+        "source_text_sha256": "eac818be44717086717aa407580bc1ad549091a23a6d4569c00e81bd746d4e69",
+        "symbol": "serialize_slice"
+      },
+      {
+        "source_lines": [
+          245,
+          266
+        ],
+        "source_text_sha256": "0b17009f89212d885448a024198e6def60de42400fa5d91987b63b690d4e4c7b",
+        "symbol": "pack_exact"
+      }
+    ]
+  },
+  {
+    "extraction": "Original definition text; import shell supplied; no algorithm changes",
+    "file": "pipeline_reference/QUERY_SEMANTICS.py",
+    "source_name": "07_FROZEN_V2_QUERY_SEMANTICS.py",
+    "source_sha256": "88e8f1ec4a24595d37bf02dd3b475f08e20434ddbdc45d5d86faf4bb3649874e",
+    "symbols": [
+      {
+        "source_lines": [
+          50,
+          58
+        ],
+        "source_text_sha256": "5766425d9bb648c4adda4977bbe483e7146fe0aec2f6fe949f5938a3049fbbff",
+        "symbol": "FAMILIES"
+      },
+      {
+        "source_lines": [
+          59,
+          63
+        ],
+        "source_text_sha256": "cb9d55f36ed6386c90901175e57c0c8dcd7eed1da69dae36996885c893234dca",
+        "symbol": "NUMERIC_FAMILIES"
+      },
+      {
+        "source_lines": [
+          64,
+          72
+        ],
+        "source_text_sha256": "84d48ef3fe064feac91b833ebf3f6d3c7c752dcf556866aba1f96e5861d31976",
+        "symbol": "FAMILY_FIELD"
+      },
+      {
+        "source_lines": [
+          102,
+          106
+        ],
+        "source_text_sha256": "9dc9e246b4d5e601c87b651d8954e3097567fc133b0d5395dd73516cef712cc2",
+        "symbol": "finite"
+      },
+      {
+        "source_lines": [
+          263,
+          264
+        ],
+        "source_text_sha256": "e1e1b0b6155288a6945a78bf88f8a504d3efb5d7e461b9866cd473cf19118f2c",
+        "symbol": "direction"
+      },
+      {
+        "source_lines": [
+          267,
+          293
+        ],
+        "source_text_sha256": "88e9c086266524f4bd913d4ccef0f852a7ff69cbc7a7f8a88d0a44a213a3ed3e",
+        "symbol": "source_series"
+      },
+      {
+        "source_lines": [
+          296,
+          345
+        ],
+        "source_text_sha256": "b1e0747a508d2c36ad4f94b9a4eec614c9b3c6050821794a5fc0fbb9bcda499f",
+        "symbol": "query_eval"
+      }
+    ]
+  },
+  {
+    "extraction": "Original definition text; import shell supplied; no algorithm changes",
+    "file": "pipeline_reference/CASE_LOCAL_ORDER.py",
+    "source_name": "05_CASE_LOCAL_ORDER_CONTROL.py",
+    "source_sha256": "423e38195d01c2e0671f490f119455b97a8ad75f074b4712ff05aeb7f33d3888",
+    "symbols": [
+      {
+        "source_lines": [
+          42,
+          45
+        ],
+        "source_text_sha256": "e09a1715dda305a4710a5bb320059aa86df9c0e706e0dbd69bf12d6407213ae2",
+        "symbol": "local_rank"
+      }
+    ]
+  }
+]

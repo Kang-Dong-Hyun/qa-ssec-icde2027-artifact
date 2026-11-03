@@ -1,0 +1,38 @@
+{
+  "dependency_record_is_full_lockfile": false,
+  "dependency_versions_recorded_in_research_history": {
+    "accelerate": "0.30.1",
+    "huggingface_hub": "0.23.5",
+    "python": "3.8.20",
+    "safetensors": "0.4.3",
+    "tokenizers": "0.19.1",
+    "torch": "2.4.1+cu118",
+    "transformers": "4.40.1"
+  },
+  "historical_runner_executed_this_turn": false,
+  "kind": "EXCERPT_NOT_A_RAW_RUN_RESULT",
+  "original_contract_sha256": "16529ed0460279ecf1c69f66af363c59ff366559c572bdbf12c52a8a89c3bf03",
+  "reference_lm": {
+    "architecture": "LlamaForCausalLM",
+    "model_safetensors_sha256": "80521b40281d6ce74e35c9282c22539e75aa0ac8578892b2a59955ef78d55da1",
+    "model_type": "llama",
+    "native_context_tokens": 8192,
+    "pinned_revision": "28e66ca6931668447a3bac213f23d990ad3b0e2b",
+    "repo_id": "HuggingFaceTB/SmolLM2-135M"
+  },
+  "reference_tokenizer": {
+    "bos_token_id": 0,
+    "class": "GPT2TokenizerFast",
+    "eos_token_id": 0,
+    "len_tokenizer": 49152,
+    "local_only": true,
+    "pad_token_id": null,
+    "vocab_size": 49152
+  },
+  "runner_sha256": "50e3d3cb57d13c3799f5fac03cc18d0b40e354aedb1d6cb2607d635023f78d64",
+  "tokenizer_json_sha256": "9ca9acddb6525a194ec8ac7a87f24fbba7232a9a15ffa1af0c1224fcd888e47c",
+  "training_original_inputs_in_this_supplement": true,
+  "weights_or_tokenizer_bytes_packaged": false,
+  "tokenizer_bytes_packaged": true,
+  "model_weights_packaged": false
+}

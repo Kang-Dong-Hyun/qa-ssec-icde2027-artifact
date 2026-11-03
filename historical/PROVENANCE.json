@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-03",
+  "github_uploaded": false,
+  "new_training_or_source_query_execution": false,
+  "release_v1_0_0_unchanged": true,
+  "restored_files": [
+    {
+      "bytes_unchanged": true,
+      "file": "historical/TRACKB_PER_FOLD.csv",
+      "sha256": "c274aeadbb94ba6a0cdcc45e599dfdb58ca0d353309edc7fc3484569c9a64a91",
+      "source_archive_sha256": "a28dabecd20e6b4007a303b62b2a9123bf2772d25332623ab1320089606aa1f9",
+      "source_member": "TRACKB_PER_FOLD.csv"
+    },
+    {
+      "bytes_unchanged": true,
+      "file": "historical/TRACKB_ALL_ARMS.csv",
+      "sha256": "0de4dd3749bb2fdc0794f5cfd3528718334cf09224203e362b007a898d70073b",
+      "source_archive_sha256": "a28dabecd20e6b4007a303b62b2a9123bf2772d25332623ab1320089606aa1f9",
+      "source_member": "TRACKB_ALL_ARMS.csv"
+    },
+    {
+      "bytes_unchanged": true,
+      "file": "historical/TRACKB_EXACT_COMPACT.csv",
+      "sha256": "b9497279cdf69aa07311c90b3fe193a4454ac333f378bef6268b470e121fa6a8",
+      "source_archive_sha256": "a28dabecd20e6b4007a303b62b2a9123bf2772d25332623ab1320089606aa1f9",
+      "source_member": "TRACKB_EXACT_COMPACT.csv"
+    },
+    {
+      "bytes_unchanged": true,
+      "file": "historical/TRACKB_PAIRED_COUNTS.csv",
+      "sha256": "b7fa6c29d4013770241523ad4790a44a66417ad1bce171ffbb0091ef8f591373",
+      "source_archive_sha256": "a28dabecd20e6b4007a303b62b2a9123bf2772d25332623ab1320089606aa1f9",
+      "source_member": "TRACKB_PAIRED_COUNTS.csv"
+    },
+    {
+      "bytes_unchanged": true,
+      "executed": false,
+      "file": "historical/TRAIN_TRACKB_REFERENCE.py",
+      "sha256": "50e3d3cb57d13c3799f5fac03cc18d0b40e354aedb1d6cb2607d635023f78d64",
+      "source_name": "QA_SSEC_RUN_B01_B04_SMOLLM2_TRACKB_5FOLD_V1.py"
+    }
+  ],
+  "scope": "Original historical output and input linkage. Full source orchestration coverage is in ARTIFACT_SCOPE.md.",
+  "recovered_original_data_files_in_frozen_inputs_zip": 54,
+  "derived_case_map_files": 1,
+  "input_collection_sha256": "ae35aa30bf08ae2188bb149efdd100bb51ec18db1a904ca2ffa92ec309fb07e1"
+}

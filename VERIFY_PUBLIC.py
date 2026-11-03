@@ -45,6 +45,8 @@ def main():
       ('composition',[ROOT/'composition/REANALYZE.py','--input',ROOT/'composition/INPUT_EVIDENCE.zip','--output',out/'composition'],[('composition/RESULTS.json','composition/RESULTS.json'),('composition/GROUP_PROFILE.csv','composition/GROUP_PROFILE.csv'),('composition/SUBSET_RESULTS.csv','composition/SUBSET_RESULTS.csv')]),
       ('count_floor',[ROOT/'count_floor/RECOMPUTE_COUNT_COMPONENTS.py','--source-dir',ROOT/'inputs','--out',out/'count_floor'],[('count_floor/COUNT_ERROR_COMPONENTS.csv','count_floor/COUNT_ERROR_COMPONENTS.csv'),('count_floor/CALCULATION_RECORD.json','count_floor/CALCULATION_RECORD.json')]),
       ('fixed_readout',[ROOT/'fixed_readout/05_REANALYZE_STORED_OUTPUTS.py','--source',ROOT/'fixed_readout/07_SOURCE_RESULTS.zip','--out',out/'fixed_readout'],[('fixed_readout/04_ANALYSIS_SUMMARY.json','fixed_readout/04_ANALYSIS_SUMMARY.json'),('fixed_readout/03_COMPARISON_TABLES.csv','fixed_readout/03_COMPARISON_TABLES.csv')]),
+      ('historical_aggregates',[ROOT/'historical/CHECK_HISTORICAL.py'],[]),
+      ('historical_predictions',[ROOT/'historical/CHECK_RECOVERED_INPUTS.py','--output',out/'historical'],[('historical/expected/D4_CHECK.json','historical/D4_CHECK.json'),('historical/expected/TABLE_X_FROM_PREDICTIONS.csv','historical/TABLE_X_FROM_PREDICTIONS.csv')]),
     ]
     compared=[];done=[]
     for name,command,tests in jobs:
@@ -59,13 +61,14 @@ def main():
             compared.append({'reference':reference,'generated':generation,'sha256':digest(out/generation)})
         done.append(name);print('ANALYSIS_JOB='+name+';PASS',flush=True)
     generated=[{'path':p.relative_to(out).as_posix(),'sha256':digest(p)} for p in sorted(out.rglob('*')) if p.is_file()]
-    result={'status':'PASS_STORED_OUTPUT_REPRODUCTION','scope':'STORED_OUTPUTS_ONLY_NOT_RAW_EAB_COMPLETE',
+    result={'status':'PASS_STORED_OUTPUT_REPRODUCTION','scope':'STORED_OUTPUT_ANALYSES_PLUS_RECOVERED_INPUT_AND_PREDICTION_CHECKS',
         'python_version':sys.version.split()[0], 'candidate_files':len(rows),'jobs':done,
-        'directed_certificates':32,'byte_identical_outputs':compared,'generated_files':generated,
+        'directed_certificates':32,'original_analysis_outputs':14,'historical_prediction_check_outputs':2,'byte_identical_outputs':compared,'generated_files':generated,
         'verification_scope':'NUMERICAL_REPRODUCTION_NOT_RIGHTS_CERTIFICATION','network_or_install_or_original_training_calls':0}
     report.write_text(json.dumps(result,indent=2,ensure_ascii=False)+'\n',encoding='utf-8')
     print('REPRODUCTION=PASS_STORED_OUTPUTS_ONLY')
     print('DIRECTED_CERTIFICATES=32;BYTE_IDENTICAL_OUTPUTS='+str(len(compared)))
+    print('D4_ORIGINAL_PREDICTIONS=40_FILES_600_ROWS;TABLE_X=4_ROWS')
     print('NO_NEW_QUERIES_TRAINING_PACKING_INSTALL_NETWORK=1')
 if __name__=='__main__':
     try:main()

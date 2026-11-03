@@ -1,0 +1,13 @@
+Recorded original environment (not a full transitive lockfile)
+Python 3.8.20
+numpy 1.24.4
+transformers 4.40.1
+tokenizers 0.19.1
+torch 2.4.1+cu118
+accelerate 0.30.1
+huggingface_hub 0.23.5
+safetensors 0.4.3
+
+The original training runner requires CUDA and BF16 support. Verification uses
+only Python 3.8+ standard library and never imports the training dependencies.
+Do not update an existing research environment merely to run the stored-output check.
