@@ -1,0 +1,2739 @@
+{
+  "analysis_date": "2026-10-30",
+  "analysis": "STORED_OUTPUT_REAGGREGATION_AND_CLAIM_SYNTHESIS",
+  "source_zip_sha256": {
+    "FIXED_COUNT_RESULT.zip": "df08f1d7e3dc43b564752fe4f7df643ece13e3dc8deb15a6dcbd149cd3390037",
+    "NEXT_CASE_TRANSFER_RESULT.zip": "7919d4bc6b8142d1ff2cc96e823bb3bc6d7348ffe6925a7a789231fdea94a228",
+    "QUERY_REPLAY_RESULT.zip": "3b937f17f2be1d63912e408f2676b72b8dc4637e57910942b685d39f9ff319e8"
+  },
+  "validation": {
+    "prefix_rows": 9600,
+    "query_rows": 67200,
+    "cap_groups": 300,
+    "all_cap_groups_match_across_arms_and_seeds": true,
+    "stored_answers_reused_identically": 46403,
+    "new_queries_in_original_projection": 20797,
+    "query_summaries_recomputed": 196,
+    "returned_rows": 67200,
+    "numeric_error_rows": 57600,
+    "undefined_exists_error_rows": 9600
+  },
+  "new_experiments_or_query_evaluations_this_readout": 0,
+  "new_tokenizer_packing_model_network_or_install_calls": 0,
+  "comparisons": [
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B01",
+      "primary": {
+        "SHARED": {
+          "positive_cases": 11,
+          "positive_settings": 176,
+          "witness_hits": 92,
+          "mean_recall": 0.5227272727272727,
+          "all_miss_seeds": 2,
+          "all_miss_seed_ids": [
+            "SEED_09",
+            "SEED_11"
+          ],
+          "hit_count_variance": 15.9375,
+          "hit_count_variance_exact": "255/16",
+          "marginal_variance_sum": 2.4375,
+          "covariance_term": 13.5,
+          "primary_mean_record_coverage": 0.37583050611054486,
+          "hits_by_seed": {
+            "SEED_00": 9,
+            "SEED_01": 11,
+            "SEED_02": 6,
+            "SEED_03": 6,
+            "SEED_04": 2,
+            "SEED_05": 2,
+            "SEED_06": 11,
+            "SEED_07": 5,
+            "SEED_08": 11,
+            "SEED_09": 0,
+            "SEED_10": 5,
+            "SEED_11": 0,
+            "SEED_12": 2,
+            "SEED_13": 11,
+            "SEED_14": 9,
+            "SEED_15": 2
+          },
+          "case_hits": {
+            "033f10866e9fcde8": 8,
+            "1f3bea24c806f3fc": 10,
+            "3054cd4e48e4c14a": 12,
+            "3667fa48f838ada4": 6,
+            "495b34c46ea6cf4a": 6,
+            "687e14bf8499933a": 6,
+            "6e3342ba9f05a793": 8,
+            "6fdaf4aa34d8a42f": 6,
+            "8d51fb6e98870a2f": 14,
+            "a0265ead130dcd35": 6,
+            "f2c26d1cc6193124": 10
+          }
+        },
+        "CASE_LOCAL": {
+          "positive_cases": 11,
+          "positive_settings": 176,
+          "witness_hits": 131,
+          "mean_recall": 0.7443181818181818,
+          "all_miss_seeds": 0,
+          "all_miss_seed_ids": [],
+          "hit_count_variance": 1.15234375,
+          "hit_count_variance_exact": "295/256",
+          "marginal_variance_sum": 1.87890625,
+          "covariance_term": -0.7265625,
+          "primary_mean_record_coverage": 0.3793528721745202,
+          "hits_by_seed": {
+            "SEED_00": 7,
+            "SEED_01": 9,
+            "SEED_02": 8,
+            "SEED_03": 10,
+            "SEED_04": 8,
+            "SEED_05": 8,
+            "SEED_06": 10,
+            "SEED_07": 9,
+            "SEED_08": 6,
+            "SEED_09": 7,
+            "SEED_10": 8,
+            "SEED_11": 8,
+            "SEED_12": 9,
+            "SEED_13": 9,
+            "SEED_14": 7,
+            "SEED_15": 8
+          },
+          "case_hits": {
+            "033f10866e9fcde8": 11,
+            "1f3bea24c806f3fc": 14,
+            "3054cd4e48e4c14a": 15,
+            "3667fa48f838ada4": 12,
+            "495b34c46ea6cf4a": 12,
+            "687e14bf8499933a": 10,
+            "6e3342ba9f05a793": 8,
+            "6fdaf4aa34d8a42f": 10,
+            "8d51fb6e98870a2f": 15,
+            "a0265ead130dcd35": 10,
+            "f2c26d1cc6193124": 14
+          }
+        }
+      },
+      "fixed": {
+        "SHARED": {
+          "positive_cases": 11,
+          "positive_settings": 176,
+          "witness_hits": 92,
+          "mean_recall": 0.5227272727272727,
+          "all_miss_seeds": 2,
+          "all_miss_seed_ids": [
+            "SEED_09",
+            "SEED_11"
+          ],
+          "hit_count_variance": 15.9375,
+          "hit_count_variance_exact": "255/16",
+          "marginal_variance_sum": 2.4375,
+          "covariance_term": 13.5,
+          "primary_mean_record_coverage": 0.3656970626240764,
+          "hits_by_seed": {
+            "SEED_00": 9,
+            "SEED_01": 11,
+            "SEED_02": 6,
+            "SEED_03": 6,
+            "SEED_04": 2,
+            "SEED_05": 2,
+            "SEED_06": 11,
+            "SEED_07": 5,
+            "SEED_08": 11,
+            "SEED_09": 0,
+            "SEED_10": 5,
+            "SEED_11": 0,
+            "SEED_12": 2,
+            "SEED_13": 11,
+            "SEED_14": 9,
+            "SEED_15": 2
+          },
+          "case_hits": {
+            "033f10866e9fcde8": 8,
+            "1f3bea24c806f3fc": 10,
+            "3054cd4e48e4c14a": 12,
+            "3667fa48f838ada4": 6,
+            "495b34c46ea6cf4a": 6,
+            "687e14bf8499933a": 6,
+            "6e3342ba9f05a793": 8,
+            "6fdaf4aa34d8a42f": 6,
+            "8d51fb6e98870a2f": 14,
+            "a0265ead130dcd35": 6,
+            "f2c26d1cc6193124": 10
+          }
+        },
+        "CASE_LOCAL": {
+          "positive_cases": 11,
+          "positive_settings": 176,
+          "witness_hits": 131,
+          "mean_recall": 0.7443181818181818,
+          "all_miss_seeds": 0,
+          "all_miss_seed_ids": [],
+          "hit_count_variance": 1.15234375,
+          "hit_count_variance_exact": "295/256",
+          "marginal_variance_sum": 1.87890625,
+          "covariance_term": -0.7265625,
+          "primary_mean_record_coverage": 0.3656970626240764,
+          "hits_by_seed": {
+            "SEED_00": 7,
+            "SEED_01": 9,
+            "SEED_02": 8,
+            "SEED_03": 10,
+            "SEED_04": 8,
+            "SEED_05": 8,
+            "SEED_06": 10,
+            "SEED_07": 9,
+            "SEED_08": 6,
+            "SEED_09": 7,
+            "SEED_10": 8,
+            "SEED_11": 8,
+            "SEED_12": 9,
+            "SEED_13": 9,
+            "SEED_14": 7,
+            "SEED_15": 8
+          },
+          "case_hits": {
+            "033f10866e9fcde8": 11,
+            "1f3bea24c806f3fc": 14,
+            "3054cd4e48e4c14a": 15,
+            "3667fa48f838ada4": 12,
+            "495b34c46ea6cf4a": 12,
+            "687e14bf8499933a": 10,
+            "6e3342ba9f05a793": 8,
+            "6fdaf4aa34d8a42f": 10,
+            "8d51fb6e98870a2f": 15,
+            "a0265ead130dcd35": 10,
+            "f2c26d1cc6193124": 14
+          }
+        }
+      },
+      "paired_fixed": {
+        "settings": 176,
+        "miss_to_hit": 60,
+        "hit_to_miss": 21,
+        "both_hit": 71,
+        "both_miss": 24,
+        "cases_improved": 10,
+        "cases_worsened": 0,
+        "cases_equal": 1,
+        "case_hit_delta": {
+          "033f10866e9fcde8": 3,
+          "1f3bea24c806f3fc": 4,
+          "3054cd4e48e4c14a": 3,
+          "3667fa48f838ada4": 6,
+          "495b34c46ea6cf4a": 6,
+          "687e14bf8499933a": 4,
+          "6e3342ba9f05a793": 0,
+          "6fdaf4aa34d8a42f": 4,
+          "8d51fb6e98870a2f": 1,
+          "a0265ead130dcd35": 4,
+          "f2c26d1cc6193124": 4
+        }
+      },
+      "fixed_recall_delta_pp": 22.159090909090907,
+      "fixed_variance_reduction_percent": 92.76960784313727
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B02",
+      "primary": {
+        "SHARED": {
+          "positive_cases": 11,
+          "positive_settings": 176,
+          "witness_hits": 110,
+          "mean_recall": 0.625,
+          "all_miss_seeds": 2,
+          "all_miss_seed_ids": [
+            "SEED_09",
+            "SEED_11"
+          ],
+          "hit_count_variance": 17.859375,
+          "hit_count_variance_exact": "1143/64",
+          "marginal_variance_sum": 2.421875,
+          "covariance_term": 15.4375,
+          "primary_mean_record_coverage": 0.4273812180585754,
+          "hits_by_seed": {
+            "SEED_00": 9,
+            "SEED_01": 11,
+            "SEED_02": 6,
+            "SEED_03": 11,
+            "SEED_04": 2,
+            "SEED_05": 2,
+            "SEED_06": 11,
+            "SEED_07": 5,
+            "SEED_08": 11,
+            "SEED_09": 0,
+            "SEED_10": 11,
+            "SEED_11": 0,
+            "SEED_12": 2,
+            "SEED_13": 11,
+            "SEED_14": 9,
+            "SEED_15": 9
+          },
+          "case_hits": {
+            "033f10866e9fcde8": 8,
+            "1f3bea24c806f3fc": 11,
+            "3054cd4e48e4c14a": 13,
+            "3667fa48f838ada4": 9,
+            "495b34c46ea6cf4a": 9,
+            "687e14bf8499933a": 9,
+            "6e3342ba9f05a793": 8,
+            "6fdaf4aa34d8a42f": 9,
+            "8d51fb6e98870a2f": 14,
+            "a0265ead130dcd35": 9,
+            "f2c26d1cc6193124": 11
+          }
+        },
+        "CASE_LOCAL": {
+          "positive_cases": 11,
+          "positive_settings": 176,
+          "witness_hits": 140,
+          "mean_recall": 0.7954545454545454,
+          "all_miss_seeds": 0,
+          "all_miss_seed_ids": [],
+          "hit_count_variance": 0.8125,
+          "hit_count_variance_exact": "13/16",
+          "marginal_variance_sum": 1.5703125,
+          "covariance_term": -0.7578125,
+          "primary_mean_record_coverage": 0.4310004861426945,
+          "hits_by_seed": {
+            "SEED_00": 8,
+            "SEED_01": 10,
+            "SEED_02": 9,
+            "SEED_03": 10,
+            "SEED_04": 8,
+            "SEED_05": 9,
+            "SEED_06": 10,
+            "SEED_07": 10,
+            "SEED_08": 8,
+            "SEED_09": 7,
+            "SEED_10": 9,
+            "SEED_11": 8,
+            "SEED_12": 9,
+            "SEED_13": 9,
+            "SEED_14": 8,
+            "SEED_15": 8
+          },
+          "case_hits": {
+            "033f10866e9fcde8": 12,
+            "1f3bea24c806f3fc": 14,
+            "3054cd4e48e4c14a": 15,
+            "3667fa48f838ada4": 13,
+            "495b34c46ea6cf4a": 13,
+            "687e14bf8499933a": 11,
+            "6e3342ba9f05a793": 8,
+            "6fdaf4aa34d8a42f": 10,
+            "8d51fb6e98870a2f": 16,
+            "a0265ead130dcd35": 13,
+            "f2c26d1cc6193124": 15
+          }
+        }
+      },
+      "fixed": {
+        "SHARED": {
+          "positive_cases": 11,
+          "positive_settings": 176,
+          "witness_hits": 105,
+          "mean_recall": 0.5965909090909091,
+          "all_miss_seeds": 2,
+          "all_miss_seed_ids": [
+            "SEED_09",
+            "SEED_11"
+          ],
+          "hit_count_variance": 15.99609375,
+          "hit_count_variance_exact": "4095/256",
+          "marginal_variance_sum": 2.43359375,
+          "covariance_term": 13.5625,
+          "primary_mean_record_coverage": 0.41512961413828864,
+          "hits_by_seed": {
+            "SEED_00": 9,
+            "SEED_01": 11,
+            "SEED_02": 6,
+            "SEED_03": 8,
+            "SEED_04": 2,
+            "SEED_05": 2,
+            "SEED_06": 11,
+            "SEED_07": 5,
+            "SEED_08": 11,
+            "SEED_09": 0,
+            "SEED_10": 9,
+            "SEED_11": 0,
+            "SEED_12": 2,
+            "SEED_13": 11,
+            "SEED_14": 9,
+            "SEED_15": 9
+          },
+          "case_hits": {
+            "033f10866e9fcde8": 8,
+            "1f3bea24c806f3fc": 11,
+            "3054cd4e48e4c14a": 13,
+            "3667fa48f838ada4": 8,
+            "495b34c46ea6cf4a": 9,
+            "687e14bf8499933a": 8,
+            "6e3342ba9f05a793": 8,
+            "6fdaf4aa34d8a42f": 8,
+            "8d51fb6e98870a2f": 14,
+            "a0265ead130dcd35": 7,
+            "f2c26d1cc6193124": 11
+          }
+        },
+        "CASE_LOCAL": {
+          "positive_cases": 11,
+          "positive_settings": 176,
+          "witness_hits": 136,
+          "mean_recall": 0.7727272727272727,
+          "all_miss_seeds": 0,
+          "all_miss_seed_ids": [],
+          "hit_count_variance": 1.0,
+          "hit_count_variance_exact": "1",
+          "marginal_variance_sum": 1.703125,
+          "covariance_term": -0.703125,
+          "primary_mean_record_coverage": 0.41512961413828864,
+          "hits_by_seed": {
+            "SEED_00": 7,
+            "SEED_01": 10,
+            "SEED_02": 9,
+            "SEED_03": 10,
+            "SEED_04": 8,
+            "SEED_05": 9,
+            "SEED_06": 10,
+            "SEED_07": 9,
+            "SEED_08": 7,
+            "SEED_09": 7,
+            "SEED_10": 8,
+            "SEED_11": 8,
+            "SEED_12": 9,
+            "SEED_13": 9,
+            "SEED_14": 8,
+            "SEED_15": 8
+          },
+          "case_hits": {
+            "033f10866e9fcde8": 11,
+            "1f3bea24c806f3fc": 14,
+            "3054cd4e48e4c14a": 15,
+            "3667fa48f838ada4": 12,
+            "495b34c46ea6cf4a": 13,
+            "687e14bf8499933a": 10,
+            "6e3342ba9f05a793": 8,
+            "6fdaf4aa34d8a42f": 10,
+            "8d51fb6e98870a2f": 16,
+            "a0265ead130dcd35": 13,
+            "f2c26d1cc6193124": 14
+          }
+        }
+      },
+      "paired_fixed": {
+        "settings": 176,
+        "miss_to_hit": 51,
+        "hit_to_miss": 20,
+        "both_hit": 85,
+        "both_miss": 20,
+        "cases_improved": 10,
+        "cases_worsened": 0,
+        "cases_equal": 1,
+        "case_hit_delta": {
+          "033f10866e9fcde8": 3,
+          "1f3bea24c806f3fc": 3,
+          "3054cd4e48e4c14a": 2,
+          "3667fa48f838ada4": 4,
+          "495b34c46ea6cf4a": 4,
+          "687e14bf8499933a": 2,
+          "6e3342ba9f05a793": 0,
+          "6fdaf4aa34d8a42f": 2,
+          "8d51fb6e98870a2f": 2,
+          "a0265ead130dcd35": 6,
+          "f2c26d1cc6193124": 3
+        }
+      },
+      "fixed_recall_delta_pp": 17.613636363636363,
+      "fixed_variance_reduction_percent": 93.74847374847374
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B01",
+      "primary": {
+        "SHARED": {
+          "positive_cases": 10,
+          "positive_settings": 160,
+          "witness_hits": 108,
+          "mean_recall": 0.675,
+          "all_miss_seeds": 0,
+          "all_miss_seed_ids": [],
+          "hit_count_variance": 5.6875,
+          "hit_count_variance_exact": "91/16",
+          "marginal_variance_sum": 1.8828125,
+          "covariance_term": 3.8046875,
+          "primary_mean_record_coverage": 0.38470214640044526,
+          "hits_by_seed": {
+            "SEED_16": 1,
+            "SEED_17": 9,
+            "SEED_18": 9,
+            "SEED_19": 10,
+            "SEED_20": 4,
+            "SEED_21": 8,
+            "SEED_22": 10,
+            "SEED_23": 8,
+            "SEED_24": 6,
+            "SEED_25": 4,
+            "SEED_26": 6,
+            "SEED_27": 6,
+            "SEED_28": 6,
+            "SEED_29": 8,
+            "SEED_30": 5,
+            "SEED_31": 8
+          },
+          "case_hits": {
+            "095d07e6c6a6b418": 10,
+            "63a23f52ccdcd546": 15,
+            "6862fae3f3c27725": 9,
+            "80c2bad39beec7cc": 16,
+            "8baa4eab526b2481": 9,
+            "c1c73991d617f258": 8,
+            "c8aa7290d1be9939": 9,
+            "cfb7145b9d3bb846": 14,
+            "d4cdb8d1a44e6212": 9,
+            "eb75672c183c2dda": 9
+          }
+        },
+        "CASE_LOCAL": {
+          "positive_cases": 10,
+          "positive_settings": 160,
+          "witness_hits": 110,
+          "mean_recall": 0.6875,
+          "all_miss_seeds": 0,
+          "all_miss_seed_ids": [],
+          "hit_count_variance": 1.484375,
+          "hit_count_variance_exact": "95/64",
+          "marginal_variance_sum": 1.75,
+          "covariance_term": -0.265625,
+          "primary_mean_record_coverage": 0.3841957067248962,
+          "hits_by_seed": {
+            "SEED_16": 7,
+            "SEED_17": 8,
+            "SEED_18": 5,
+            "SEED_19": 6,
+            "SEED_20": 6,
+            "SEED_21": 8,
+            "SEED_22": 7,
+            "SEED_23": 7,
+            "SEED_24": 7,
+            "SEED_25": 7,
+            "SEED_26": 9,
+            "SEED_27": 7,
+            "SEED_28": 6,
+            "SEED_29": 8,
+            "SEED_30": 4,
+            "SEED_31": 8
+          },
+          "case_hits": {
+            "095d07e6c6a6b418": 9,
+            "63a23f52ccdcd546": 16,
+            "6862fae3f3c27725": 10,
+            "80c2bad39beec7cc": 16,
+            "8baa4eab526b2481": 10,
+            "c1c73991d617f258": 9,
+            "c8aa7290d1be9939": 6,
+            "cfb7145b9d3bb846": 13,
+            "d4cdb8d1a44e6212": 13,
+            "eb75672c183c2dda": 8
+          }
+        }
+      },
+      "fixed": {
+        "SHARED": {
+          "positive_cases": 10,
+          "positive_settings": 160,
+          "witness_hits": 105,
+          "mean_recall": 0.65625,
+          "all_miss_seeds": 0,
+          "all_miss_seed_ids": [],
+          "hit_count_variance": 7.24609375,
+          "hit_count_variance_exact": "1855/256",
+          "marginal_variance_sum": 1.98046875,
+          "covariance_term": 5.265625,
+          "primary_mean_record_coverage": 0.36968817980710783,
+          "hits_by_seed": {
+            "SEED_16": 1,
+            "SEED_17": 9,
+            "SEED_18": 9,
+            "SEED_19": 10,
+            "SEED_20": 4,
+            "SEED_21": 8,
+            "SEED_22": 10,
+            "SEED_23": 8,
+            "SEED_24": 6,
+            "SEED_25": 1,
+            "SEED_26": 6,
+            "SEED_27": 6,
+            "SEED_28": 6,
+            "SEED_29": 8,
+            "SEED_30": 5,
+            "SEED_31": 8
+          },
+          "case_hits": {
+            "095d07e6c6a6b418": 10,
+            "63a23f52ccdcd546": 14,
+            "6862fae3f3c27725": 8,
+            "80c2bad39beec7cc": 16,
+            "8baa4eab526b2481": 9,
+            "c1c73991d617f258": 8,
+            "c8aa7290d1be9939": 9,
+            "cfb7145b9d3bb846": 13,
+            "d4cdb8d1a44e6212": 9,
+            "eb75672c183c2dda": 9
+          }
+        },
+        "CASE_LOCAL": {
+          "positive_cases": 10,
+          "positive_settings": 160,
+          "witness_hits": 107,
+          "mean_recall": 0.66875,
+          "all_miss_seeds": 0,
+          "all_miss_seed_ids": [],
+          "hit_count_variance": 1.33984375,
+          "hit_count_variance_exact": "343/256",
+          "marginal_variance_sum": 1.75390625,
+          "covariance_term": -0.4140625,
+          "primary_mean_record_coverage": 0.36968817980710783,
+          "hits_by_seed": {
+            "SEED_16": 7,
+            "SEED_17": 7,
+            "SEED_18": 5,
+            "SEED_19": 6,
+            "SEED_20": 6,
+            "SEED_21": 8,
+            "SEED_22": 7,
+            "SEED_23": 7,
+            "SEED_24": 6,
+            "SEED_25": 7,
+            "SEED_26": 9,
+            "SEED_27": 7,
+            "SEED_28": 6,
+            "SEED_29": 8,
+            "SEED_30": 4,
+            "SEED_31": 7
+          },
+          "case_hits": {
+            "095d07e6c6a6b418": 8,
+            "63a23f52ccdcd546": 16,
+            "6862fae3f3c27725": 10,
+            "80c2bad39beec7cc": 16,
+            "8baa4eab526b2481": 10,
+            "c1c73991d617f258": 8,
+            "c8aa7290d1be9939": 6,
+            "cfb7145b9d3bb846": 13,
+            "d4cdb8d1a44e6212": 13,
+            "eb75672c183c2dda": 7
+          }
+        }
+      },
+      "paired_fixed": {
+        "settings": 160,
+        "miss_to_hit": 31,
+        "hit_to_miss": 29,
+        "both_hit": 76,
+        "both_miss": 24,
+        "cases_improved": 4,
+        "cases_worsened": 3,
+        "cases_equal": 3,
+        "case_hit_delta": {
+          "095d07e6c6a6b418": -2,
+          "63a23f52ccdcd546": 2,
+          "6862fae3f3c27725": 2,
+          "80c2bad39beec7cc": 0,
+          "8baa4eab526b2481": 1,
+          "c1c73991d617f258": 0,
+          "c8aa7290d1be9939": -3,
+          "cfb7145b9d3bb846": 0,
+          "d4cdb8d1a44e6212": 4,
+          "eb75672c183c2dda": -2
+        }
+      },
+      "fixed_recall_delta_pp": 1.2499999999999956,
+      "fixed_variance_reduction_percent": 81.50943396226415
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B02",
+      "primary": {
+        "SHARED": {
+          "positive_cases": 10,
+          "positive_settings": 160,
+          "witness_hits": 112,
+          "mean_recall": 0.7,
+          "all_miss_seeds": 0,
+          "all_miss_seed_ids": [],
+          "hit_count_variance": 5.875,
+          "hit_count_variance_exact": "47/8",
+          "marginal_variance_sum": 1.8359375,
+          "covariance_term": 4.0390625,
+          "primary_mean_record_coverage": 0.43793463642578423,
+          "hits_by_seed": {
+            "SEED_16": 1,
+            "SEED_17": 9,
+            "SEED_18": 9,
+            "SEED_19": 10,
+            "SEED_20": 4,
+            "SEED_21": 8,
+            "SEED_22": 10,
+            "SEED_23": 10,
+            "SEED_24": 6,
+            "SEED_25": 5,
+            "SEED_26": 6,
+            "SEED_27": 6,
+            "SEED_28": 7,
+            "SEED_29": 8,
+            "SEED_30": 5,
+            "SEED_31": 8
+          },
+          "case_hits": {
+            "095d07e6c6a6b418": 10,
+            "63a23f52ccdcd546": 15,
+            "6862fae3f3c27725": 11,
+            "80c2bad39beec7cc": 16,
+            "8baa4eab526b2481": 9,
+            "c1c73991d617f258": 10,
+            "c8aa7290d1be9939": 9,
+            "cfb7145b9d3bb846": 14,
+            "d4cdb8d1a44e6212": 9,
+            "eb75672c183c2dda": 9
+          }
+        },
+        "CASE_LOCAL": {
+          "positive_cases": 10,
+          "positive_settings": 160,
+          "witness_hits": 118,
+          "mean_recall": 0.7375,
+          "all_miss_seeds": 0,
+          "all_miss_seed_ids": [],
+          "hit_count_variance": 0.734375,
+          "hit_count_variance_exact": "47/64",
+          "marginal_variance_sum": 1.6015625,
+          "covariance_term": -0.8671875,
+          "primary_mean_record_coverage": 0.43693634886635474,
+          "hits_by_seed": {
+            "SEED_16": 8,
+            "SEED_17": 8,
+            "SEED_18": 6,
+            "SEED_19": 7,
+            "SEED_20": 7,
+            "SEED_21": 8,
+            "SEED_22": 8,
+            "SEED_23": 7,
+            "SEED_24": 8,
+            "SEED_25": 7,
+            "SEED_26": 9,
+            "SEED_27": 7,
+            "SEED_28": 6,
+            "SEED_29": 8,
+            "SEED_30": 6,
+            "SEED_31": 8
+          },
+          "case_hits": {
+            "095d07e6c6a6b418": 9,
+            "63a23f52ccdcd546": 16,
+            "6862fae3f3c27725": 11,
+            "80c2bad39beec7cc": 16,
+            "8baa4eab526b2481": 11,
+            "c1c73991d617f258": 11,
+            "c8aa7290d1be9939": 8,
+            "cfb7145b9d3bb846": 15,
+            "d4cdb8d1a44e6212": 13,
+            "eb75672c183c2dda": 8
+          }
+        }
+      },
+      "fixed": {
+        "SHARED": {
+          "positive_cases": 10,
+          "positive_settings": 160,
+          "witness_hits": 109,
+          "mean_recall": 0.68125,
+          "all_miss_seeds": 0,
+          "all_miss_seed_ids": [],
+          "hit_count_variance": 5.40234375,
+          "hit_count_variance_exact": "1383/256",
+          "marginal_variance_sum": 1.87890625,
+          "covariance_term": 3.5234375,
+          "primary_mean_record_coverage": 0.41937695409528714,
+          "hits_by_seed": {
+            "SEED_16": 1,
+            "SEED_17": 9,
+            "SEED_18": 9,
+            "SEED_19": 10,
+            "SEED_20": 4,
+            "SEED_21": 8,
+            "SEED_22": 10,
+            "SEED_23": 8,
+            "SEED_24": 6,
+            "SEED_25": 5,
+            "SEED_26": 6,
+            "SEED_27": 6,
+            "SEED_28": 6,
+            "SEED_29": 8,
+            "SEED_30": 5,
+            "SEED_31": 8
+          },
+          "case_hits": {
+            "095d07e6c6a6b418": 10,
+            "63a23f52ccdcd546": 15,
+            "6862fae3f3c27725": 9,
+            "80c2bad39beec7cc": 16,
+            "8baa4eab526b2481": 9,
+            "c1c73991d617f258": 9,
+            "c8aa7290d1be9939": 9,
+            "cfb7145b9d3bb846": 14,
+            "d4cdb8d1a44e6212": 9,
+            "eb75672c183c2dda": 9
+          }
+        },
+        "CASE_LOCAL": {
+          "positive_cases": 10,
+          "positive_settings": 160,
+          "witness_hits": 115,
+          "mean_recall": 0.71875,
+          "all_miss_seeds": 0,
+          "all_miss_seed_ids": [],
+          "hit_count_variance": 1.02734375,
+          "hit_count_variance_exact": "263/256",
+          "marginal_variance_sum": 1.63671875,
+          "covariance_term": -0.609375,
+          "primary_mean_record_coverage": 0.41937695409528714,
+          "hits_by_seed": {
+            "SEED_16": 8,
+            "SEED_17": 8,
+            "SEED_18": 5,
+            "SEED_19": 7,
+            "SEED_20": 6,
+            "SEED_21": 8,
+            "SEED_22": 8,
+            "SEED_23": 7,
+            "SEED_24": 7,
+            "SEED_25": 7,
+            "SEED_26": 9,
+            "SEED_27": 7,
+            "SEED_28": 6,
+            "SEED_29": 8,
+            "SEED_30": 6,
+            "SEED_31": 8
+          },
+          "case_hits": {
+            "095d07e6c6a6b418": 9,
+            "63a23f52ccdcd546": 16,
+            "6862fae3f3c27725": 10,
+            "80c2bad39beec7cc": 16,
+            "8baa4eab526b2481": 10,
+            "c1c73991d617f258": 11,
+            "c8aa7290d1be9939": 7,
+            "cfb7145b9d3bb846": 15,
+            "d4cdb8d1a44e6212": 13,
+            "eb75672c183c2dda": 8
+          }
+        }
+      },
+      "paired_fixed": {
+        "settings": 160,
+        "miss_to_hit": 30,
+        "hit_to_miss": 24,
+        "both_hit": 85,
+        "both_miss": 21,
+        "cases_improved": 6,
+        "cases_worsened": 3,
+        "cases_equal": 1,
+        "case_hit_delta": {
+          "095d07e6c6a6b418": -1,
+          "63a23f52ccdcd546": 1,
+          "6862fae3f3c27725": 1,
+          "80c2bad39beec7cc": 0,
+          "8baa4eab526b2481": 1,
+          "c1c73991d617f258": 2,
+          "c8aa7290d1be9939": -2,
+          "cfb7145b9d3bb846": 1,
+          "d4cdb8d1a44e6212": 4,
+          "eb75672c183c2dda": -1
+        }
+      },
+      "fixed_recall_delta_pp": 3.749999999999998,
+      "fixed_variance_reduction_percent": 80.98336948662327
+    }
+  ],
+  "operators": [
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B01",
+      "query_family": "COUNT_POSITIVE_MEAN_SHIFT",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 72.955,
+          "mean_scaled_absolute_error": 0.6322112073375245
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 72.9725,
+          "mean_scaled_absolute_error": 0.6327536994149865
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 71.85,
+          "mean_scaled_absolute_error": 0.6226224238365925
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 71.375,
+          "mean_scaled_absolute_error": 0.618781664877355
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 326,
+        "unequal_selected_valid_metrics": 74,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 184,
+        "numeric_error_better": 187,
+        "numeric_error_equal": 29,
+        "cases_mean_error_worse": 11,
+        "cases_mean_error_better": 14,
+        "cases_mean_error_equal": 0
+      }
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B01",
+      "query_family": "FRACTION_POSITIVE_MEAN_SHIFT",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 1,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.03478000607075859,
+          "mean_scaled_absolute_error": 0.03478000607075859
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 2,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.03575331350038129,
+          "mean_scaled_absolute_error": 0.03575331350038129
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 1,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.03435551751878286,
+          "mean_scaled_absolute_error": 0.03435551751878286
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 5,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.034616352556122595,
+          "mean_scaled_absolute_error": 0.034616352556122595
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 326,
+        "unequal_selected_valid_metrics": 74,
+        "agreement_gain": 2,
+        "agreement_harm": 1,
+        "numeric_error_worse": 186,
+        "numeric_error_better": 185,
+        "numeric_error_equal": 29,
+        "cases_mean_error_worse": 14,
+        "cases_mean_error_better": 11,
+        "cases_mean_error_equal": 0
+      }
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B01",
+      "query_family": "COUNT_MEAN_MEDIAN_SIGN_DISAGREEMENT",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 26.325,
+          "mean_scaled_absolute_error": 0.6478872667270896
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 25.6275,
+          "mean_scaled_absolute_error": 0.6305544373831098
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 25.8575,
+          "mean_scaled_absolute_error": 0.63624306812116
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 25.06,
+          "mean_scaled_absolute_error": 0.616488875901645
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 326,
+        "unequal_selected_valid_metrics": 74,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 158,
+        "numeric_error_better": 198,
+        "numeric_error_equal": 44,
+        "cases_mean_error_worse": 5,
+        "cases_mean_error_better": 19,
+        "cases_mean_error_equal": 1
+      }
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B01",
+      "query_family": "COUNT_MISSING_RATE_INCREASE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 232,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.9275,
+          "mean_scaled_absolute_error": 0.32458333333333333
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 234,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.8325,
+          "mean_scaled_absolute_error": 0.28270833333333334
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 234,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.9175,
+          "mean_scaled_absolute_error": 0.3210416666666675
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 236,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.8175,
+          "mean_scaled_absolute_error": 0.2783333333333325
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 400,
+        "unequal_selected_valid_metrics": 0,
+        "agreement_gain": 9,
+        "agreement_harm": 7,
+        "numeric_error_worse": 43,
+        "numeric_error_better": 74,
+        "numeric_error_equal": 283,
+        "cases_mean_error_worse": 2,
+        "cases_mean_error_better": 9,
+        "cases_mean_error_equal": 14
+      },
+      "positive_exact_counts": {
+        "SHARED": 8,
+        "CASE_LOCAL": 10
+      }
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B01",
+      "query_family": "MEAN_MISSING_RATE_CHANGE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 88,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.0014702442140340675,
+          "mean_scaled_absolute_error": 0.0014702442140340675
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 83,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.0013685299509383602,
+          "mean_scaled_absolute_error": 0.0013685299509383602
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 87,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.001392935262624527,
+          "mean_scaled_absolute_error": 0.001392935262624527
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 83,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.0013686833117579134,
+          "mean_scaled_absolute_error": 0.0013686833117579134
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 400,
+        "unequal_selected_valid_metrics": 0,
+        "agreement_gain": 1,
+        "agreement_harm": 6,
+        "numeric_error_worse": 96,
+        "numeric_error_better": 131,
+        "numeric_error_equal": 173,
+        "cases_mean_error_worse": 6,
+        "cases_mean_error_better": 14,
+        "cases_mean_error_equal": 5
+      }
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B01",
+      "query_family": "COUNT_STD_INCREASE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 63.535,
+          "mean_scaled_absolute_error": 0.6242116960883579
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 64.73,
+          "mean_scaled_absolute_error": 0.6363067806149197
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 62.505,
+          "mean_scaled_absolute_error": 0.6139682086885675
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 63.3725,
+          "mean_scaled_absolute_error": 0.6228910758861875
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 326,
+        "unequal_selected_valid_metrics": 74,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 212,
+        "numeric_error_better": 149,
+        "numeric_error_equal": 39,
+        "cases_mean_error_worse": 24,
+        "cases_mean_error_better": 1,
+        "cases_mean_error_equal": 0
+      }
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B01",
+      "query_family": "EXISTS_MISSING_RATE_INCREASE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 316,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 355,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 316,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 355,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 400,
+        "unequal_selected_valid_metrics": 0,
+        "agreement_gain": 60,
+        "agreement_harm": 21,
+        "numeric_error_worse": 0,
+        "numeric_error_better": 0,
+        "numeric_error_equal": 0,
+        "cases_mean_error_worse": 0,
+        "cases_mean_error_better": 0,
+        "cases_mean_error_equal": 0
+      }
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B02",
+      "query_family": "COUNT_POSITIVE_MEAN_SHIFT",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 67.435,
+          "mean_scaled_absolute_error": 0.5842410452877895
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 67.1425,
+          "mean_scaled_absolute_error": 0.5819156894502264
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 66.21,
+          "mean_scaled_absolute_error": 0.5735904376114775
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 65.2575,
+          "mean_scaled_absolute_error": 0.56543832386271
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 319,
+        "unequal_selected_valid_metrics": 81,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 166,
+        "numeric_error_better": 199,
+        "numeric_error_equal": 35,
+        "cases_mean_error_worse": 7,
+        "cases_mean_error_better": 17,
+        "cases_mean_error_equal": 1
+      }
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B02",
+      "query_family": "FRACTION_POSITIVE_MEAN_SHIFT",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.032541503197684216,
+          "mean_scaled_absolute_error": 0.032541503197684216
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 3,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.03156517261011906,
+          "mean_scaled_absolute_error": 0.03156517261011906
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 1,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.031232825724463155,
+          "mean_scaled_absolute_error": 0.031232825724463155
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 3,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.03077948094766576,
+          "mean_scaled_absolute_error": 0.03077948094766576
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 319,
+        "unequal_selected_valid_metrics": 81,
+        "agreement_gain": 3,
+        "agreement_harm": 0,
+        "numeric_error_worse": 183,
+        "numeric_error_better": 186,
+        "numeric_error_equal": 31,
+        "cases_mean_error_worse": 11,
+        "cases_mean_error_better": 14,
+        "cases_mean_error_equal": 0
+      }
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B02",
+      "query_family": "COUNT_MEAN_MEDIAN_SIGN_DISAGREEMENT",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 24.1825,
+          "mean_scaled_absolute_error": 0.5938906995963396
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 23.655,
+          "mean_scaled_absolute_error": 0.5807803451350746
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 23.6775,
+          "mean_scaled_absolute_error": 0.581299581644995
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 22.995,
+          "mean_scaled_absolute_error": 0.5648235917788724
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 319,
+        "unequal_selected_valid_metrics": 81,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 156,
+        "numeric_error_better": 196,
+        "numeric_error_equal": 48,
+        "cases_mean_error_worse": 7,
+        "cases_mean_error_better": 17,
+        "cases_mean_error_equal": 1
+      }
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B02",
+      "query_family": "COUNT_MISSING_RATE_INCREASE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 242,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.8325,
+          "mean_scaled_absolute_error": 0.289375
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 242,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.785,
+          "mean_scaled_absolute_error": 0.2647916666666658
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 242,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.8125,
+          "mean_scaled_absolute_error": 0.281458333333335
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 243,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.7625,
+          "mean_scaled_absolute_error": 0.257083333333335
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 400,
+        "unequal_selected_valid_metrics": 0,
+        "agreement_gain": 16,
+        "agreement_harm": 16,
+        "numeric_error_worse": 48,
+        "numeric_error_better": 66,
+        "numeric_error_equal": 286,
+        "cases_mean_error_worse": 3,
+        "cases_mean_error_better": 8,
+        "cases_mean_error_equal": 14
+      },
+      "positive_exact_counts": {
+        "SHARED": 18,
+        "CASE_LOCAL": 18
+      }
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B02",
+      "query_family": "MEAN_MISSING_RATE_CHANGE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 86,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.0013042777672050308,
+          "mean_scaled_absolute_error": 0.0013042777672050308
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 84,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.0012187666404575713,
+          "mean_scaled_absolute_error": 0.0012187666404575713
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 86,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.0013005657443171921,
+          "mean_scaled_absolute_error": 0.0013005657443171921
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 84,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.0011865077291174243,
+          "mean_scaled_absolute_error": 0.0011865077291174243
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 400,
+        "unequal_selected_valid_metrics": 0,
+        "agreement_gain": 3,
+        "agreement_harm": 5,
+        "numeric_error_worse": 100,
+        "numeric_error_better": 134,
+        "numeric_error_equal": 166,
+        "cases_mean_error_worse": 5,
+        "cases_mean_error_better": 15,
+        "cases_mean_error_equal": 5
+      }
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B02",
+      "query_family": "COUNT_STD_INCREASE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 58.6175,
+          "mean_scaled_absolute_error": 0.5758546538598242
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 59.675,
+          "mean_scaled_absolute_error": 0.5864407212464996
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 57.52,
+          "mean_scaled_absolute_error": 0.5650369045005474
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 57.9925,
+          "mean_scaled_absolute_error": 0.56989595276047
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 319,
+        "unequal_selected_valid_metrics": 81,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 215,
+        "numeric_error_better": 151,
+        "numeric_error_equal": 34,
+        "cases_mean_error_worse": 23,
+        "cases_mean_error_better": 2,
+        "cases_mean_error_equal": 0
+      }
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B02",
+      "query_family": "EXISTS_MISSING_RATE_INCREASE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 329,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 360,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 334,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 364,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 400,
+        "unequal_selected_valid_metrics": 0,
+        "agreement_gain": 51,
+        "agreement_harm": 20,
+        "numeric_error_worse": 0,
+        "numeric_error_better": 0,
+        "numeric_error_equal": 0,
+        "cases_mean_error_worse": 0,
+        "cases_mean_error_better": 0,
+        "cases_mean_error_equal": 0
+      }
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B01",
+      "query_family": "COUNT_POSITIVE_MEAN_SHIFT",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 72.1625,
+          "mean_scaled_absolute_error": 0.6274628600039973
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 72.36,
+          "mean_scaled_absolute_error": 0.6287200314573256
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 70.3725,
+          "mean_scaled_absolute_error": 0.6117879525296509
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 70.71,
+          "mean_scaled_absolute_error": 0.61422807344288
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 280,
+        "unequal_selected_valid_metrics": 120,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 190,
+        "numeric_error_better": 182,
+        "numeric_error_equal": 28,
+        "cases_mean_error_worse": 13,
+        "cases_mean_error_better": 11,
+        "cases_mean_error_equal": 1
+      }
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B01",
+      "query_family": "FRACTION_POSITIVE_MEAN_SHIFT",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.03786993477419378,
+          "mean_scaled_absolute_error": 0.03786993477419378
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.035629291580754556,
+          "mean_scaled_absolute_error": 0.035629291580754556
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.03705655771757601,
+          "mean_scaled_absolute_error": 0.03705655771757601
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.03539082298403892,
+          "mean_scaled_absolute_error": 0.03539082298403892
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 280,
+        "unequal_selected_valid_metrics": 120,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 188,
+        "numeric_error_better": 192,
+        "numeric_error_equal": 20,
+        "cases_mean_error_worse": 10,
+        "cases_mean_error_better": 15,
+        "cases_mean_error_equal": 0
+      }
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B01",
+      "query_family": "COUNT_MEAN_MEDIAN_SIGN_DISAGREEMENT",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 26.28,
+          "mean_scaled_absolute_error": 0.6322681700486199
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 26.4775,
+          "mean_scaled_absolute_error": 0.6366030062080679
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 25.6375,
+          "mean_scaled_absolute_error": 0.6165896832606443
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 25.8825,
+          "mean_scaled_absolute_error": 0.6220648400861295
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 280,
+        "unequal_selected_valid_metrics": 120,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 187,
+        "numeric_error_better": 173,
+        "numeric_error_equal": 40,
+        "cases_mean_error_worse": 13,
+        "cases_mean_error_better": 10,
+        "cases_mean_error_equal": 2
+      }
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B01",
+      "query_family": "COUNT_MISSING_RATE_INCREASE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 249,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.91,
+          "mean_scaled_absolute_error": 0.2720416666666667
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 254,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.855,
+          "mean_scaled_absolute_error": 0.26004166666666667
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 253,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.8775,
+          "mean_scaled_absolute_error": 0.2629166666666667
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 257,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.825,
+          "mean_scaled_absolute_error": 0.2505
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 400,
+        "unequal_selected_valid_metrics": 0,
+        "agreement_gain": 13,
+        "agreement_harm": 8,
+        "numeric_error_worse": 42,
+        "numeric_error_better": 55,
+        "numeric_error_equal": 303,
+        "cases_mean_error_worse": 2,
+        "cases_mean_error_better": 5,
+        "cases_mean_error_equal": 18
+      },
+      "positive_exact_counts": {
+        "SHARED": 9,
+        "CASE_LOCAL": 14
+      }
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B01",
+      "query_family": "MEAN_MISSING_RATE_CHANGE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 112,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.000609610649308754,
+          "mean_scaled_absolute_error": 0.000609610649308754
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 112,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.0007950328243446865,
+          "mean_scaled_absolute_error": 0.0007950328243446865
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 112,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.0006102412422585362,
+          "mean_scaled_absolute_error": 0.0006102412422585362
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 112,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.0007558486922868701,
+          "mean_scaled_absolute_error": 0.0007558486922868701
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 400,
+        "unequal_selected_valid_metrics": 0,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 116,
+        "numeric_error_better": 83,
+        "numeric_error_equal": 201,
+        "cases_mean_error_worse": 13,
+        "cases_mean_error_better": 2,
+        "cases_mean_error_equal": 10
+      }
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B01",
+      "query_family": "COUNT_STD_INCREASE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 64.415,
+          "mean_scaled_absolute_error": 0.6321129010300901
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 64.075,
+          "mean_scaled_absolute_error": 0.6289050228122022
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 62.9125,
+          "mean_scaled_absolute_error": 0.6172649685524604
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 62.6,
+          "mean_scaled_absolute_error": 0.6142799917499733
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 280,
+        "unequal_selected_valid_metrics": 120,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 170,
+        "numeric_error_better": 196,
+        "numeric_error_equal": 34,
+        "cases_mean_error_worse": 9,
+        "cases_mean_error_better": 16,
+        "cases_mean_error_equal": 0
+      }
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B01",
+      "query_family": "EXISTS_MISSING_RATE_INCREASE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 345,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 347,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 348,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 350,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 400,
+        "unequal_selected_valid_metrics": 0,
+        "agreement_gain": 31,
+        "agreement_harm": 29,
+        "numeric_error_worse": 0,
+        "numeric_error_better": 0,
+        "numeric_error_equal": 0,
+        "cases_mean_error_worse": 0,
+        "cases_mean_error_better": 0,
+        "cases_mean_error_equal": 0
+      }
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B02",
+      "query_family": "COUNT_POSITIVE_MEAN_SHIFT",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 66.39,
+          "mean_scaled_absolute_error": 0.5769654698903292
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 66.7625,
+          "mean_scaled_absolute_error": 0.5798128407463221
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 64.2775,
+          "mean_scaled_absolute_error": 0.5587671315493787
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 64.6625,
+          "mean_scaled_absolute_error": 0.5616172303314854
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 268,
+        "unequal_selected_valid_metrics": 132,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 190,
+        "numeric_error_better": 176,
+        "numeric_error_equal": 34,
+        "cases_mean_error_worse": 15,
+        "cases_mean_error_better": 10,
+        "cases_mean_error_equal": 0
+      }
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B02",
+      "query_family": "FRACTION_POSITIVE_MEAN_SHIFT",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.03581619284653344,
+          "mean_scaled_absolute_error": 0.03581619284653344
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.033473957565655195,
+          "mean_scaled_absolute_error": 0.033473957565655195
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.03497123386259773,
+          "mean_scaled_absolute_error": 0.03497123386259773
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.031136353621898788,
+          "mean_scaled_absolute_error": 0.031136353621898788
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 268,
+        "unequal_selected_valid_metrics": 132,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 172,
+        "numeric_error_better": 201,
+        "numeric_error_equal": 27,
+        "cases_mean_error_worse": 7,
+        "cases_mean_error_better": 18,
+        "cases_mean_error_equal": 0
+      }
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B02",
+      "query_family": "COUNT_MEAN_MEDIAN_SIGN_DISAGREEMENT",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 24.0425,
+          "mean_scaled_absolute_error": 0.5775702545445222
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 24.43,
+          "mean_scaled_absolute_error": 0.5872599707151452
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 23.27,
+          "mean_scaled_absolute_error": 0.559131394592965
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 23.665,
+          "mean_scaled_absolute_error": 0.5689005289743938
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 268,
+        "unequal_selected_valid_metrics": 132,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 195,
+        "numeric_error_better": 166,
+        "numeric_error_equal": 39,
+        "cases_mean_error_worse": 15,
+        "cases_mean_error_better": 10,
+        "cases_mean_error_equal": 0
+      }
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B02",
+      "query_family": "COUNT_MISSING_RATE_INCREASE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 257,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.84,
+          "mean_scaled_absolute_error": 0.253125
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 260,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.7825,
+          "mean_scaled_absolute_error": 0.23791666666666667
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 262,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.795,
+          "mean_scaled_absolute_error": 0.239
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 261,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.7575,
+          "mean_scaled_absolute_error": 0.2305
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 400,
+        "unequal_selected_valid_metrics": 0,
+        "agreement_gain": 16,
+        "agreement_harm": 13,
+        "numeric_error_worse": 41,
+        "numeric_error_better": 58,
+        "numeric_error_equal": 301,
+        "cases_mean_error_worse": 2,
+        "cases_mean_error_better": 6,
+        "cases_mean_error_equal": 17
+      },
+      "positive_exact_counts": {
+        "SHARED": 17,
+        "CASE_LOCAL": 20
+      }
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B02",
+      "query_family": "MEAN_MISSING_RATE_CHANGE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 112,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.0005833702713393035,
+          "mean_scaled_absolute_error": 0.0005833702713393035
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 112,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.0007053156057507382,
+          "mean_scaled_absolute_error": 0.0007053156057507382
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 112,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.0005984821593702878,
+          "mean_scaled_absolute_error": 0.0005984821593702878
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 112,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 0.0006830023526072686,
+          "mean_scaled_absolute_error": 0.0006830023526072686
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 400,
+        "unequal_selected_valid_metrics": 0,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 110,
+        "numeric_error_better": 91,
+        "numeric_error_equal": 199,
+        "cases_mean_error_worse": 8,
+        "cases_mean_error_better": 9,
+        "cases_mean_error_equal": 8
+      }
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B02",
+      "query_family": "COUNT_STD_INCREASE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 59.41,
+          "mean_scaled_absolute_error": 0.5826961132668949
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 59.0475,
+          "mean_scaled_absolute_error": 0.5792567106255511
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 57.57,
+          "mean_scaled_absolute_error": 0.5647308671317155
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 0,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 400,
+          "mean_absolute_error": 57.25,
+          "mean_scaled_absolute_error": 0.5616629598968792
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 268,
+        "unequal_selected_valid_metrics": 132,
+        "agreement_gain": 0,
+        "agreement_harm": 0,
+        "numeric_error_worse": 170,
+        "numeric_error_better": 199,
+        "numeric_error_equal": 31,
+        "cases_mean_error_worse": 12,
+        "cases_mean_error_better": 13,
+        "cases_mean_error_equal": 0
+      }
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B02",
+      "query_family": "EXISTS_MISSING_RATE_INCREASE",
+      "fixed": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 349,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 355,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        }
+      },
+      "primary": {
+        "SHARED": {
+          "settings": 400,
+          "agreement_count": 352,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        },
+        "CASE_LOCAL": {
+          "settings": 400,
+          "agreement_count": 358,
+          "scope_complete_count": 0,
+          "returned_count": 400,
+          "no_answer_count": 0,
+          "error_defined_count": 0,
+          "mean_absolute_error": null,
+          "mean_scaled_absolute_error": null
+        }
+      },
+      "paired_fixed": {
+        "paired_settings": 400,
+        "equal_selected_valid_metrics": 400,
+        "unequal_selected_valid_metrics": 0,
+        "agreement_gain": 30,
+        "agreement_harm": 24,
+        "numeric_error_worse": 0,
+        "numeric_error_better": 0,
+        "numeric_error_equal": 0,
+        "cases_mean_error_worse": 0,
+        "cases_mean_error_better": 0,
+        "cases_mean_error_equal": 0
+      }
+    }
+  ],
+  "cap_ranges": [
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B01",
+      "min": 78,
+      "max": 81,
+      "cases": 25
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "LARGE_199_232",
+      "variant": "B02",
+      "min": 89,
+      "max": 92,
+      "cases": 25
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "SMALL_49_60",
+      "variant": "B01",
+      "min": 49,
+      "max": 60,
+      "cases": 50
+    },
+    {
+      "panel": "DEVELOPMENT",
+      "cohort": "SMALL_49_60",
+      "variant": "B02",
+      "min": 49,
+      "max": 60,
+      "cases": 50
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-OB",
+      "variant": "B01",
+      "min": 49,
+      "max": 59,
+      "cases": 25
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-OB",
+      "variant": "B02",
+      "min": 49,
+      "max": 59,
+      "cases": 25
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-SS",
+      "variant": "B01",
+      "min": 57,
+      "max": 60,
+      "cases": 25
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-SS",
+      "variant": "B02",
+      "min": 57,
+      "max": 60,
+      "cases": 25
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B01",
+      "min": 78,
+      "max": 82,
+      "cases": 25
+    },
+    {
+      "panel": "TRANSFER",
+      "cohort": "RE1-TT",
+      "variant": "B02",
+      "min": 89,
+      "max": 94,
+      "cases": 25
+    }
+  ],
+  "limits": [
+    "Post-hoc fixed-count diagnostic, not a new independent dataset or confirmatory test.",
+    "Fixed physical count is not fixed selected-valid scope or identical content.",
+    "Projected prefixes are not retokenized or newly certified against the token budget.",
+    "16 deterministic seed labels per panel; no p-values, population CI or risk ratios.",
+    "Development and transfer differ in both cases and seeds; their effects are not separated.",
+    "No tuning, additional projection, or change to primary results is performed."
+  ]
+}

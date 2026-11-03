@@ -1,0 +1,5925 @@
+{
+  "analysis_code_sha256": "229ea9efc3e36e5932026bd132e965e9348f1c573cc70dcd6fda3022f1837f52",
+  "comparisons": [
+    {
+      "a": "SHARED",
+      "a_to_b": {
+        "a_accept_indices": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          10,
+          13,
+          14
+        ],
+        "a_masks": [
+          1982,
+          2047,
+          1351,
+          1351,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          1347,
+          0,
+          260,
+          2047,
+          1982,
+          260
+        ],
+        "b_accept_indices": [
+          3,
+          6,
+          10
+        ],
+        "b_masks": [
+          2004,
+          1471,
+          751,
+          2039,
+          1950,
+          1963,
+          1535,
+          1015,
+          1326,
+          1846,
+          1375,
+          1886,
+          1855,
+          1471,
+          1373,
+          1935
+        ],
+        "compatible_edges": 100,
+        "deficit_numerator": 7,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 21,
+        "dnf_minimal_case_sets": [
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 9,
+        "matching": [
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            9,
+            4
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            15,
+            0
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "7/16",
+          "value": 0.4375
+        },
+        "reachable_left": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          10,
+          13,
+          14
+        ],
+        "reachable_right": [
+          3,
+          6,
+          10
+        ],
+        "same_label_coordinate_violations": 9,
+        "upper_set_minimal_generators": [
+          1347,
+          1982
+        ]
+      },
+      "analysis": "PRIMARY",
+      "b": "CASE_LOCAL",
+      "b_to_a": {
+        "a_accept_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "a_masks": [
+          2004,
+          1471,
+          751,
+          2039,
+          1950,
+          1963,
+          1535,
+          1015,
+          1326,
+          1846,
+          1375,
+          1886,
+          1855,
+          1471,
+          1373,
+          1935
+        ],
+        "b_accept_indices": [
+          0,
+          1,
+          6,
+          8,
+          13,
+          14
+        ],
+        "b_masks": [
+          1982,
+          2047,
+          1351,
+          1351,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          1347,
+          0,
+          260,
+          2047,
+          1982,
+          260
+        ],
+        "compatible_edges": 70,
+        "deficit_numerator": 10,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 21,
+        "dnf_minimal_case_sets": [
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "687e14bf8499933a",
+            "8d51fb6e98870a2f",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "3054cd4e48e4c14a",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "687e14bf8499933a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "a0265ead130dcd35"
+          ],
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3667fa48f838ada4",
+            "687e14bf8499933a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 6,
+        "matching": [
+          [
+            0,
+            13
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            14
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "5/8",
+          "value": 0.625
+        },
+        "reachable_left": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "reachable_right": [
+          0,
+          1,
+          6,
+          8,
+          13,
+          14
+        ],
+        "same_label_coordinate_violations": 12,
+        "upper_set_minimal_generators": [
+          1326,
+          1373,
+          1846,
+          2004,
+          751,
+          1886,
+          1935,
+          1950,
+          1963,
+          1015
+        ]
+      },
+      "cases": [
+        "033f10866e9fcde8",
+        "1f3bea24c806f3fc",
+        "3054cd4e48e4c14a",
+        "3667fa48f838ada4",
+        "495b34c46ea6cf4a",
+        "687e14bf8499933a",
+        "6e3342ba9f05a793",
+        "6fdaf4aa34d8a42f",
+        "8d51fb6e98870a2f",
+        "a0265ead130dcd35",
+        "f2c26d1cc6193124"
+      ],
+      "contrast": "ORDERING",
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "paired_witness_comparisons": 176,
+      "paired_witness_gain": 60,
+      "paired_witness_loss": 21,
+      "panel": "DEVELOPMENT",
+      "pure_and_or_maximum": {
+        "a_over_b_numerator": 6,
+        "b_over_a_numerator": 10
+      },
+      "status": "INCOMPARABLE_ON_FINITE_PANEL",
+      "variant": "B01"
+    },
+    {
+      "a": "SHARED",
+      "a_to_b": {
+        "a_accept_indices": [
+          0,
+          1,
+          3,
+          6,
+          8,
+          10,
+          13,
+          14,
+          15
+        ],
+        "a_masks": [
+          1982,
+          2047,
+          1351,
+          2047,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          2047,
+          0,
+          260,
+          2047,
+          1982,
+          1982
+        ],
+        "b_accept_indices": [
+          1
+        ],
+        "b_masks": [
+          2012,
+          1983,
+          1007,
+          2039,
+          1950,
+          1979,
+          1535,
+          2039,
+          1839,
+          1846,
+          1407,
+          1886,
+          1855,
+          1471,
+          1885,
+          1935
+        ],
+        "compatible_edges": 88,
+        "deficit_numerator": 8,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 21,
+        "dnf_minimal_case_sets": [
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 8,
+        "matching": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            4,
+            6
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            9,
+            3
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            12,
+            0
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "1/2",
+          "value": 0.5
+        },
+        "reachable_left": [
+          0,
+          1,
+          3,
+          6,
+          8,
+          10,
+          13,
+          14,
+          15
+        ],
+        "reachable_right": [
+          1
+        ],
+        "same_label_coordinate_violations": 11,
+        "upper_set_minimal_generators": [
+          1982
+        ]
+      },
+      "analysis": "PRIMARY",
+      "b": "CASE_LOCAL",
+      "b_to_a": {
+        "a_accept_indices": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "a_masks": [
+          2012,
+          1983,
+          1007,
+          2039,
+          1950,
+          1979,
+          1535,
+          2039,
+          1839,
+          1846,
+          1407,
+          1886,
+          1855,
+          1471,
+          1885,
+          1935
+        ],
+        "b_accept_indices": [
+          1,
+          3,
+          6,
+          8,
+          10,
+          13
+        ],
+        "b_masks": [
+          1982,
+          2047,
+          1351,
+          2047,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          2047,
+          0,
+          260,
+          2047,
+          1982,
+          1982
+        ],
+        "compatible_edges": 102,
+        "deficit_numerator": 8,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 21,
+        "dnf_minimal_case_sets": [
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "687e14bf8499933a",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "687e14bf8499933a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 8,
+        "matching": [
+          [
+            0,
+            13
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            14
+          ],
+          [
+            5,
+            3
+          ],
+          [
+            6,
+            1
+          ],
+          [
+            9,
+            0
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "1/2",
+          "value": 0.5
+        },
+        "reachable_left": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "reachable_right": [
+          1,
+          3,
+          6,
+          8,
+          10,
+          13
+        ],
+        "same_label_coordinate_violations": 10,
+        "upper_set_minimal_generators": [
+          1839,
+          1885,
+          1886,
+          1935,
+          2012,
+          1007,
+          1407,
+          1471,
+          1979,
+          2039
+        ]
+      },
+      "cases": [
+        "033f10866e9fcde8",
+        "1f3bea24c806f3fc",
+        "3054cd4e48e4c14a",
+        "3667fa48f838ada4",
+        "495b34c46ea6cf4a",
+        "687e14bf8499933a",
+        "6e3342ba9f05a793",
+        "6fdaf4aa34d8a42f",
+        "8d51fb6e98870a2f",
+        "a0265ead130dcd35",
+        "f2c26d1cc6193124"
+      ],
+      "contrast": "ORDERING",
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "paired_witness_comparisons": 176,
+      "paired_witness_gain": 49,
+      "paired_witness_loss": 19,
+      "panel": "DEVELOPMENT",
+      "pure_and_or_maximum": {
+        "a_over_b_numerator": 8,
+        "b_over_a_numerator": 7
+      },
+      "status": "INCOMPARABLE_ON_FINITE_PANEL",
+      "variant": "B02"
+    },
+    {
+      "a": "B01",
+      "a_to_b": {
+        "a_accept_indices": [],
+        "a_masks": [
+          1982,
+          2047,
+          1351,
+          1351,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          1347,
+          0,
+          260,
+          2047,
+          1982,
+          260
+        ],
+        "b_accept_indices": [],
+        "b_masks": [
+          1982,
+          2047,
+          1351,
+          2047,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          2047,
+          0,
+          260,
+          2047,
+          1982,
+          1982
+        ],
+        "compatible_edges": 156,
+        "deficit_numerator": 0,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 6,
+        "dnf_minimal_case_sets": [],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 16,
+        "matching": [
+          [
+            0,
+            15
+          ],
+          [
+            1,
+            13
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            12
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            12,
+            5
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            15,
+            0
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "0",
+          "value": 0.0
+        },
+        "reachable_left": [],
+        "reachable_right": [],
+        "same_label_coordinate_violations": 0,
+        "upper_set_minimal_generators": []
+      },
+      "analysis": "PRIMARY",
+      "arm": "SHARED",
+      "b": "B02",
+      "b_to_a": {
+        "a_accept_indices": [
+          0,
+          1,
+          3,
+          6,
+          8,
+          10,
+          13,
+          14,
+          15
+        ],
+        "a_masks": [
+          1982,
+          2047,
+          1351,
+          2047,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          2047,
+          0,
+          260,
+          2047,
+          1982,
+          1982
+        ],
+        "b_accept_indices": [
+          0,
+          1,
+          6,
+          8,
+          13,
+          14
+        ],
+        "b_masks": [
+          1982,
+          2047,
+          1351,
+          1351,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          1347,
+          0,
+          260,
+          2047,
+          1982,
+          260
+        ],
+        "compatible_edges": 124,
+        "deficit_numerator": 3,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 6,
+        "dnf_minimal_case_sets": [
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 13,
+        "matching": [
+          [
+            0,
+            14
+          ],
+          [
+            1,
+            13
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            5,
+            15
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            14,
+            0
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "3/16",
+          "value": 0.1875
+        },
+        "reachable_left": [
+          0,
+          1,
+          3,
+          6,
+          8,
+          10,
+          13,
+          14,
+          15
+        ],
+        "reachable_right": [
+          0,
+          1,
+          6,
+          8,
+          13,
+          14
+        ],
+        "same_label_coordinate_violations": 3,
+        "upper_set_minimal_generators": [
+          1982
+        ]
+      },
+      "cases": [
+        "033f10866e9fcde8",
+        "1f3bea24c806f3fc",
+        "3054cd4e48e4c14a",
+        "3667fa48f838ada4",
+        "495b34c46ea6cf4a",
+        "687e14bf8499933a",
+        "6e3342ba9f05a793",
+        "6fdaf4aa34d8a42f",
+        "8d51fb6e98870a2f",
+        "a0265ead130dcd35",
+        "f2c26d1cc6193124"
+      ],
+      "contrast": "SERIALIZATION",
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "paired_witness_comparisons": 176,
+      "paired_witness_gain": 18,
+      "paired_witness_loss": 0,
+      "panel": "DEVELOPMENT",
+      "status": "B_DOMINATES_A_ON_FINITE_PANEL"
+    },
+    {
+      "a": "B01",
+      "a_to_b": {
+        "a_accept_indices": [],
+        "a_masks": [
+          2004,
+          1471,
+          751,
+          2039,
+          1950,
+          1963,
+          1535,
+          1015,
+          1326,
+          1846,
+          1375,
+          1886,
+          1855,
+          1471,
+          1373,
+          1935
+        ],
+        "b_accept_indices": [],
+        "b_masks": [
+          2012,
+          1983,
+          1007,
+          2039,
+          1950,
+          1979,
+          1535,
+          2039,
+          1839,
+          1846,
+          1407,
+          1886,
+          1855,
+          1471,
+          1885,
+          1935
+        ],
+        "compatible_edges": 40,
+        "deficit_numerator": 0,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 22,
+        "dnf_minimal_case_sets": [],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 16,
+        "matching": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            13
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            15,
+            15
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "0",
+          "value": 0.0
+        },
+        "reachable_left": [],
+        "reachable_right": [],
+        "same_label_coordinate_violations": 0,
+        "upper_set_minimal_generators": []
+      },
+      "analysis": "PRIMARY",
+      "arm": "CASE_LOCAL",
+      "b": "B02",
+      "b_to_a": {
+        "a_accept_indices": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          12,
+          14
+        ],
+        "a_masks": [
+          2012,
+          1983,
+          1007,
+          2039,
+          1950,
+          1979,
+          1535,
+          2039,
+          1839,
+          1846,
+          1407,
+          1886,
+          1855,
+          1471,
+          1885,
+          1935
+        ],
+        "b_accept_indices": [
+          3,
+          6,
+          12
+        ],
+        "b_masks": [
+          2004,
+          1471,
+          751,
+          2039,
+          1950,
+          1963,
+          1535,
+          1015,
+          1326,
+          1846,
+          1375,
+          1886,
+          1855,
+          1471,
+          1373,
+          1935
+        ],
+        "compatible_edges": 15,
+        "deficit_numerator": 8,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 22,
+        "dnf_minimal_case_sets": [
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "687e14bf8499933a",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "687e14bf8499933a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 8,
+        "matching": [
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            8,
+            12
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            15,
+            15
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "1/2",
+          "value": 0.5
+        },
+        "reachable_left": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          12,
+          14
+        ],
+        "reachable_right": [
+          3,
+          6,
+          12
+        ],
+        "same_label_coordinate_violations": 8,
+        "upper_set_minimal_generators": [
+          1839,
+          1885,
+          2012,
+          1007,
+          1407,
+          1979,
+          2039
+        ]
+      },
+      "cases": [
+        "033f10866e9fcde8",
+        "1f3bea24c806f3fc",
+        "3054cd4e48e4c14a",
+        "3667fa48f838ada4",
+        "495b34c46ea6cf4a",
+        "687e14bf8499933a",
+        "6e3342ba9f05a793",
+        "6fdaf4aa34d8a42f",
+        "8d51fb6e98870a2f",
+        "a0265ead130dcd35",
+        "f2c26d1cc6193124"
+      ],
+      "contrast": "SERIALIZATION",
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "paired_witness_comparisons": 176,
+      "paired_witness_gain": 9,
+      "paired_witness_loss": 0,
+      "panel": "DEVELOPMENT",
+      "status": "B_DOMINATES_A_ON_FINITE_PANEL"
+    },
+    {
+      "a": "SHARED",
+      "a_to_b": {
+        "a_accept_indices": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "a_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          987,
+          175,
+          142,
+          175,
+          175,
+          858,
+          987,
+          174,
+          987
+        ],
+        "b_accept_indices": [
+          1,
+          10,
+          13
+        ],
+        "b_masks": [
+          575,
+          495,
+          426,
+          366,
+          411,
+          507,
+          926,
+          446,
+          491,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          270,
+          927
+        ],
+        "compatible_edges": 44,
+        "deficit_numerator": 9,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 24,
+        "dnf_minimal_case_sets": [
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "c1c73991d617f258",
+            "cfb7145b9d3bb846"
+          ],
+          [
+            "63a23f52ccdcd546",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "c8aa7290d1be9939",
+            "d4cdb8d1a44e6212",
+            "eb75672c183c2dda"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 7,
+        "matching": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            14,
+            7
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "9/16",
+          "value": 0.5625
+        },
+        "reachable_left": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "reachable_right": [
+          1,
+          10,
+          13
+        ],
+        "same_label_coordinate_violations": 14,
+        "upper_set_minimal_generators": [
+          175,
+          858
+        ]
+      },
+      "analysis": "PRIMARY",
+      "b": "CASE_LOCAL",
+      "b_to_a": {
+        "a_accept_indices": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          13,
+          14,
+          15
+        ],
+        "a_masks": [
+          575,
+          495,
+          426,
+          366,
+          411,
+          507,
+          926,
+          446,
+          491,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          270,
+          927
+        ],
+        "b_accept_indices": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "b_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          987,
+          175,
+          142,
+          175,
+          175,
+          858,
+          987,
+          174,
+          987
+        ],
+        "compatible_edges": 58,
+        "deficit_numerator": 9,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 24,
+        "dnf_minimal_case_sets": [
+          [
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "d4cdb8d1a44e6212"
+          ],
+          [
+            "63a23f52ccdcd546",
+            "80c2bad39beec7cc",
+            "c1c73991d617f258",
+            "cfb7145b9d3bb846",
+            "d4cdb8d1a44e6212"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "c1c73991d617f258",
+            "eb75672c183c2dda"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "c8aa7290d1be9939",
+            "cfb7145b9d3bb846",
+            "eb75672c183c2dda"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 7,
+        "matching": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            13
+          ],
+          [
+            9,
+            7
+          ],
+          [
+            12,
+            5
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "9/16",
+          "value": 0.5625
+        },
+        "reachable_left": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          13,
+          14,
+          15
+        ],
+        "reachable_right": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "same_label_coordinate_violations": 13,
+        "upper_set_minimal_generators": [
+          270,
+          426,
+          575,
+          719
+        ]
+      },
+      "cases": [
+        "095d07e6c6a6b418",
+        "63a23f52ccdcd546",
+        "6862fae3f3c27725",
+        "80c2bad39beec7cc",
+        "8baa4eab526b2481",
+        "c1c73991d617f258",
+        "c8aa7290d1be9939",
+        "cfb7145b9d3bb846",
+        "d4cdb8d1a44e6212",
+        "eb75672c183c2dda"
+      ],
+      "contrast": "ORDERING",
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "paired_witness_comparisons": 160,
+      "paired_witness_gain": 29,
+      "paired_witness_loss": 27,
+      "panel": "TRANSFER",
+      "pure_and_or_maximum": {
+        "a_over_b_numerator": 8,
+        "b_over_a_numerator": 7
+      },
+      "status": "INCOMPARABLE_ON_FINITE_PANEL",
+      "variant": "B01"
+    },
+    {
+      "a": "SHARED",
+      "a_to_b": {
+        "a_accept_indices": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "a_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          1023,
+          175,
+          174,
+          175,
+          175,
+          862,
+          987,
+          174,
+          987
+        ],
+        "b_accept_indices": [
+          1,
+          10,
+          13
+        ],
+        "b_masks": [
+          639,
+          495,
+          490,
+          494,
+          415,
+          507,
+          958,
+          446,
+          507,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          430,
+          927
+        ],
+        "compatible_edges": 47,
+        "deficit_numerator": 9,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 22,
+        "dnf_minimal_case_sets": [
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "c1c73991d617f258",
+            "cfb7145b9d3bb846"
+          ],
+          [
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "c8aa7290d1be9939",
+            "d4cdb8d1a44e6212",
+            "eb75672c183c2dda"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "c8aa7290d1be9939",
+            "cfb7145b9d3bb846",
+            "d4cdb8d1a44e6212",
+            "eb75672c183c2dda"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 7,
+        "matching": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            14,
+            3
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "9/16",
+          "value": 0.5625
+        },
+        "reachable_left": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "reachable_right": [
+          1,
+          10,
+          13
+        ],
+        "same_label_coordinate_violations": 13,
+        "upper_set_minimal_generators": [
+          175,
+          862,
+          987
+        ]
+      },
+      "analysis": "PRIMARY",
+      "b": "CASE_LOCAL",
+      "b_to_a": {
+        "a_accept_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          13,
+          14,
+          15
+        ],
+        "a_masks": [
+          639,
+          495,
+          490,
+          494,
+          415,
+          507,
+          958,
+          446,
+          507,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          430,
+          927
+        ],
+        "b_accept_indices": [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        "b_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          1023,
+          175,
+          174,
+          175,
+          175,
+          862,
+          987,
+          174,
+          987
+        ],
+        "compatible_edges": 68,
+        "deficit_numerator": 9,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 22,
+        "dnf_minimal_case_sets": [
+          [
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "c1c73991d617f258",
+            "cfb7145b9d3bb846",
+            "d4cdb8d1a44e6212"
+          ],
+          [
+            "63a23f52ccdcd546",
+            "80c2bad39beec7cc",
+            "c1c73991d617f258",
+            "c8aa7290d1be9939",
+            "cfb7145b9d3bb846",
+            "d4cdb8d1a44e6212"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "cfb7145b9d3bb846",
+            "d4cdb8d1a44e6212"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "c8aa7290d1be9939",
+            "cfb7145b9d3bb846",
+            "eb75672c183c2dda"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "c1c73991d617f258",
+            "c8aa7290d1be9939",
+            "eb75672c183c2dda"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "c1c73991d617f258",
+            "cfb7145b9d3bb846",
+            "eb75672c183c2dda"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 7,
+        "matching": [
+          [
+            0,
+            7
+          ],
+          [
+            1,
+            6
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            3
+          ],
+          [
+            9,
+            13
+          ],
+          [
+            12,
+            5
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "9/16",
+          "value": 0.5625
+        },
+        "reachable_left": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          13,
+          14,
+          15
+        ],
+        "reachable_right": [
+          1,
+          2,
+          3,
+          6,
+          7
+        ],
+        "same_label_coordinate_violations": 12,
+        "upper_set_minimal_generators": [
+          430,
+          490,
+          415,
+          719,
+          639,
+          703
+        ]
+      },
+      "cases": [
+        "095d07e6c6a6b418",
+        "63a23f52ccdcd546",
+        "6862fae3f3c27725",
+        "80c2bad39beec7cc",
+        "8baa4eab526b2481",
+        "c1c73991d617f258",
+        "c8aa7290d1be9939",
+        "cfb7145b9d3bb846",
+        "d4cdb8d1a44e6212",
+        "eb75672c183c2dda"
+      ],
+      "contrast": "ORDERING",
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "paired_witness_comparisons": 160,
+      "paired_witness_gain": 30,
+      "paired_witness_loss": 24,
+      "panel": "TRANSFER",
+      "pure_and_or_maximum": {
+        "a_over_b_numerator": 8,
+        "b_over_a_numerator": 7
+      },
+      "status": "INCOMPARABLE_ON_FINITE_PANEL",
+      "variant": "B02"
+    },
+    {
+      "a": "B01",
+      "a_to_b": {
+        "a_accept_indices": [],
+        "a_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          987,
+          175,
+          142,
+          175,
+          175,
+          858,
+          987,
+          174,
+          987
+        ],
+        "b_accept_indices": [],
+        "b_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          1023,
+          175,
+          174,
+          175,
+          175,
+          862,
+          987,
+          174,
+          987
+        ],
+        "compatible_edges": 113,
+        "deficit_numerator": 0,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 10,
+        "dnf_minimal_case_sets": [],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 16,
+        "matching": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            7
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            15
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            13
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            14
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            13,
+            5
+          ],
+          [
+            14,
+            9
+          ],
+          [
+            15,
+            3
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "0",
+          "value": 0.0
+        },
+        "reachable_left": [],
+        "reachable_right": [],
+        "same_label_coordinate_violations": 0,
+        "upper_set_minimal_generators": []
+      },
+      "analysis": "PRIMARY",
+      "arm": "SHARED",
+      "b": "B02",
+      "b_to_a": {
+        "a_accept_indices": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "a_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          1023,
+          175,
+          174,
+          175,
+          175,
+          862,
+          987,
+          174,
+          987
+        ],
+        "b_accept_indices": [
+          1,
+          2,
+          3,
+          6,
+          8,
+          10,
+          11,
+          14
+        ],
+        "b_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          987,
+          175,
+          142,
+          175,
+          175,
+          858,
+          987,
+          174,
+          987
+        ],
+        "compatible_edges": 93,
+        "deficit_numerator": 3,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 10,
+        "dnf_minimal_case_sets": [
+          [
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "c1c73991d617f258",
+            "cfb7145b9d3bb846"
+          ],
+          [
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "c8aa7290d1be9939",
+            "d4cdb8d1a44e6212",
+            "eb75672c183c2dda"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 13,
+        "matching": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            13
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            14
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            13,
+            7
+          ],
+          [
+            15,
+            5
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "3/16",
+          "value": 0.1875
+        },
+        "reachable_left": [
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          14
+        ],
+        "reachable_right": [
+          1,
+          2,
+          3,
+          6,
+          8,
+          10,
+          11,
+          14
+        ],
+        "same_label_coordinate_violations": 3,
+        "upper_set_minimal_generators": [
+          174,
+          862
+        ]
+      },
+      "cases": [
+        "095d07e6c6a6b418",
+        "63a23f52ccdcd546",
+        "6862fae3f3c27725",
+        "80c2bad39beec7cc",
+        "8baa4eab526b2481",
+        "c1c73991d617f258",
+        "c8aa7290d1be9939",
+        "cfb7145b9d3bb846",
+        "d4cdb8d1a44e6212",
+        "eb75672c183c2dda"
+      ],
+      "contrast": "SERIALIZATION",
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "paired_witness_comparisons": 160,
+      "paired_witness_gain": 4,
+      "paired_witness_loss": 0,
+      "panel": "TRANSFER",
+      "status": "B_DOMINATES_A_ON_FINITE_PANEL"
+    },
+    {
+      "a": "B01",
+      "a_to_b": {
+        "a_accept_indices": [],
+        "a_masks": [
+          575,
+          495,
+          426,
+          366,
+          411,
+          507,
+          926,
+          446,
+          491,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          270,
+          927
+        ],
+        "b_accept_indices": [],
+        "b_masks": [
+          639,
+          495,
+          490,
+          494,
+          415,
+          507,
+          958,
+          446,
+          507,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          430,
+          927
+        ],
+        "compatible_edges": 50,
+        "deficit_numerator": 0,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 22,
+        "dnf_minimal_case_sets": [],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 16,
+        "matching": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            8
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            13,
+            13
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            15,
+            15
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "0",
+          "value": 0.0
+        },
+        "reachable_left": [],
+        "reachable_right": [],
+        "same_label_coordinate_violations": 0,
+        "upper_set_minimal_generators": []
+      },
+      "analysis": "PRIMARY",
+      "arm": "CASE_LOCAL",
+      "b": "B02",
+      "b_to_a": {
+        "a_accept_indices": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          14,
+          15
+        ],
+        "a_masks": [
+          639,
+          495,
+          490,
+          494,
+          415,
+          507,
+          958,
+          446,
+          507,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          430,
+          927
+        ],
+        "b_accept_indices": [
+          1,
+          5,
+          7,
+          10,
+          15
+        ],
+        "b_masks": [
+          575,
+          495,
+          426,
+          366,
+          411,
+          507,
+          926,
+          446,
+          491,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          270,
+          927
+        ],
+        "compatible_edges": 27,
+        "deficit_numerator": 6,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 22,
+        "dnf_minimal_case_sets": [
+          [
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "c1c73991d617f258",
+            "cfb7145b9d3bb846",
+            "d4cdb8d1a44e6212"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "cfb7145b9d3bb846",
+            "d4cdb8d1a44e6212"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "c1c73991d617f258",
+            "c8aa7290d1be9939",
+            "cfb7145b9d3bb846",
+            "d4cdb8d1a44e6212"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "c1c73991d617f258",
+            "c8aa7290d1be9939",
+            "eb75672c183c2dda"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 10,
+        "matching": [
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            8
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            4,
+            15
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            12,
+            6
+          ],
+          [
+            13,
+            13
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "3/8",
+          "value": 0.375
+        },
+        "reachable_left": [
+          0,
+          1,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          10,
+          14,
+          15
+        ],
+        "reachable_right": [
+          1,
+          5,
+          7,
+          10,
+          15
+        ],
+        "same_label_coordinate_violations": 7,
+        "upper_set_minimal_generators": [
+          430,
+          415,
+          507,
+          639
+        ]
+      },
+      "cases": [
+        "095d07e6c6a6b418",
+        "63a23f52ccdcd546",
+        "6862fae3f3c27725",
+        "80c2bad39beec7cc",
+        "8baa4eab526b2481",
+        "c1c73991d617f258",
+        "c8aa7290d1be9939",
+        "cfb7145b9d3bb846",
+        "d4cdb8d1a44e6212",
+        "eb75672c183c2dda"
+      ],
+      "contrast": "SERIALIZATION",
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "paired_witness_comparisons": 160,
+      "paired_witness_gain": 8,
+      "paired_witness_loss": 0,
+      "panel": "TRANSFER",
+      "status": "B_DOMINATES_A_ON_FINITE_PANEL"
+    },
+    {
+      "a": "SHARED",
+      "a_to_b": {
+        "a_accept_indices": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          10,
+          13,
+          14
+        ],
+        "a_masks": [
+          1982,
+          2047,
+          1351,
+          1351,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          1347,
+          0,
+          260,
+          2047,
+          1982,
+          260
+        ],
+        "b_accept_indices": [
+          3,
+          6,
+          10
+        ],
+        "b_masks": [
+          2004,
+          1471,
+          751,
+          2039,
+          1950,
+          1963,
+          1535,
+          1015,
+          1326,
+          1846,
+          1375,
+          1886,
+          1855,
+          1471,
+          1373,
+          1935
+        ],
+        "compatible_edges": 100,
+        "deficit_numerator": 7,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 21,
+        "dnf_minimal_case_sets": [
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 9,
+        "matching": [
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            9,
+            4
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            12,
+            1
+          ],
+          [
+            15,
+            0
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "7/16",
+          "value": 0.4375
+        },
+        "reachable_left": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          10,
+          13,
+          14
+        ],
+        "reachable_right": [
+          3,
+          6,
+          10
+        ],
+        "same_label_coordinate_violations": 9,
+        "upper_set_minimal_generators": [
+          1347,
+          1982
+        ]
+      },
+      "analysis": "FIXED_COUNT",
+      "b": "CASE_LOCAL",
+      "b_to_a": {
+        "a_accept_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "a_masks": [
+          2004,
+          1471,
+          751,
+          2039,
+          1950,
+          1963,
+          1535,
+          1015,
+          1326,
+          1846,
+          1375,
+          1886,
+          1855,
+          1471,
+          1373,
+          1935
+        ],
+        "b_accept_indices": [
+          0,
+          1,
+          6,
+          8,
+          13,
+          14
+        ],
+        "b_masks": [
+          1982,
+          2047,
+          1351,
+          1351,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          1347,
+          0,
+          260,
+          2047,
+          1982,
+          260
+        ],
+        "compatible_edges": 70,
+        "deficit_numerator": 10,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 21,
+        "dnf_minimal_case_sets": [
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "687e14bf8499933a",
+            "8d51fb6e98870a2f",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "3054cd4e48e4c14a",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "687e14bf8499933a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "a0265ead130dcd35"
+          ],
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3667fa48f838ada4",
+            "687e14bf8499933a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 6,
+        "matching": [
+          [
+            0,
+            13
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            14
+          ],
+          [
+            8,
+            0
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "5/8",
+          "value": 0.625
+        },
+        "reachable_left": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "reachable_right": [
+          0,
+          1,
+          6,
+          8,
+          13,
+          14
+        ],
+        "same_label_coordinate_violations": 12,
+        "upper_set_minimal_generators": [
+          1326,
+          1373,
+          1846,
+          2004,
+          751,
+          1886,
+          1935,
+          1950,
+          1963,
+          1015
+        ]
+      },
+      "cases": [
+        "033f10866e9fcde8",
+        "1f3bea24c806f3fc",
+        "3054cd4e48e4c14a",
+        "3667fa48f838ada4",
+        "495b34c46ea6cf4a",
+        "687e14bf8499933a",
+        "6e3342ba9f05a793",
+        "6fdaf4aa34d8a42f",
+        "8d51fb6e98870a2f",
+        "a0265ead130dcd35",
+        "f2c26d1cc6193124"
+      ],
+      "contrast": "ORDERING",
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "paired_witness_comparisons": 176,
+      "paired_witness_gain": 60,
+      "paired_witness_loss": 21,
+      "panel": "DEVELOPMENT",
+      "pure_and_or_maximum": {
+        "a_over_b_numerator": 6,
+        "b_over_a_numerator": 10
+      },
+      "status": "INCOMPARABLE_ON_FINITE_PANEL",
+      "variant": "B01"
+    },
+    {
+      "a": "SHARED",
+      "a_to_b": {
+        "a_accept_indices": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          10,
+          13,
+          14,
+          15
+        ],
+        "a_masks": [
+          1982,
+          2047,
+          1351,
+          1399,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          1503,
+          0,
+          260,
+          2047,
+          1982,
+          1982
+        ],
+        "b_accept_indices": [
+          1,
+          3,
+          6,
+          10
+        ],
+        "b_masks": [
+          2004,
+          1983,
+          1007,
+          2039,
+          1950,
+          1979,
+          1535,
+          1015,
+          1838,
+          1846,
+          1375,
+          1886,
+          1855,
+          1471,
+          1885,
+          1935
+        ],
+        "compatible_edges": 89,
+        "deficit_numerator": 7,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 24,
+        "dnf_minimal_case_sets": [
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 9,
+        "matching": [
+          [
+            0,
+            1
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            7
+          ],
+          [
+            7,
+            3
+          ],
+          [
+            9,
+            4
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            12,
+            0
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "7/16",
+          "value": 0.4375
+        },
+        "reachable_left": [
+          0,
+          1,
+          2,
+          3,
+          6,
+          7,
+          8,
+          10,
+          13,
+          14,
+          15
+        ],
+        "reachable_right": [
+          1,
+          3,
+          6,
+          10
+        ],
+        "same_label_coordinate_violations": 11,
+        "upper_set_minimal_generators": [
+          1347,
+          1982
+        ]
+      },
+      "analysis": "FIXED_COUNT",
+      "b": "CASE_LOCAL",
+      "b_to_a": {
+        "a_accept_indices": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "a_masks": [
+          2004,
+          1983,
+          1007,
+          2039,
+          1950,
+          1979,
+          1535,
+          1015,
+          1838,
+          1846,
+          1375,
+          1886,
+          1855,
+          1471,
+          1885,
+          1935
+        ],
+        "b_accept_indices": [
+          1,
+          6,
+          8,
+          13
+        ],
+        "b_masks": [
+          1982,
+          2047,
+          1351,
+          1399,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          1503,
+          0,
+          260,
+          2047,
+          1982,
+          1982
+        ],
+        "compatible_edges": 74,
+        "deficit_numerator": 8,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 24,
+        "dnf_minimal_case_sets": [
+          [
+            "3054cd4e48e4c14a",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "687e14bf8499933a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 8,
+        "matching": [
+          [
+            0,
+            13
+          ],
+          [
+            1,
+            8
+          ],
+          [
+            2,
+            6
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            15
+          ],
+          [
+            8,
+            14
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "1/2",
+          "value": 0.5
+        },
+        "reachable_left": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "reachable_right": [
+          1,
+          6,
+          8,
+          13
+        ],
+        "same_label_coordinate_violations": 11,
+        "upper_set_minimal_generators": [
+          2004,
+          1885,
+          1886,
+          1935,
+          1007,
+          1015,
+          1471,
+          1855,
+          1979
+        ]
+      },
+      "cases": [
+        "033f10866e9fcde8",
+        "1f3bea24c806f3fc",
+        "3054cd4e48e4c14a",
+        "3667fa48f838ada4",
+        "495b34c46ea6cf4a",
+        "687e14bf8499933a",
+        "6e3342ba9f05a793",
+        "6fdaf4aa34d8a42f",
+        "8d51fb6e98870a2f",
+        "a0265ead130dcd35",
+        "f2c26d1cc6193124"
+      ],
+      "contrast": "ORDERING",
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "paired_witness_comparisons": 176,
+      "paired_witness_gain": 51,
+      "paired_witness_loss": 20,
+      "panel": "DEVELOPMENT",
+      "pure_and_or_maximum": {
+        "a_over_b_numerator": 6,
+        "b_over_a_numerator": 8
+      },
+      "status": "INCOMPARABLE_ON_FINITE_PANEL",
+      "variant": "B02"
+    },
+    {
+      "a": "B01",
+      "a_to_b": {
+        "a_accept_indices": [],
+        "a_masks": [
+          1982,
+          2047,
+          1351,
+          1351,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          1347,
+          0,
+          260,
+          2047,
+          1982,
+          260
+        ],
+        "b_accept_indices": [],
+        "b_masks": [
+          1982,
+          2047,
+          1351,
+          1399,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          1503,
+          0,
+          260,
+          2047,
+          1982,
+          1982
+        ],
+        "compatible_edges": 144,
+        "deficit_numerator": 0,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 8,
+        "dnf_minimal_case_sets": [],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 16,
+        "matching": [
+          [
+            0,
+            15
+          ],
+          [
+            1,
+            13
+          ],
+          [
+            2,
+            10
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            5,
+            4
+          ],
+          [
+            6,
+            8
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            6
+          ],
+          [
+            9,
+            11
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            11,
+            9
+          ],
+          [
+            12,
+            5
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            15,
+            0
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "0",
+          "value": 0.0
+        },
+        "reachable_left": [],
+        "reachable_right": [],
+        "same_label_coordinate_violations": 0,
+        "upper_set_minimal_generators": []
+      },
+      "analysis": "FIXED_COUNT",
+      "arm": "SHARED",
+      "b": "B02",
+      "b_to_a": {
+        "a_accept_indices": [
+          0,
+          1,
+          3,
+          6,
+          8,
+          10,
+          13,
+          14,
+          15
+        ],
+        "a_masks": [
+          1982,
+          2047,
+          1351,
+          1399,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          1503,
+          0,
+          260,
+          2047,
+          1982,
+          1982
+        ],
+        "b_accept_indices": [
+          0,
+          1,
+          6,
+          8,
+          13,
+          14
+        ],
+        "b_masks": [
+          1982,
+          2047,
+          1351,
+          1351,
+          260,
+          260,
+          2047,
+          1347,
+          2047,
+          0,
+          1347,
+          0,
+          260,
+          2047,
+          1982,
+          260
+        ],
+        "compatible_edges": 124,
+        "deficit_numerator": 3,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 8,
+        "dnf_minimal_case_sets": [
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 13,
+        "matching": [
+          [
+            0,
+            14
+          ],
+          [
+            1,
+            13
+          ],
+          [
+            2,
+            3
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            12
+          ],
+          [
+            5,
+            15
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            11,
+            4
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            14,
+            0
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "3/16",
+          "value": 0.1875
+        },
+        "reachable_left": [
+          0,
+          1,
+          3,
+          6,
+          8,
+          10,
+          13,
+          14,
+          15
+        ],
+        "reachable_right": [
+          0,
+          1,
+          6,
+          8,
+          13,
+          14
+        ],
+        "same_label_coordinate_violations": 3,
+        "upper_set_minimal_generators": [
+          1399,
+          1503,
+          1982
+        ]
+      },
+      "cases": [
+        "033f10866e9fcde8",
+        "1f3bea24c806f3fc",
+        "3054cd4e48e4c14a",
+        "3667fa48f838ada4",
+        "495b34c46ea6cf4a",
+        "687e14bf8499933a",
+        "6e3342ba9f05a793",
+        "6fdaf4aa34d8a42f",
+        "8d51fb6e98870a2f",
+        "a0265ead130dcd35",
+        "f2c26d1cc6193124"
+      ],
+      "contrast": "SERIALIZATION",
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "paired_witness_comparisons": 176,
+      "paired_witness_gain": 13,
+      "paired_witness_loss": 0,
+      "panel": "DEVELOPMENT",
+      "status": "B_DOMINATES_A_ON_FINITE_PANEL"
+    },
+    {
+      "a": "B01",
+      "a_to_b": {
+        "a_accept_indices": [],
+        "a_masks": [
+          2004,
+          1471,
+          751,
+          2039,
+          1950,
+          1963,
+          1535,
+          1015,
+          1326,
+          1846,
+          1375,
+          1886,
+          1855,
+          1471,
+          1373,
+          1935
+        ],
+        "b_accept_indices": [],
+        "b_masks": [
+          2004,
+          1983,
+          1007,
+          2039,
+          1950,
+          1979,
+          1535,
+          1015,
+          1838,
+          1846,
+          1375,
+          1886,
+          1855,
+          1471,
+          1885,
+          1935
+        ],
+        "compatible_edges": 36,
+        "deficit_numerator": 0,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 20,
+        "dnf_minimal_case_sets": [],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 16,
+        "matching": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            13
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            15,
+            15
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "0",
+          "value": 0.0
+        },
+        "reachable_left": [],
+        "reachable_right": [],
+        "same_label_coordinate_violations": 0,
+        "upper_set_minimal_generators": []
+      },
+      "analysis": "FIXED_COUNT",
+      "arm": "CASE_LOCAL",
+      "b": "B02",
+      "b_to_a": {
+        "a_accept_indices": [
+          1,
+          2,
+          5,
+          8,
+          12,
+          14
+        ],
+        "a_masks": [
+          2004,
+          1983,
+          1007,
+          2039,
+          1950,
+          1979,
+          1535,
+          1015,
+          1838,
+          1846,
+          1375,
+          1886,
+          1855,
+          1471,
+          1885,
+          1935
+        ],
+        "b_accept_indices": [
+          12
+        ],
+        "b_masks": [
+          2004,
+          1471,
+          751,
+          2039,
+          1950,
+          1963,
+          1535,
+          1015,
+          1326,
+          1846,
+          1375,
+          1886,
+          1855,
+          1471,
+          1373,
+          1935
+        ],
+        "compatible_edges": 19,
+        "deficit_numerator": 5,
+        "denominator": 16,
+        "dimension": 11,
+        "distinct_observed_states": 20,
+        "dnf_minimal_case_sets": [
+          [
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "687e14bf8499933a",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "6e3342ba9f05a793",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3054cd4e48e4c14a",
+            "3667fa48f838ada4",
+            "687e14bf8499933a",
+            "6e3342ba9f05a793",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35"
+          ],
+          [
+            "033f10866e9fcde8",
+            "1f3bea24c806f3fc",
+            "3667fa48f838ada4",
+            "495b34c46ea6cf4a",
+            "687e14bf8499933a",
+            "6fdaf4aa34d8a42f",
+            "8d51fb6e98870a2f",
+            "a0265ead130dcd35",
+            "f2c26d1cc6193124"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 11,
+        "matching": [
+          [
+            0,
+            0
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            12
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            13,
+            1
+          ],
+          [
+            15,
+            15
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "5/16",
+          "value": 0.3125
+        },
+        "reachable_left": [
+          1,
+          2,
+          5,
+          8,
+          12,
+          14
+        ],
+        "reachable_right": [
+          12
+        ],
+        "same_label_coordinate_violations": 5,
+        "upper_set_minimal_generators": [
+          1838,
+          1885,
+          1007,
+          1979
+        ]
+      },
+      "cases": [
+        "033f10866e9fcde8",
+        "1f3bea24c806f3fc",
+        "3054cd4e48e4c14a",
+        "3667fa48f838ada4",
+        "495b34c46ea6cf4a",
+        "687e14bf8499933a",
+        "6e3342ba9f05a793",
+        "6fdaf4aa34d8a42f",
+        "8d51fb6e98870a2f",
+        "a0265ead130dcd35",
+        "f2c26d1cc6193124"
+      ],
+      "contrast": "SERIALIZATION",
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "paired_witness_comparisons": 176,
+      "paired_witness_gain": 5,
+      "paired_witness_loss": 0,
+      "panel": "DEVELOPMENT",
+      "status": "B_DOMINATES_A_ON_FINITE_PANEL"
+    },
+    {
+      "a": "SHARED",
+      "a_to_b": {
+        "a_accept_indices": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "a_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          987,
+          175,
+          8,
+          175,
+          175,
+          858,
+          987,
+          174,
+          987
+        ],
+        "b_accept_indices": [
+          10,
+          13
+        ],
+        "b_masks": [
+          575,
+          463,
+          426,
+          366,
+          411,
+          507,
+          926,
+          446,
+          490,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          270,
+          415
+        ],
+        "compatible_edges": 48,
+        "deficit_numerator": 10,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 23,
+        "dnf_minimal_case_sets": [
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "c1c73991d617f258",
+            "cfb7145b9d3bb846"
+          ],
+          [
+            "63a23f52ccdcd546",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "c8aa7290d1be9939",
+            "d4cdb8d1a44e6212",
+            "eb75672c183c2dda"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 6,
+        "matching": [
+          [
+            0,
+            1
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            14,
+            7
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "5/8",
+          "value": 0.625
+        },
+        "reachable_left": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "reachable_right": [
+          10,
+          13
+        ],
+        "same_label_coordinate_violations": 13,
+        "upper_set_minimal_generators": [
+          175,
+          858
+        ]
+      },
+      "analysis": "FIXED_COUNT",
+      "b": "CASE_LOCAL",
+      "b_to_a": {
+        "a_accept_indices": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          13,
+          14,
+          15
+        ],
+        "a_masks": [
+          575,
+          463,
+          426,
+          366,
+          411,
+          507,
+          926,
+          446,
+          490,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          270,
+          415
+        ],
+        "b_accept_indices": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "b_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          987,
+          175,
+          8,
+          175,
+          175,
+          858,
+          987,
+          174,
+          987
+        ],
+        "compatible_edges": 60,
+        "deficit_numerator": 9,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 23,
+        "dnf_minimal_case_sets": [
+          [
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "d4cdb8d1a44e6212"
+          ],
+          [
+            "63a23f52ccdcd546",
+            "80c2bad39beec7cc",
+            "c1c73991d617f258",
+            "cfb7145b9d3bb846",
+            "d4cdb8d1a44e6212"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "c1c73991d617f258",
+            "eb75672c183c2dda"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "c8aa7290d1be9939",
+            "cfb7145b9d3bb846",
+            "eb75672c183c2dda"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 7,
+        "matching": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            13
+          ],
+          [
+            9,
+            7
+          ],
+          [
+            12,
+            5
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "9/16",
+          "value": 0.5625
+        },
+        "reachable_left": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          13,
+          14,
+          15
+        ],
+        "reachable_right": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "same_label_coordinate_violations": 13,
+        "upper_set_minimal_generators": [
+          270,
+          426,
+          575,
+          719
+        ]
+      },
+      "cases": [
+        "095d07e6c6a6b418",
+        "63a23f52ccdcd546",
+        "6862fae3f3c27725",
+        "80c2bad39beec7cc",
+        "8baa4eab526b2481",
+        "c1c73991d617f258",
+        "c8aa7290d1be9939",
+        "cfb7145b9d3bb846",
+        "d4cdb8d1a44e6212",
+        "eb75672c183c2dda"
+      ],
+      "contrast": "ORDERING",
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "paired_witness_comparisons": 160,
+      "paired_witness_gain": 31,
+      "paired_witness_loss": 29,
+      "panel": "TRANSFER",
+      "pure_and_or_maximum": {
+        "a_over_b_numerator": 8,
+        "b_over_a_numerator": 7
+      },
+      "status": "INCOMPARABLE_ON_FINITE_PANEL",
+      "variant": "B01"
+    },
+    {
+      "a": "SHARED",
+      "a_to_b": {
+        "a_accept_indices": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "a_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          987,
+          175,
+          174,
+          175,
+          175,
+          858,
+          987,
+          174,
+          987
+        ],
+        "b_accept_indices": [
+          1,
+          10,
+          13
+        ],
+        "b_masks": [
+          639,
+          495,
+          426,
+          494,
+          411,
+          507,
+          958,
+          446,
+          491,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          430,
+          927
+        ],
+        "compatible_edges": 47,
+        "deficit_numerator": 9,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 23,
+        "dnf_minimal_case_sets": [
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "c1c73991d617f258",
+            "cfb7145b9d3bb846"
+          ],
+          [
+            "63a23f52ccdcd546",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "c8aa7290d1be9939",
+            "d4cdb8d1a44e6212",
+            "eb75672c183c2dda"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 7,
+        "matching": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            10
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            9,
+            6
+          ],
+          [
+            10,
+            1
+          ],
+          [
+            14,
+            3
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "9/16",
+          "value": 0.5625
+        },
+        "reachable_left": [
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          12,
+          13,
+          15
+        ],
+        "reachable_right": [
+          1,
+          10,
+          13
+        ],
+        "same_label_coordinate_violations": 13,
+        "upper_set_minimal_generators": [
+          175,
+          858
+        ]
+      },
+      "analysis": "FIXED_COUNT",
+      "b": "CASE_LOCAL",
+      "b_to_a": {
+        "a_accept_indices": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          13,
+          14,
+          15
+        ],
+        "a_masks": [
+          639,
+          495,
+          426,
+          494,
+          411,
+          507,
+          958,
+          446,
+          491,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          430,
+          927
+        ],
+        "b_accept_indices": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "b_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          987,
+          175,
+          174,
+          175,
+          175,
+          858,
+          987,
+          174,
+          987
+        ],
+        "compatible_edges": 58,
+        "deficit_numerator": 9,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 23,
+        "dnf_minimal_case_sets": [
+          [
+            "63a23f52ccdcd546",
+            "80c2bad39beec7cc",
+            "c1c73991d617f258",
+            "cfb7145b9d3bb846",
+            "d4cdb8d1a44e6212"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "c8aa7290d1be9939",
+            "cfb7145b9d3bb846",
+            "eb75672c183c2dda"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "c1c73991d617f258",
+            "c8aa7290d1be9939",
+            "eb75672c183c2dda"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "c1c73991d617f258",
+            "cfb7145b9d3bb846",
+            "eb75672c183c2dda"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "cfb7145b9d3bb846",
+            "d4cdb8d1a44e6212",
+            "eb75672c183c2dda"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 7,
+        "matching": [
+          [
+            0,
+            6
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            1
+          ],
+          [
+            4,
+            13
+          ],
+          [
+            9,
+            7
+          ],
+          [
+            12,
+            5
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "9/16",
+          "value": 0.5625
+        },
+        "reachable_left": [
+          0,
+          1,
+          2,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          11,
+          13,
+          14,
+          15
+        ],
+        "reachable_right": [
+          1,
+          2,
+          3,
+          6
+        ],
+        "same_label_coordinate_violations": 13,
+        "upper_set_minimal_generators": [
+          426,
+          719,
+          639,
+          703,
+          927
+        ]
+      },
+      "cases": [
+        "095d07e6c6a6b418",
+        "63a23f52ccdcd546",
+        "6862fae3f3c27725",
+        "80c2bad39beec7cc",
+        "8baa4eab526b2481",
+        "c1c73991d617f258",
+        "c8aa7290d1be9939",
+        "cfb7145b9d3bb846",
+        "d4cdb8d1a44e6212",
+        "eb75672c183c2dda"
+      ],
+      "contrast": "ORDERING",
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "paired_witness_comparisons": 160,
+      "paired_witness_gain": 30,
+      "paired_witness_loss": 24,
+      "panel": "TRANSFER",
+      "pure_and_or_maximum": {
+        "a_over_b_numerator": 8,
+        "b_over_a_numerator": 7
+      },
+      "status": "INCOMPARABLE_ON_FINITE_PANEL",
+      "variant": "B02"
+    },
+    {
+      "a": "B01",
+      "a_to_b": {
+        "a_accept_indices": [],
+        "a_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          987,
+          175,
+          8,
+          175,
+          175,
+          858,
+          987,
+          174,
+          987
+        ],
+        "b_accept_indices": [],
+        "b_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          987,
+          175,
+          174,
+          175,
+          175,
+          858,
+          987,
+          174,
+          987
+        ],
+        "compatible_edges": 111,
+        "deficit_numerator": 0,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 8,
+        "dnf_minimal_case_sets": [],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 16,
+        "matching": [
+          [
+            0,
+            9
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            15
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            13
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            0
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            13,
+            7
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            15,
+            5
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "0",
+          "value": 0.0
+        },
+        "reachable_left": [],
+        "reachable_right": [],
+        "same_label_coordinate_violations": 0,
+        "upper_set_minimal_generators": []
+      },
+      "analysis": "FIXED_COUNT",
+      "arm": "SHARED",
+      "b": "B02",
+      "b_to_a": {
+        "a_accept_indices": [
+          1,
+          2,
+          3,
+          6,
+          8,
+          9,
+          10,
+          11,
+          14
+        ],
+        "a_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          987,
+          175,
+          174,
+          175,
+          175,
+          858,
+          987,
+          174,
+          987
+        ],
+        "b_accept_indices": [
+          1,
+          2,
+          3,
+          6,
+          8,
+          10,
+          11,
+          14
+        ],
+        "b_masks": [
+          8,
+          1022,
+          1022,
+          1023,
+          139,
+          987,
+          1023,
+          987,
+          175,
+          8,
+          175,
+          175,
+          858,
+          987,
+          174,
+          987
+        ],
+        "compatible_edges": 102,
+        "deficit_numerator": 1,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 8,
+        "dnf_minimal_case_sets": [
+          [
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "c1c73991d617f258",
+            "cfb7145b9d3bb846"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 15,
+        "matching": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            1
+          ],
+          [
+            3,
+            6
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            15
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            13
+          ],
+          [
+            8,
+            11
+          ],
+          [
+            9,
+            14
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            8
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            13,
+            7
+          ],
+          [
+            15,
+            5
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "1/16",
+          "value": 0.0625
+        },
+        "reachable_left": [
+          1,
+          2,
+          3,
+          6,
+          8,
+          9,
+          10,
+          11,
+          14
+        ],
+        "reachable_right": [
+          1,
+          2,
+          3,
+          6,
+          8,
+          10,
+          11,
+          14
+        ],
+        "same_label_coordinate_violations": 1,
+        "upper_set_minimal_generators": [
+          174
+        ]
+      },
+      "cases": [
+        "095d07e6c6a6b418",
+        "63a23f52ccdcd546",
+        "6862fae3f3c27725",
+        "80c2bad39beec7cc",
+        "8baa4eab526b2481",
+        "c1c73991d617f258",
+        "c8aa7290d1be9939",
+        "cfb7145b9d3bb846",
+        "d4cdb8d1a44e6212",
+        "eb75672c183c2dda"
+      ],
+      "contrast": "SERIALIZATION",
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "paired_witness_comparisons": 160,
+      "paired_witness_gain": 4,
+      "paired_witness_loss": 0,
+      "panel": "TRANSFER",
+      "status": "B_DOMINATES_A_ON_FINITE_PANEL"
+    },
+    {
+      "a": "B01",
+      "a_to_b": {
+        "a_accept_indices": [],
+        "a_masks": [
+          575,
+          463,
+          426,
+          366,
+          411,
+          507,
+          926,
+          446,
+          490,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          270,
+          415
+        ],
+        "b_accept_indices": [],
+        "b_masks": [
+          639,
+          495,
+          426,
+          494,
+          411,
+          507,
+          958,
+          446,
+          491,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          430,
+          927
+        ],
+        "compatible_edges": 49,
+        "deficit_numerator": 0,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 23,
+        "dnf_minimal_case_sets": [],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 16,
+        "matching": [
+          [
+            0,
+            0
+          ],
+          [
+            1,
+            1
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            3
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            6
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            8,
+            8
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            10,
+            10
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            13,
+            13
+          ],
+          [
+            14,
+            14
+          ],
+          [
+            15,
+            15
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "0",
+          "value": 0.0
+        },
+        "reachable_left": [],
+        "reachable_right": [],
+        "same_label_coordinate_violations": 0,
+        "upper_set_minimal_generators": []
+      },
+      "analysis": "FIXED_COUNT",
+      "arm": "CASE_LOCAL",
+      "b": "B02",
+      "b_to_a": {
+        "a_accept_indices": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          14,
+          15
+        ],
+        "a_masks": [
+          639,
+          495,
+          426,
+          494,
+          411,
+          507,
+          958,
+          446,
+          491,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          430,
+          927
+        ],
+        "b_accept_indices": [
+          5,
+          7,
+          10
+        ],
+        "b_masks": [
+          575,
+          463,
+          426,
+          366,
+          411,
+          507,
+          926,
+          446,
+          490,
+          923,
+          1022,
+          719,
+          922,
+          703,
+          270,
+          415
+        ],
+        "compatible_edges": 25,
+        "deficit_numerator": 7,
+        "denominator": 16,
+        "dimension": 10,
+        "distinct_observed_states": 23,
+        "dnf_minimal_case_sets": [
+          [
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "c1c73991d617f258",
+            "cfb7145b9d3bb846",
+            "d4cdb8d1a44e6212"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "80c2bad39beec7cc",
+            "c1c73991d617f258",
+            "c8aa7290d1be9939",
+            "cfb7145b9d3bb846",
+            "d4cdb8d1a44e6212"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "c1c73991d617f258",
+            "c8aa7290d1be9939",
+            "eb75672c183c2dda"
+          ],
+          [
+            "095d07e6c6a6b418",
+            "63a23f52ccdcd546",
+            "6862fae3f3c27725",
+            "80c2bad39beec7cc",
+            "8baa4eab526b2481",
+            "cfb7145b9d3bb846",
+            "d4cdb8d1a44e6212",
+            "eb75672c183c2dda"
+          ]
+        ],
+        "graph_outcome_vertices": 32,
+        "matched_pairs": 9,
+        "matching": [
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            10
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            7,
+            7
+          ],
+          [
+            9,
+            9
+          ],
+          [
+            11,
+            11
+          ],
+          [
+            12,
+            6
+          ],
+          [
+            13,
+            13
+          ]
+        ],
+        "max_empirical_advantage_a_over_b": {
+          "fraction": "7/16",
+          "value": 0.4375
+        },
+        "reachable_left": [
+          0,
+          1,
+          3,
+          5,
+          6,
+          7,
+          8,
+          10,
+          14,
+          15
+        ],
+        "reachable_right": [
+          5,
+          7,
+          10
+        ],
+        "same_label_coordinate_violations": 7,
+        "upper_set_minimal_generators": [
+          430,
+          491,
+          639,
+          927
+        ]
+      },
+      "cases": [
+        "095d07e6c6a6b418",
+        "63a23f52ccdcd546",
+        "6862fae3f3c27725",
+        "80c2bad39beec7cc",
+        "8baa4eab526b2481",
+        "c1c73991d617f258",
+        "c8aa7290d1be9939",
+        "cfb7145b9d3bb846",
+        "d4cdb8d1a44e6212",
+        "eb75672c183c2dda"
+      ],
+      "contrast": "SERIALIZATION",
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "paired_witness_comparisons": 160,
+      "paired_witness_gain": 8,
+      "paired_witness_loss": 0,
+      "panel": "TRANSFER",
+      "status": "B_DOMINATES_A_ON_FINITE_PANEL"
+    }
+  ],
+  "computations": {
+    "comparison_pairs": 16,
+    "directed_certificates": 32,
+    "graph_outcome_vertices_per_direction": 32,
+    "maximum_compatibility_edges_per_direction": 256,
+    "solver_independent_certificate_checks": 32,
+    "source_selection_rows": 9600
+  },
+  "provenance": {
+    "fixed_count_groups_checked": 300,
+    "fixed_count_selections_sha256": "be0006b025f605e5c0d9180942c04d6c1aff2ce9ea853d7dc9ce8f74fababc2d",
+    "input_provenance": {
+      "member_sha256": {
+        "DEV_CASE_LOCAL.csv": "5d7949e23e94750e1cd4f772a784ef319c6282743f6b4f34b8559e2689adcf1f",
+        "DEV_SHARED.csv": "eabfbb090e89e5fba08f1f1bd7d372dd390b3e798f9ccbc6ab25bad8e6632794",
+        "FIXED_COUNT_SELECTIONS.csv": "be0006b025f605e5c0d9180942c04d6c1aff2ce9ea853d7dc9ce8f74fababc2d",
+        "TRANSFER_SELECTIONS.csv": "12e83f325852928fd0f93fb9493dd451a50428d1bb4e744de6d4d5d17c22bcd6",
+        "WITNESS_SUMMARY.csv": "dfc725f1da72e70bff81a663606f500fb3c9bb7917d41bc4a89ed9b91b07dbb4"
+      },
+      "parent_manuscript_sha256": "11108f18fc1ce8c5992b6e8b7a2c691205f29aebed2e9c0a7d5a6010d4bc0cd1",
+      "source_files": {
+        "08_EXISTING_V4_RESULTS.csv": "eabfbb090e89e5fba08f1f1bd7d372dd390b3e798f9ccbc6ab25bad8e6632794",
+        "CASE_LOCAL_RESULTS.csv": "5d7949e23e94750e1cd4f772a784ef319c6282743f6b4f34b8559e2689adcf1f",
+        "FIXED_COUNT_RESULT.zip": "df08f1d7e3dc43b564752fe4f7df643ece13e3dc8deb15a6dcbd149cd3390037",
+        "NEXT_CASE_TRANSFER_RESULT.zip": "7919d4bc6b8142d1ff2cc96e823bb3bc6d7348ffe6925a7a789231fdea94a228"
+      }
+    },
+    "input_zip_sha256": "263f81adc3230bb4849a7b436022b5861cdc83ececd49d4bb26c675307bd5063",
+    "source_rows_crosschecked": 9600
+  },
+  "scope": {
+    "comparison_unit": "joint vector of named-case existential witnesses",
+    "cost_scope": "evidence witness utility only; no numerical fidelity, nonmonotone objectives or latency claim",
+    "function_class": "all coordinatewise nondecreasing functions in [0,1]",
+    "matching_role": "algebraic proof device, not original paired design or deployment coupling",
+    "new_algorithm_invention_claim": false,
+    "new_empirical_cases_or_seeds": 0,
+    "oracle_access": "stored offline gold-positive case population only",
+    "raw_query_model_packing_network_or_install_calls": 0,
+    "recorded_seed_panel_not_population": true,
+    "synthetic_codechecks_are_separate": true
+  },
+  "self_tests": {
+    "boolean_monotone_function_counts_m1_m2_m3": {
+      "1": 3,
+      "2": 6,
+      "3": 20
+    },
+    "corrupted_certificate_rejected": true,
+    "exact_against_enumerated_monotone_functions": 928,
+    "python38_syntax": "PASS",
+    "these_are_synthetic_code_checks_not_new_empirical_cases": true
+  },
+  "status": "COMPLETE_EXACT_FINITE_PANEL_CERTIFICATION"
+}

@@ -1,0 +1,2404 @@
+{
+  "checks": {
+    "fixed_summary_parity": true,
+    "preserved_monotone_shortening": true,
+    "primary_witness_exact_parity": true,
+    "telescoping_and_capped_identities": true,
+    "utility_basis_enumerations": 7107
+  },
+  "comparisons": [
+    {
+      "analysis": "PRIMARY",
+      "cap_gain_numerators": [
+        2,
+        4,
+        10,
+        16,
+        22,
+        30,
+        39,
+        45,
+        45,
+        43,
+        39
+      ],
+      "crossing_retained_seed_deletions": 16,
+      "denominator": 16,
+      "empirical_first_order_local_over_shared": false,
+      "empirical_first_order_shared_over_local": false,
+      "empirical_increasing_concave_local_over_shared": true,
+      "empirical_survival_curves_cross": true,
+      "increasing_concave_retained_seed_deletions": 16,
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "leave_one_seed": [
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_00"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_01"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_02"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_03"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_04"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_05"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_06"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_07"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_08"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "1/15",
+            "value": 0.06666666666666667
+          },
+          "omitted_seed": "SEED_09"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_10"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "1/15",
+            "value": 0.06666666666666667
+          },
+          "omitted_seed": "SEED_11"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_12"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_13"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_14"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_15"
+        }
+      ],
+      "local_all_hit": 0,
+      "local_all_miss": 0,
+      "local_better_thresholds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "local_counts": [
+        7,
+        9,
+        8,
+        10,
+        8,
+        8,
+        10,
+        9,
+        6,
+        7,
+        8,
+        8,
+        9,
+        9,
+        7,
+        8
+      ],
+      "local_mean": {
+        "exact": "131/16",
+        "value": 8.1875
+      },
+      "local_recall": {
+        "exact": "131/176",
+        "value": 0.7443181818181818
+      },
+      "local_tails": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        15,
+        12,
+        6,
+        2,
+        0
+      ],
+      "local_variance": {
+        "exact": "295/256",
+        "value": 1.15234375
+      },
+      "panel": "DEVELOPMENT",
+      "positive_cases": 11,
+      "shared_all_hit": 4,
+      "shared_all_miss": 2,
+      "shared_better_thresholds": [
+        10,
+        11
+      ],
+      "shared_counts": [
+        9,
+        11,
+        6,
+        6,
+        2,
+        2,
+        11,
+        5,
+        11,
+        0,
+        5,
+        0,
+        2,
+        11,
+        9,
+        2
+      ],
+      "shared_mean": {
+        "exact": "23/4",
+        "value": 5.75
+      },
+      "shared_recall": {
+        "exact": "23/44",
+        "value": 0.5227272727272727
+      },
+      "shared_tails": [
+        14,
+        14,
+        10,
+        10,
+        10,
+        8,
+        6,
+        6,
+        6,
+        4,
+        4
+      ],
+      "shared_variance": {
+        "exact": "255/16",
+        "value": 15.9375
+      },
+      "tied_thresholds": [
+        9
+      ],
+      "variant": "B01"
+    },
+    {
+      "analysis": "PRIMARY",
+      "cap_gain_numerators": [
+        2,
+        4,
+        9,
+        14,
+        19,
+        25,
+        32,
+        38,
+        38,
+        36,
+        30
+      ],
+      "crossing_retained_seed_deletions": 16,
+      "denominator": 16,
+      "empirical_first_order_local_over_shared": false,
+      "empirical_first_order_shared_over_local": false,
+      "empirical_increasing_concave_local_over_shared": true,
+      "empirical_survival_curves_cross": true,
+      "increasing_concave_retained_seed_deletions": 16,
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "leave_one_seed": [
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_00"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_01"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_02"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_03"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_04"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_05"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_06"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_07"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_08"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "1/15",
+            "value": 0.06666666666666667
+          },
+          "omitted_seed": "SEED_09"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_10"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "1/15",
+            "value": 0.06666666666666667
+          },
+          "omitted_seed": "SEED_11"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_12"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_13"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_14"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_15"
+        }
+      ],
+      "local_all_hit": 0,
+      "local_all_miss": 0,
+      "local_better_thresholds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "local_counts": [
+        8,
+        10,
+        9,
+        10,
+        8,
+        9,
+        10,
+        10,
+        8,
+        7,
+        9,
+        8,
+        9,
+        9,
+        8,
+        8
+      ],
+      "local_mean": {
+        "exact": "35/4",
+        "value": 8.75
+      },
+      "local_recall": {
+        "exact": "35/44",
+        "value": 0.7954545454545454
+      },
+      "local_tails": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        15,
+        9,
+        4,
+        0
+      ],
+      "local_variance": {
+        "exact": "13/16",
+        "value": 0.8125
+      },
+      "panel": "DEVELOPMENT",
+      "positive_cases": 11,
+      "shared_all_hit": 6,
+      "shared_all_miss": 2,
+      "shared_better_thresholds": [
+        10,
+        11
+      ],
+      "shared_counts": [
+        9,
+        11,
+        6,
+        11,
+        2,
+        2,
+        11,
+        5,
+        11,
+        0,
+        11,
+        0,
+        2,
+        11,
+        9,
+        9
+      ],
+      "shared_mean": {
+        "exact": "55/8",
+        "value": 6.875
+      },
+      "shared_recall": {
+        "exact": "5/8",
+        "value": 0.625
+      },
+      "shared_tails": [
+        14,
+        14,
+        11,
+        11,
+        11,
+        10,
+        9,
+        9,
+        9,
+        6,
+        6
+      ],
+      "shared_variance": {
+        "exact": "1143/64",
+        "value": 17.859375
+      },
+      "tied_thresholds": [
+        9
+      ],
+      "variant": "B02"
+    },
+    {
+      "analysis": "PRIMARY",
+      "cap_gain_numerators": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        7,
+        10,
+        7,
+        4,
+        2
+      ],
+      "crossing_retained_seed_deletions": 16,
+      "denominator": 16,
+      "empirical_first_order_local_over_shared": false,
+      "empirical_first_order_shared_over_local": false,
+      "empirical_increasing_concave_local_over_shared": true,
+      "empirical_survival_curves_cross": true,
+      "increasing_concave_retained_seed_deletions": 13,
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "leave_one_seed": [
+        {
+          "curves_cross": true,
+          "increasing_concave": false,
+          "min_cap_gain": {
+            "exact": "-4/15",
+            "value": -0.26666666666666666
+          },
+          "omitted_seed": "SEED_16"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_17"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_18"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_19"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_20"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_21"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_22"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_23"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_24"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": false,
+          "min_cap_gain": {
+            "exact": "-1/15",
+            "value": -0.06666666666666667
+          },
+          "omitted_seed": "SEED_25"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": false,
+          "min_cap_gain": {
+            "exact": "-1/15",
+            "value": -0.06666666666666667
+          },
+          "omitted_seed": "SEED_26"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_27"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_28"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_29"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_30"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_31"
+        }
+      ],
+      "local_all_hit": 0,
+      "local_all_miss": 0,
+      "local_better_thresholds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "local_counts": [
+        7,
+        8,
+        5,
+        6,
+        6,
+        8,
+        7,
+        7,
+        7,
+        7,
+        9,
+        7,
+        6,
+        8,
+        4,
+        8
+      ],
+      "local_mean": {
+        "exact": "55/8",
+        "value": 6.875
+      },
+      "local_recall": {
+        "exact": "11/16",
+        "value": 0.6875
+      },
+      "local_tails": [
+        16,
+        16,
+        16,
+        16,
+        15,
+        14,
+        11,
+        5,
+        1,
+        0
+      ],
+      "local_variance": {
+        "exact": "95/64",
+        "value": 1.484375
+      },
+      "panel": "TRANSFER",
+      "positive_cases": 10,
+      "shared_all_hit": 2,
+      "shared_all_miss": 0,
+      "shared_better_thresholds": [
+        8,
+        9,
+        10
+      ],
+      "shared_counts": [
+        1,
+        9,
+        9,
+        10,
+        4,
+        8,
+        10,
+        8,
+        6,
+        4,
+        6,
+        6,
+        6,
+        8,
+        5,
+        8
+      ],
+      "shared_mean": {
+        "exact": "27/4",
+        "value": 6.75
+      },
+      "shared_recall": {
+        "exact": "27/40",
+        "value": 0.675
+      },
+      "shared_tails": [
+        16,
+        15,
+        15,
+        15,
+        13,
+        12,
+        8,
+        8,
+        4,
+        2
+      ],
+      "shared_variance": {
+        "exact": "91/16",
+        "value": 5.6875
+      },
+      "tied_thresholds": [
+        1
+      ],
+      "variant": "B01"
+    },
+    {
+      "analysis": "PRIMARY",
+      "cap_gain_numerators": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        9,
+        13,
+        13,
+        9,
+        6
+      ],
+      "crossing_retained_seed_deletions": 16,
+      "denominator": 16,
+      "empirical_first_order_local_over_shared": false,
+      "empirical_first_order_shared_over_local": false,
+      "empirical_increasing_concave_local_over_shared": true,
+      "empirical_survival_curves_cross": true,
+      "increasing_concave_retained_seed_deletions": 15,
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "leave_one_seed": [
+        {
+          "curves_cross": true,
+          "increasing_concave": false,
+          "min_cap_gain": {
+            "exact": "-1/15",
+            "value": -0.06666666666666667
+          },
+          "omitted_seed": "SEED_16"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_17"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_18"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_19"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_20"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_21"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_22"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_23"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_24"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_25"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_26"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_27"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_28"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_29"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_30"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_31"
+        }
+      ],
+      "local_all_hit": 0,
+      "local_all_miss": 0,
+      "local_better_thresholds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "local_counts": [
+        8,
+        8,
+        6,
+        7,
+        7,
+        8,
+        8,
+        7,
+        8,
+        7,
+        9,
+        7,
+        6,
+        8,
+        6,
+        8
+      ],
+      "local_mean": {
+        "exact": "59/8",
+        "value": 7.375
+      },
+      "local_recall": {
+        "exact": "59/80",
+        "value": 0.7375
+      },
+      "local_tails": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        13,
+        8,
+        1,
+        0
+      ],
+      "local_variance": {
+        "exact": "47/64",
+        "value": 0.734375
+      },
+      "panel": "TRANSFER",
+      "positive_cases": 10,
+      "shared_all_hit": 3,
+      "shared_all_miss": 0,
+      "shared_better_thresholds": [
+        9,
+        10
+      ],
+      "shared_counts": [
+        1,
+        9,
+        9,
+        10,
+        4,
+        8,
+        10,
+        10,
+        6,
+        5,
+        6,
+        6,
+        7,
+        8,
+        5,
+        8
+      ],
+      "shared_mean": {
+        "exact": "7",
+        "value": 7.0
+      },
+      "shared_recall": {
+        "exact": "7/10",
+        "value": 0.7
+      },
+      "shared_tails": [
+        16,
+        15,
+        15,
+        15,
+        14,
+        12,
+        9,
+        8,
+        5,
+        3
+      ],
+      "shared_variance": {
+        "exact": "47/8",
+        "value": 5.875
+      },
+      "tied_thresholds": [
+        1,
+        8
+      ],
+      "variant": "B02"
+    },
+    {
+      "analysis": "FIXED_COUNT",
+      "cap_gain_numerators": [
+        2,
+        4,
+        10,
+        16,
+        22,
+        30,
+        39,
+        45,
+        45,
+        43,
+        39
+      ],
+      "crossing_retained_seed_deletions": 16,
+      "denominator": 16,
+      "empirical_first_order_local_over_shared": false,
+      "empirical_first_order_shared_over_local": false,
+      "empirical_increasing_concave_local_over_shared": true,
+      "empirical_survival_curves_cross": true,
+      "increasing_concave_retained_seed_deletions": 16,
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "leave_one_seed": [
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_00"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_01"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_02"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_03"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_04"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_05"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_06"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_07"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_08"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "1/15",
+            "value": 0.06666666666666667
+          },
+          "omitted_seed": "SEED_09"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_10"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "1/15",
+            "value": 0.06666666666666667
+          },
+          "omitted_seed": "SEED_11"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_12"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_13"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_14"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_15"
+        }
+      ],
+      "local_all_hit": 0,
+      "local_all_miss": 0,
+      "local_better_thresholds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "local_counts": [
+        7,
+        9,
+        8,
+        10,
+        8,
+        8,
+        10,
+        9,
+        6,
+        7,
+        8,
+        8,
+        9,
+        9,
+        7,
+        8
+      ],
+      "local_mean": {
+        "exact": "131/16",
+        "value": 8.1875
+      },
+      "local_recall": {
+        "exact": "131/176",
+        "value": 0.7443181818181818
+      },
+      "local_tails": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        15,
+        12,
+        6,
+        2,
+        0
+      ],
+      "local_variance": {
+        "exact": "295/256",
+        "value": 1.15234375
+      },
+      "panel": "DEVELOPMENT",
+      "positive_cases": 11,
+      "shared_all_hit": 4,
+      "shared_all_miss": 2,
+      "shared_better_thresholds": [
+        10,
+        11
+      ],
+      "shared_counts": [
+        9,
+        11,
+        6,
+        6,
+        2,
+        2,
+        11,
+        5,
+        11,
+        0,
+        5,
+        0,
+        2,
+        11,
+        9,
+        2
+      ],
+      "shared_mean": {
+        "exact": "23/4",
+        "value": 5.75
+      },
+      "shared_recall": {
+        "exact": "23/44",
+        "value": 0.5227272727272727
+      },
+      "shared_tails": [
+        14,
+        14,
+        10,
+        10,
+        10,
+        8,
+        6,
+        6,
+        6,
+        4,
+        4
+      ],
+      "shared_variance": {
+        "exact": "255/16",
+        "value": 15.9375
+      },
+      "tied_thresholds": [
+        9
+      ],
+      "variant": "B01"
+    },
+    {
+      "analysis": "FIXED_COUNT",
+      "cap_gain_numerators": [
+        2,
+        4,
+        9,
+        14,
+        19,
+        25,
+        32,
+        36,
+        36,
+        35,
+        31
+      ],
+      "crossing_retained_seed_deletions": 16,
+      "denominator": 16,
+      "empirical_first_order_local_over_shared": false,
+      "empirical_first_order_shared_over_local": false,
+      "empirical_increasing_concave_local_over_shared": true,
+      "empirical_survival_curves_cross": true,
+      "increasing_concave_retained_seed_deletions": 16,
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "leave_one_seed": [
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_00"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_01"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_02"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_03"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_04"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_05"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_06"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_07"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_08"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "1/15",
+            "value": 0.06666666666666667
+          },
+          "omitted_seed": "SEED_09"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_10"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "1/15",
+            "value": 0.06666666666666667
+          },
+          "omitted_seed": "SEED_11"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_12"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_13"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_14"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "2/15",
+            "value": 0.13333333333333333
+          },
+          "omitted_seed": "SEED_15"
+        }
+      ],
+      "local_all_hit": 0,
+      "local_all_miss": 0,
+      "local_better_thresholds": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "local_counts": [
+        7,
+        10,
+        9,
+        10,
+        8,
+        9,
+        10,
+        9,
+        7,
+        7,
+        8,
+        8,
+        9,
+        9,
+        8,
+        8
+      ],
+      "local_mean": {
+        "exact": "17/2",
+        "value": 8.5
+      },
+      "local_recall": {
+        "exact": "17/22",
+        "value": 0.7727272727272727
+      },
+      "local_tails": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        16,
+        13,
+        8,
+        3,
+        0
+      ],
+      "local_variance": {
+        "exact": "1",
+        "value": 1.0
+      },
+      "panel": "DEVELOPMENT",
+      "positive_cases": 11,
+      "shared_all_hit": 4,
+      "shared_all_miss": 2,
+      "shared_better_thresholds": [
+        10,
+        11
+      ],
+      "shared_counts": [
+        9,
+        11,
+        6,
+        8,
+        2,
+        2,
+        11,
+        5,
+        11,
+        0,
+        9,
+        0,
+        2,
+        11,
+        9,
+        9
+      ],
+      "shared_mean": {
+        "exact": "105/16",
+        "value": 6.5625
+      },
+      "shared_recall": {
+        "exact": "105/176",
+        "value": 0.5965909090909091
+      },
+      "shared_tails": [
+        14,
+        14,
+        11,
+        11,
+        11,
+        10,
+        9,
+        9,
+        8,
+        4,
+        4
+      ],
+      "shared_variance": {
+        "exact": "4095/256",
+        "value": 15.99609375
+      },
+      "tied_thresholds": [
+        9
+      ],
+      "variant": "B02"
+    },
+    {
+      "analysis": "FIXED_COUNT",
+      "cap_gain_numerators": [
+        0,
+        2,
+        4,
+        6,
+        8,
+        10,
+        12,
+        7,
+        4,
+        2
+      ],
+      "crossing_retained_seed_deletions": 16,
+      "denominator": 16,
+      "empirical_first_order_local_over_shared": false,
+      "empirical_first_order_shared_over_local": false,
+      "empirical_increasing_concave_local_over_shared": true,
+      "empirical_survival_curves_cross": true,
+      "increasing_concave_retained_seed_deletions": 13,
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "leave_one_seed": [
+        {
+          "curves_cross": true,
+          "increasing_concave": false,
+          "min_cap_gain": {
+            "exact": "-4/15",
+            "value": -0.26666666666666666
+          },
+          "omitted_seed": "SEED_16"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_17"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_18"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_19"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_20"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_21"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_22"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_23"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_24"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": false,
+          "min_cap_gain": {
+            "exact": "-4/15",
+            "value": -0.26666666666666666
+          },
+          "omitted_seed": "SEED_25"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": false,
+          "min_cap_gain": {
+            "exact": "-1/15",
+            "value": -0.06666666666666667
+          },
+          "omitted_seed": "SEED_26"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_27"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_28"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_29"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_30"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_31"
+        }
+      ],
+      "local_all_hit": 0,
+      "local_all_miss": 0,
+      "local_better_thresholds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "local_counts": [
+        7,
+        7,
+        5,
+        6,
+        6,
+        8,
+        7,
+        7,
+        6,
+        7,
+        9,
+        7,
+        6,
+        8,
+        4,
+        7
+      ],
+      "local_mean": {
+        "exact": "107/16",
+        "value": 6.6875
+      },
+      "local_recall": {
+        "exact": "107/160",
+        "value": 0.66875
+      },
+      "local_tails": [
+        16,
+        16,
+        16,
+        16,
+        15,
+        14,
+        10,
+        3,
+        1,
+        0
+      ],
+      "local_variance": {
+        "exact": "343/256",
+        "value": 1.33984375
+      },
+      "panel": "TRANSFER",
+      "positive_cases": 10,
+      "shared_all_hit": 2,
+      "shared_all_miss": 0,
+      "shared_better_thresholds": [
+        8,
+        9,
+        10
+      ],
+      "shared_counts": [
+        1,
+        9,
+        9,
+        10,
+        4,
+        8,
+        10,
+        8,
+        6,
+        1,
+        6,
+        6,
+        6,
+        8,
+        5,
+        8
+      ],
+      "shared_mean": {
+        "exact": "105/16",
+        "value": 6.5625
+      },
+      "shared_recall": {
+        "exact": "21/32",
+        "value": 0.65625
+      },
+      "shared_tails": [
+        16,
+        14,
+        14,
+        14,
+        13,
+        12,
+        8,
+        8,
+        4,
+        2
+      ],
+      "shared_variance": {
+        "exact": "1855/256",
+        "value": 7.24609375
+      },
+      "tied_thresholds": [
+        1
+      ],
+      "variant": "B01"
+    },
+    {
+      "analysis": "FIXED_COUNT",
+      "cap_gain_numerators": [
+        0,
+        1,
+        2,
+        3,
+        5,
+        8,
+        12,
+        11,
+        8,
+        6
+      ],
+      "crossing_retained_seed_deletions": 16,
+      "denominator": 16,
+      "empirical_first_order_local_over_shared": false,
+      "empirical_first_order_shared_over_local": false,
+      "empirical_increasing_concave_local_over_shared": true,
+      "empirical_survival_curves_cross": true,
+      "increasing_concave_retained_seed_deletions": 15,
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "leave_one_seed": [
+        {
+          "curves_cross": true,
+          "increasing_concave": false,
+          "min_cap_gain": {
+            "exact": "-1/15",
+            "value": -0.06666666666666667
+          },
+          "omitted_seed": "SEED_16"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_17"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_18"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_19"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_20"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_21"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_22"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_23"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_24"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_25"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_26"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_27"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_28"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_29"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_30"
+        },
+        {
+          "curves_cross": true,
+          "increasing_concave": true,
+          "min_cap_gain": {
+            "exact": "0",
+            "value": 0.0
+          },
+          "omitted_seed": "SEED_31"
+        }
+      ],
+      "local_all_hit": 0,
+      "local_all_miss": 0,
+      "local_better_thresholds": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "local_counts": [
+        8,
+        8,
+        5,
+        7,
+        6,
+        8,
+        8,
+        7,
+        7,
+        7,
+        9,
+        7,
+        6,
+        8,
+        6,
+        8
+      ],
+      "local_mean": {
+        "exact": "115/16",
+        "value": 7.1875
+      },
+      "local_recall": {
+        "exact": "23/32",
+        "value": 0.71875
+      },
+      "local_tails": [
+        16,
+        16,
+        16,
+        16,
+        16,
+        15,
+        12,
+        7,
+        1,
+        0
+      ],
+      "local_variance": {
+        "exact": "263/256",
+        "value": 1.02734375
+      },
+      "panel": "TRANSFER",
+      "positive_cases": 10,
+      "shared_all_hit": 2,
+      "shared_all_miss": 0,
+      "shared_better_thresholds": [
+        8,
+        9,
+        10
+      ],
+      "shared_counts": [
+        1,
+        9,
+        9,
+        10,
+        4,
+        8,
+        10,
+        8,
+        6,
+        5,
+        6,
+        6,
+        6,
+        8,
+        5,
+        8
+      ],
+      "shared_mean": {
+        "exact": "109/16",
+        "value": 6.8125
+      },
+      "shared_recall": {
+        "exact": "109/160",
+        "value": 0.68125
+      },
+      "shared_tails": [
+        16,
+        15,
+        15,
+        15,
+        14,
+        12,
+        8,
+        8,
+        4,
+        2
+      ],
+      "shared_variance": {
+        "exact": "1383/256",
+        "value": 5.40234375
+      },
+      "tied_thresholds": [
+        1
+      ],
+      "variant": "B02"
+    }
+  ],
+  "count_matching_groups": 300,
+  "data_basis": "Frozen case-by-seed witness outcomes; NOT new runs or operational batches",
+  "interpretation": {
+    "all_hit": "Every positive case retains at least one witness; not every metric or every query is preserved",
+    "changes": "0 new sources, seeds, model/query/packing calls or environment changes",
+    "costs": "Within the fixed experimental budget/representation; no measured operational cost objective",
+    "first_order": "A property of the empirical distributions only; no population dominance test",
+    "inference": "Post-hoc endpoint analysis; not a future risk estimate, operational utility, or p-value",
+    "utility_class": "Symmetric functions of the number of witness-positive cases; no identities or per-case weights",
+    "weighting": "16 existing labels have equal empirical weight within a panel; panels are not pooled"
+  },
+  "original_selection_rows_cross_checked": 9600,
+  "positive_case_labels_used": 21,
+  "seed_count_rows": 128,
+  "selection_rows_checked": 9600,
+  "source_provenance": {
+    "member_sha256": {
+      "DEV_CASE_LOCAL.csv": "5d7949e23e94750e1cd4f772a784ef319c6282743f6b4f34b8559e2689adcf1f",
+      "DEV_SHARED.csv": "eabfbb090e89e5fba08f1f1bd7d372dd390b3e798f9ccbc6ab25bad8e6632794",
+      "FIXED_COUNT_SELECTIONS.csv": "be0006b025f605e5c0d9180942c04d6c1aff2ce9ea853d7dc9ce8f74fababc2d",
+      "TRANSFER_SELECTIONS.csv": "12e83f325852928fd0f93fb9493dd451a50428d1bb4e744de6d4d5d17c22bcd6",
+      "WITNESS_SUMMARY.csv": "dfc725f1da72e70bff81a663606f500fb3c9bb7917d41bc4a89ed9b91b07dbb4"
+    },
+    "parent_manuscript_sha256": "11108f18fc1ce8c5992b6e8b7a2c691205f29aebed2e9c0a7d5a6010d4bc0cd1",
+    "source_files": {
+      "08_EXISTING_V4_RESULTS.csv": "eabfbb090e89e5fba08f1f1bd7d372dd390b3e798f9ccbc6ab25bad8e6632794",
+      "CASE_LOCAL_RESULTS.csv": "5d7949e23e94750e1cd4f772a784ef319c6282743f6b4f34b8559e2689adcf1f",
+      "FIXED_COUNT_RESULT.zip": "df08f1d7e3dc43b564752fe4f7df643ece13e3dc8deb15a6dcbd149cd3390037",
+      "NEXT_CASE_TRANSFER_RESULT.zip": "7919d4bc6b8142d1ff2cc96e823bb3bc6d7348ffe6925a7a789231fdea94a228"
+    }
+  },
+  "status": "COMPLETE_POST_HOC_EMPIRICAL_OBJECTIVE_PROFILE",
+  "threshold_comparison_rows": 84
+}

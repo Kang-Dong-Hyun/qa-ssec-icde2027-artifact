@@ -1,0 +1,199 @@
+{
+  "review_date": "2026-11-03",
+  "review_scope": "Only the selected artifact archive and the resulting release tree; not all files on the authors computers",
+  "authorization_basis": "Author requested publication of the selected research code and public-dataset-derived results, excluding proprietary equipment and system information",
+  "source_archive_sha256": "12c7bf2ad226feb2fcb05b857b7efea2d7b371a45c3ee6706d4cb0c6aba3dc64",
+  "source_root_files": 37,
+  "source_manifest_matches": 36,
+  "archive_traversal": {
+    "all_member_occurrences": 118,
+    "zip_member_occurrences": 14,
+    "decoded_text_leaf_occurrences": 104,
+    "unique_text_leaf_files": 51,
+    "unreviewable_binary_leaves": 0,
+    "zip_crc_failures": 0,
+    "zip_comments_or_extra_fields_found": false
+  },
+  "content_review": {
+    "proprietary_equipment_manuals_or_response_procedures_found": false,
+    "private_network_addresses_or_personal_absolute_paths_found": false,
+    "credential_or_private_key_patterns_found": false,
+    "old_branch_or_organization_specific_product_markers_found": false,
+    "author_email_addresses_found": false,
+    "unknown_executable_binary_found": false,
+    "csv_files_unique_content_reviewed": 25,
+    "csv_field_review": "All distinct nonnumeric cell values classified as frozen query/analysis labels, digests, hash-like case keys, fractions, or public benchmark groups",
+    "json_text_review": "All distinct nonnumeric free-text leaf values inspected; they describe analysis, provenance and experimental scope",
+    "code_review": "Eight Python sources parsed for syntax/imports/functions and reviewed for file, process, I/O and string-constant scope. Seven scientific/reference programs are byte-identical; only the top-level verification wrapper was edited.",
+    "remaining_limits": "Pattern and content review does not independently prove origin from undistributed raw files or cover any file not included in this release."
+  },
+  "scientific_preservation": {
+    "unchanged_files": 32,
+    "unchanged_file_manifest": [
+      {
+        "path": "RUN_VERIFY_WINDOWS.ps1",
+        "sha256": "7ce7938e760c369e8b582d0d3e4ca2083d2718c57a5b954421a13da31820dab8"
+      },
+      {
+        "path": "certificate/CERTIFICATES.json",
+        "sha256": "89b34341ab646337a41de10e41b466c53239332e54734b19f3119da58ab88377"
+      },
+      {
+        "path": "certificate/CERTIFY.py",
+        "sha256": "229ea9efc3e36e5932026bd132e965e9348f1c573cc70dcd6fda3022f1837f52"
+      },
+      {
+        "path": "certificate/INPUT_EVIDENCE.zip",
+        "sha256": "263f81adc3230bb4849a7b436022b5861cdc83ececd49d4bb26c675307bd5063"
+      },
+      {
+        "path": "certificate/SUMMARY.csv",
+        "sha256": "6832dd9dd869a1e8670c378a69f56f7ee4d99660df549b6853ca10cdbcee45b6"
+      },
+      {
+        "path": "composition/GROUP_PROFILE.csv",
+        "sha256": "3746ce629a49c2fbdeafff03e3aea38dec56ea701e352ec45024d44ebbfe32a2"
+      },
+      {
+        "path": "composition/INPUT_EVIDENCE.zip",
+        "sha256": "263f81adc3230bb4849a7b436022b5861cdc83ececd49d4bb26c675307bd5063"
+      },
+      {
+        "path": "composition/REANALYZE.py",
+        "sha256": "0dff2992012d19493231f0eb0311d1b7ddc7c902800cecf167f35476a3d73aa1"
+      },
+      {
+        "path": "composition/RESULTS.json",
+        "sha256": "50563aa7553d1b585cdf1badc8ab29b52bc060d095779617ed7bd9ced2b45ed0"
+      },
+      {
+        "path": "composition/SUBSET_RESULTS.csv",
+        "sha256": "f102c65f34f057301862a13e7bfa2efd165dcee46b21f34c13c8f1c0b5e39513"
+      },
+      {
+        "path": "count_floor/CALCULATION_RECORD.json",
+        "sha256": "84c11290a8f65d3020fa3eaa93c497059e0e87963e669a91667b55e1d523a704"
+      },
+      {
+        "path": "count_floor/COUNT_ERROR_COMPONENTS.csv",
+        "sha256": "63ca00f4a834b37b6a1cdf9513d201c6ddfbb6b2190bc2ba8430ad89225c63e8"
+      },
+      {
+        "path": "count_floor/RECOMPUTE_COUNT_COMPONENTS.py",
+        "sha256": "1d114b522a33e1f01b1d123e2e53b1c47fceae52ad3ea7acd08aa2f1ead5b15d"
+      },
+      {
+        "path": "fixed_readout/03_COMPARISON_TABLES.csv",
+        "sha256": "0aeb13321f6a34b84c728842a638a636045721b558f00275d44402a9db0ea593"
+      },
+      {
+        "path": "fixed_readout/04_ANALYSIS_SUMMARY.json",
+        "sha256": "d80708fe2218155da8b49c39b92f341c061b196f9378b4a5ed657ec7e26b530f"
+      },
+      {
+        "path": "fixed_readout/05_REANALYZE_STORED_OUTPUTS.py",
+        "sha256": "982ae5459046f29fb4e8054068fb664e1ed2c0fcad9f012dbe0d7b1bbbf8c588"
+      },
+      {
+        "path": "fixed_readout/07_SOURCE_RESULTS.zip",
+        "sha256": "7ebc03728556fc8782275549f5bfb204ed55dffa4369ab53b0e61f2420a96d30"
+      },
+      {
+        "path": "inputs/FIXED_COUNT_RESULT.zip",
+        "sha256": "df08f1d7e3dc43b564752fe4f7df643ece13e3dc8deb15a6dcbd149cd3390037"
+      },
+      {
+        "path": "inputs/NEXT_CASE_TRANSFER_RESULT.zip",
+        "sha256": "7919d4bc6b8142d1ff2cc96e823bb3bc6d7348ffe6925a7a789231fdea94a228"
+      },
+      {
+        "path": "inputs/QUERY_REPLAY_RESULT.zip",
+        "sha256": "3b937f17f2be1d63912e408f2676b72b8dc4637e57910942b685d39f9ff319e8"
+      },
+      {
+        "path": "mechanism/ANALYSIS_TABLES.csv",
+        "sha256": "b68f17bc6de51d14ac53d7307e959cd5ee36f511e947ce15b03384c82c960914"
+      },
+      {
+        "path": "mechanism/INPUT_RESULTS.zip",
+        "sha256": "6242b4afe0ece2823b5f8b83d41bf2b1454a03f6e1c659fc89e3ede65eb637ec"
+      },
+      {
+        "path": "mechanism/RECOMPUTE.py",
+        "sha256": "78f73628941294027778045b1307e0da80e0571d86fa67c11b8fe4839df1bc71"
+      },
+      {
+        "path": "mechanism/RESULTS.json",
+        "sha256": "3fca0304e2ac68e7750ce21fef767098b1f759cfaa78b085327148549aa5b080"
+      },
+      {
+        "path": "objectives/INPUT_EVIDENCE.zip",
+        "sha256": "263f81adc3230bb4849a7b436022b5861cdc83ececd49d4bb26c675307bd5063"
+      },
+      {
+        "path": "objectives/REANALYZE.py",
+        "sha256": "35b5d3fa41e9e6e99db7edee9e7cf690f5978838b53be4e7acf4617f5bb89ef7"
+      },
+      {
+        "path": "objectives/RESULTS.json",
+        "sha256": "d0e2be7352af7191bf1f44c06f6bfaaacfae54adbcdc1df1b475897ca209b4d4"
+      },
+      {
+        "path": "objectives/SEED_COUNTS.csv",
+        "sha256": "a2d0f4081cd701d39ef58057122af529aade6d06d768c7cfb1b4de59d141dd07"
+      },
+      {
+        "path": "objectives/THRESHOLD_PROFILE.csv",
+        "sha256": "4b12c76b2a5518a881fbb1b34f56cf08ccc6f784cbd56ebc5388ac19a3cc45d0"
+      },
+      {
+        "path": "source_data/PINNED_PUBLIC_150_SOURCE_DIGESTS.csv",
+        "sha256": "573f16465241d68ceb2471fbe404ada0369ba84e112ef6d0a36f4630c770f046"
+      },
+      {
+        "path": "source_data/PUBLIC_ORIGIN_COMPILER_PROTOCOL_V1.json",
+        "sha256": "01ebf718c9accf83f1223fabb440c9afa14f8c2ff9e926715a701f3bee66dfd4"
+      },
+      {
+        "path": "source_data/PUBLIC_ORIGIN_COMPILER_V1.py",
+        "sha256": "1d4657b91b902777e185245a4ebd06a9111742387cfe192a66b67ae974dba2c9"
+      }
+    ],
+    "new_source_queries_models_tokenization_packing_or_data_acquisition": 0,
+    "readme_and_packaging_changes_only_except_verification_wrapper": true,
+    "included_source_reference_is_not_complete_raw_pipeline": true
+  },
+  "public_source_card": {
+    "url": "https://huggingface.co/datasets/phamquiluan/RCAEval",
+    "current_card_license_label": "mit",
+    "revision_in_original_contract": "afeacb11bcc94dadfd1c8f483ee4377b2b8b614e",
+    "raw_files_downloaded_during_this_review": false,
+    "pinned_readme_access_via_web_tool": "UNAVAILABLE_THIS_REVIEW; pin preserved from original contract"
+  },
+  "release_preparation": {
+    "root_file_count": 41,
+    "github_history_imported": false,
+    "internal_publication_checklist_removed": true,
+    "git_allowlist_created": true,
+    "git_byte_preservation_attributes_created": true,
+    "reuse_license_assigned_by_packager": false
+  },
+  "verification": {
+    "status": "PASS_STORED_OUTPUT_REPRODUCTION",
+    "host": "Linux",
+    "python_version": "3.13.5",
+    "windows_runtime_executed_here": false,
+    "directional_certificates_verified": 32,
+    "byte_identical_outputs": 14,
+    "original_training_queries_downloads_installs": 0
+  },
+  "git_publication_safety_test": {
+    "allowed_tracked_files": 41,
+    "unexpected_files_tracked": 0,
+    "test_extra_files_ignored": 4,
+    "core_autocrlf_true_blob_matches": 41,
+    "network_requests": 0,
+    "commits_created": 0,
+    "remote_configured": false
+  }
+}

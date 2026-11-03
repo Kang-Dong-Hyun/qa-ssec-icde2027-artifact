@@ -1,0 +1,5411 @@
+{
+  "comparisons": [
+    {
+      "analysis": "PRIMARY",
+      "average_or_local_noninferior_all_sizes": true,
+      "case_marginals": [
+        {
+          "case_key": "033f10866e9fcde8",
+          "fixed_count": 79,
+          "local_hits": 11,
+          "shared_hits": 8
+        },
+        {
+          "case_key": "1f3bea24c806f3fc",
+          "fixed_count": 79,
+          "local_hits": 14,
+          "shared_hits": 10
+        },
+        {
+          "case_key": "3054cd4e48e4c14a",
+          "fixed_count": 81,
+          "local_hits": 15,
+          "shared_hits": 12
+        },
+        {
+          "case_key": "3667fa48f838ada4",
+          "fixed_count": 81,
+          "local_hits": 12,
+          "shared_hits": 6
+        },
+        {
+          "case_key": "495b34c46ea6cf4a",
+          "fixed_count": 80,
+          "local_hits": 12,
+          "shared_hits": 6
+        },
+        {
+          "case_key": "687e14bf8499933a",
+          "fixed_count": 79,
+          "local_hits": 10,
+          "shared_hits": 6
+        },
+        {
+          "case_key": "6e3342ba9f05a793",
+          "fixed_count": 80,
+          "local_hits": 8,
+          "shared_hits": 8
+        },
+        {
+          "case_key": "6fdaf4aa34d8a42f",
+          "fixed_count": 81,
+          "local_hits": 10,
+          "shared_hits": 6
+        },
+        {
+          "case_key": "8d51fb6e98870a2f",
+          "fixed_count": 80,
+          "local_hits": 15,
+          "shared_hits": 14
+        },
+        {
+          "case_key": "a0265ead130dcd35",
+          "fixed_count": 80,
+          "local_hits": 10,
+          "shared_hits": 6
+        },
+        {
+          "case_key": "f2c26d1cc6193124",
+          "fixed_count": 80,
+          "local_hits": 14,
+          "shared_hits": 10
+        }
+      ],
+      "equal_total_but_different_case_sets": [],
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "local_totals": [
+        7,
+        9,
+        8,
+        10,
+        8,
+        8,
+        10,
+        9,
+        6,
+        7,
+        8,
+        8,
+        9,
+        9,
+        7,
+        8
+      ],
+      "named_pairs": 55,
+      "pair_marginal_joint_reversals": [
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 6,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 11,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "1/32",
+                "value": 0.03125
+              },
+              "marginal_product": {
+                "fraction": "11/32",
+                "value": 0.34375
+              },
+              "or_hits": 13
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "1/4",
+                "value": 0.25
+              },
+              "marginal_product": {
+                "fraction": "1/4",
+                "value": 0.25
+              },
+              "or_hits": 8
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "033f10866e9fcde8",
+          "case_b": "6e3342ba9f05a793",
+          "fixed_counts": [
+            79,
+            80
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "covariance": {
+              "fraction": "-7/32",
+              "value": -0.21875
+            },
+            "marginal_product": {
+              "fraction": "3/32",
+              "value": 0.09375
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 6,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_09",
+                "SEED_10",
+                "SEED_11",
+                "SEED_12",
+                "SEED_13",
+                "SEED_15"
+              ],
+              "case_a_hits": 14,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "-1/16",
+                "value": -0.0625
+              },
+              "marginal_product": {
+                "fraction": "7/16",
+                "value": 0.4375
+              },
+              "or_hits": 16
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14"
+              ],
+              "case_a_hits": 10,
+              "case_b_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "3/16",
+                "value": 0.1875
+              },
+              "marginal_product": {
+                "fraction": "5/16",
+                "value": 0.3125
+              },
+              "or_hits": 10
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "1f3bea24c806f3fc",
+          "case_b": "6e3342ba9f05a793",
+          "fixed_counts": [
+            79,
+            80
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "covariance": {
+              "fraction": "-1/4",
+              "value": -0.25
+            },
+            "marginal_product": {
+              "fraction": "1/8",
+              "value": 0.125
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 7,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_09",
+                "SEED_10",
+                "SEED_11",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 15,
+              "covariance": {
+                "fraction": "-1/32",
+                "value": -0.03125
+              },
+              "marginal_product": {
+                "fraction": "15/32",
+                "value": 0.46875
+              },
+              "or_hits": 16
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 14,
+              "covariance": {
+                "fraction": "1/16",
+                "value": 0.0625
+              },
+              "marginal_product": {
+                "fraction": "7/16",
+                "value": 0.4375
+              },
+              "or_hits": 14
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "6e3342ba9f05a793",
+          "case_b": "8d51fb6e98870a2f",
+          "fixed_counts": [
+            80,
+            80
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-3/32",
+              "value": -0.09375
+            },
+            "marginal_product": {
+              "fraction": "1/32",
+              "value": 0.03125
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 6,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_08",
+                "SEED_09",
+                "SEED_10",
+                "SEED_11",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 14,
+              "covariance": {
+                "fraction": "-1/16",
+                "value": -0.0625
+              },
+              "marginal_product": {
+                "fraction": "7/16",
+                "value": 0.4375
+              },
+              "or_hits": 16
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14"
+              ],
+              "case_b_hits": 10,
+              "covariance": {
+                "fraction": "3/16",
+                "value": 0.1875
+              },
+              "marginal_product": {
+                "fraction": "5/16",
+                "value": 0.3125
+              },
+              "or_hits": 10
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "6e3342ba9f05a793",
+          "case_b": "f2c26d1cc6193124",
+          "fixed_counts": [
+            80,
+            80
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "covariance": {
+              "fraction": "-1/4",
+              "value": -0.25
+            },
+            "marginal_product": {
+              "fraction": "1/8",
+              "value": 0.125
+            }
+          }
+        }
+      ],
+      "panel": "DEVELOPMENT",
+      "positive_cases": 11,
+      "shared_totals": [
+        9,
+        11,
+        6,
+        6,
+        2,
+        2,
+        11,
+        5,
+        11,
+        0,
+        5,
+        0,
+        2,
+        11,
+        9,
+        2
+      ],
+      "subset_sizes_favoring_local_and": [
+        1,
+        2,
+        3
+      ],
+      "subset_sizes_favoring_shared_and": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subset_sizes_tied_and": [],
+      "variant": "B01"
+    },
+    {
+      "analysis": "PRIMARY",
+      "average_or_local_noninferior_all_sizes": true,
+      "case_marginals": [
+        {
+          "case_key": "033f10866e9fcde8",
+          "fixed_count": 89,
+          "local_hits": 12,
+          "shared_hits": 8
+        },
+        {
+          "case_key": "1f3bea24c806f3fc",
+          "fixed_count": 90,
+          "local_hits": 14,
+          "shared_hits": 11
+        },
+        {
+          "case_key": "3054cd4e48e4c14a",
+          "fixed_count": 91,
+          "local_hits": 15,
+          "shared_hits": 13
+        },
+        {
+          "case_key": "3667fa48f838ada4",
+          "fixed_count": 92,
+          "local_hits": 13,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "495b34c46ea6cf4a",
+          "fixed_count": 91,
+          "local_hits": 13,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "687e14bf8499933a",
+          "fixed_count": 89,
+          "local_hits": 11,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "6e3342ba9f05a793",
+          "fixed_count": 91,
+          "local_hits": 8,
+          "shared_hits": 8
+        },
+        {
+          "case_key": "6fdaf4aa34d8a42f",
+          "fixed_count": 92,
+          "local_hits": 10,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "8d51fb6e98870a2f",
+          "fixed_count": 91,
+          "local_hits": 16,
+          "shared_hits": 14
+        },
+        {
+          "case_key": "a0265ead130dcd35",
+          "fixed_count": 90,
+          "local_hits": 13,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "f2c26d1cc6193124",
+          "fixed_count": 91,
+          "local_hits": 15,
+          "shared_hits": 11
+        }
+      ],
+      "equal_total_but_different_case_sets": [],
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "local_totals": [
+        8,
+        10,
+        9,
+        10,
+        8,
+        9,
+        10,
+        10,
+        8,
+        7,
+        9,
+        8,
+        9,
+        9,
+        8,
+        8
+      ],
+      "named_pairs": 55,
+      "pair_marginal_joint_reversals": [
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 6,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 12,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "0",
+                "value": 0.0
+              },
+              "marginal_product": {
+                "fraction": "3/8",
+                "value": 0.375
+              },
+              "or_hits": 14
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "1/4",
+                "value": 0.25
+              },
+              "marginal_product": {
+                "fraction": "1/4",
+                "value": 0.25
+              },
+              "or_hits": 8
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "033f10866e9fcde8",
+          "case_b": "6e3342ba9f05a793",
+          "fixed_counts": [
+            89,
+            91
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "covariance": {
+              "fraction": "-1/4",
+              "value": -0.25
+            },
+            "marginal_product": {
+              "fraction": "1/8",
+              "value": 0.125
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 6,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_09",
+                "SEED_10",
+                "SEED_11",
+                "SEED_12",
+                "SEED_13",
+                "SEED_15"
+              ],
+              "case_a_hits": 14,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "-1/16",
+                "value": -0.0625
+              },
+              "marginal_product": {
+                "fraction": "7/16",
+                "value": 0.4375
+              },
+              "or_hits": 16
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 11,
+              "case_b_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "5/32",
+                "value": 0.15625
+              },
+              "marginal_product": {
+                "fraction": "11/32",
+                "value": 0.34375
+              },
+              "or_hits": 11
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "1f3bea24c806f3fc",
+          "case_b": "6e3342ba9f05a793",
+          "fixed_counts": [
+            90,
+            91
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "covariance": {
+              "fraction": "-7/32",
+              "value": -0.21875
+            },
+            "marginal_product": {
+              "fraction": "3/32",
+              "value": 0.09375
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_11",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 13,
+              "case_b_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_09",
+                "SEED_10",
+                "SEED_12",
+                "SEED_13"
+              ],
+              "case_b_hits": 11,
+              "covariance": {
+                "fraction": "-15/256",
+                "value": -0.05859375
+              },
+              "marginal_product": {
+                "fraction": "143/256",
+                "value": 0.55859375
+              },
+              "or_hits": 16
+            },
+            "SHARED": {
+              "and_hits": 9,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 9,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 9,
+              "covariance": {
+                "fraction": "63/256",
+                "value": 0.24609375
+              },
+              "marginal_product": {
+                "fraction": "81/256",
+                "value": 0.31640625
+              },
+              "or_hits": 9
+            }
+          },
+          "both_marginals_strictly_higher": true,
+          "case_a": "3667fa48f838ada4",
+          "case_b": "687e14bf8499933a",
+          "fixed_counts": [
+            92,
+            89
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-39/128",
+              "value": -0.3046875
+            },
+            "marginal_product": {
+              "fraction": "31/128",
+              "value": 0.2421875
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_11",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 13,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_13",
+                "SEED_15"
+              ],
+              "case_b_hits": 10,
+              "covariance": {
+                "fraction": "-1/128",
+                "value": -0.0078125
+              },
+              "marginal_product": {
+                "fraction": "65/128",
+                "value": 0.5078125
+              },
+              "or_hits": 15
+            },
+            "SHARED": {
+              "and_hits": 9,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 9,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 9,
+              "covariance": {
+                "fraction": "63/256",
+                "value": 0.24609375
+              },
+              "marginal_product": {
+                "fraction": "81/256",
+                "value": 0.31640625
+              },
+              "or_hits": 9
+            }
+          },
+          "both_marginals_strictly_higher": true,
+          "case_a": "3667fa48f838ada4",
+          "case_b": "6fdaf4aa34d8a42f",
+          "fixed_counts": [
+            92,
+            92
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-65/256",
+              "value": -0.25390625
+            },
+            "marginal_product": {
+              "fraction": "49/256",
+              "value": 0.19140625
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_09",
+                "SEED_10",
+                "SEED_11",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14"
+              ],
+              "case_a_hits": 13,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_13",
+                "SEED_15"
+              ],
+              "case_b_hits": 10,
+              "covariance": {
+                "fraction": "-1/128",
+                "value": -0.0078125
+              },
+              "marginal_product": {
+                "fraction": "65/128",
+                "value": 0.5078125
+              },
+              "or_hits": 15
+            },
+            "SHARED": {
+              "and_hits": 9,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 9,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 9,
+              "covariance": {
+                "fraction": "63/256",
+                "value": 0.24609375
+              },
+              "marginal_product": {
+                "fraction": "81/256",
+                "value": 0.31640625
+              },
+              "or_hits": 9
+            }
+          },
+          "both_marginals_strictly_higher": true,
+          "case_a": "495b34c46ea6cf4a",
+          "case_b": "6fdaf4aa34d8a42f",
+          "fixed_counts": [
+            91,
+            92
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-65/256",
+              "value": -0.25390625
+            },
+            "marginal_product": {
+              "fraction": "49/256",
+              "value": 0.19140625
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 5,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_09",
+                "SEED_10",
+                "SEED_12",
+                "SEED_13"
+              ],
+              "case_a_hits": 11,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "-1/32",
+                "value": -0.03125
+              },
+              "marginal_product": {
+                "fraction": "11/32",
+                "value": 0.34375
+              },
+              "or_hits": 14
+            },
+            "SHARED": {
+              "and_hits": 6,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 9,
+              "case_b_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "3/32",
+                "value": 0.09375
+              },
+              "marginal_product": {
+                "fraction": "9/32",
+                "value": 0.28125
+              },
+              "or_hits": 11
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "687e14bf8499933a",
+          "case_b": "6e3342ba9f05a793",
+          "fixed_counts": [
+            89,
+            91
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "marginal_product": {
+              "fraction": "1/16",
+              "value": 0.0625
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 7,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_09",
+                "SEED_10",
+                "SEED_12",
+                "SEED_13"
+              ],
+              "case_a_hits": 11,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_13",
+                "SEED_15"
+              ],
+              "case_b_hits": 10,
+              "covariance": {
+                "fraction": "1/128",
+                "value": 0.0078125
+              },
+              "marginal_product": {
+                "fraction": "55/128",
+                "value": 0.4296875
+              },
+              "or_hits": 14
+            },
+            "SHARED": {
+              "and_hits": 9,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 9,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 9,
+              "covariance": {
+                "fraction": "63/256",
+                "value": 0.24609375
+              },
+              "marginal_product": {
+                "fraction": "81/256",
+                "value": 0.31640625
+              },
+              "or_hits": 9
+            }
+          },
+          "both_marginals_strictly_higher": true,
+          "case_a": "687e14bf8499933a",
+          "case_b": "6fdaf4aa34d8a42f",
+          "fixed_counts": [
+            89,
+            92
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "covariance": {
+              "fraction": "-61/256",
+              "value": -0.23828125
+            },
+            "marginal_product": {
+              "fraction": "29/256",
+              "value": 0.11328125
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_09",
+                "SEED_10",
+                "SEED_12",
+                "SEED_13"
+              ],
+              "case_a_hits": 11,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_07",
+                "SEED_08",
+                "SEED_09",
+                "SEED_11",
+                "SEED_12",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 13,
+              "covariance": {
+                "fraction": "-15/256",
+                "value": -0.05859375
+              },
+              "marginal_product": {
+                "fraction": "143/256",
+                "value": 0.55859375
+              },
+              "or_hits": 16
+            },
+            "SHARED": {
+              "and_hits": 9,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 9,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 9,
+              "covariance": {
+                "fraction": "63/256",
+                "value": 0.24609375
+              },
+              "marginal_product": {
+                "fraction": "81/256",
+                "value": 0.31640625
+              },
+              "or_hits": 9
+            }
+          },
+          "both_marginals_strictly_higher": true,
+          "case_a": "687e14bf8499933a",
+          "case_b": "a0265ead130dcd35",
+          "fixed_counts": [
+            89,
+            90
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-39/128",
+              "value": -0.3046875
+            },
+            "marginal_product": {
+              "fraction": "31/128",
+              "value": 0.2421875
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 5,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_13",
+                "SEED_15"
+              ],
+              "case_b_hits": 10,
+              "covariance": {
+                "fraction": "0",
+                "value": 0.0
+              },
+              "marginal_product": {
+                "fraction": "5/16",
+                "value": 0.3125
+              },
+              "or_hits": 13
+            },
+            "SHARED": {
+              "and_hits": 6,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 9,
+              "covariance": {
+                "fraction": "3/32",
+                "value": 0.09375
+              },
+              "marginal_product": {
+                "fraction": "9/32",
+                "value": 0.28125
+              },
+              "or_hits": 11
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "6e3342ba9f05a793",
+          "case_b": "6fdaf4aa34d8a42f",
+          "fixed_counts": [
+            91,
+            92
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-3/32",
+              "value": -0.09375
+            },
+            "marginal_product": {
+              "fraction": "1/32",
+              "value": 0.03125
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 7,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_09",
+                "SEED_10",
+                "SEED_11",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 15,
+              "covariance": {
+                "fraction": "-1/32",
+                "value": -0.03125
+              },
+              "marginal_product": {
+                "fraction": "15/32",
+                "value": 0.46875
+              },
+              "or_hits": 16
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 11,
+              "covariance": {
+                "fraction": "5/32",
+                "value": 0.15625
+              },
+              "marginal_product": {
+                "fraction": "11/32",
+                "value": 0.34375
+              },
+              "or_hits": 11
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "6e3342ba9f05a793",
+          "case_b": "f2c26d1cc6193124",
+          "fixed_counts": [
+            91,
+            91
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-3/16",
+              "value": -0.1875
+            },
+            "marginal_product": {
+              "fraction": "1/8",
+              "value": 0.125
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_13",
+                "SEED_15"
+              ],
+              "case_a_hits": 10,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_07",
+                "SEED_08",
+                "SEED_09",
+                "SEED_11",
+                "SEED_12",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 13,
+              "covariance": {
+                "fraction": "-1/128",
+                "value": -0.0078125
+              },
+              "marginal_product": {
+                "fraction": "65/128",
+                "value": 0.5078125
+              },
+              "or_hits": 15
+            },
+            "SHARED": {
+              "and_hits": 9,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 9,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 9,
+              "covariance": {
+                "fraction": "63/256",
+                "value": 0.24609375
+              },
+              "marginal_product": {
+                "fraction": "81/256",
+                "value": 0.31640625
+              },
+              "or_hits": 9
+            }
+          },
+          "both_marginals_strictly_higher": true,
+          "case_a": "6fdaf4aa34d8a42f",
+          "case_b": "a0265ead130dcd35",
+          "fixed_counts": [
+            92,
+            90
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-65/256",
+              "value": -0.25390625
+            },
+            "marginal_product": {
+              "fraction": "49/256",
+              "value": 0.19140625
+            }
+          }
+        }
+      ],
+      "panel": "DEVELOPMENT",
+      "positive_cases": 11,
+      "shared_totals": [
+        9,
+        11,
+        6,
+        11,
+        2,
+        2,
+        11,
+        5,
+        11,
+        0,
+        11,
+        0,
+        2,
+        11,
+        9,
+        9
+      ],
+      "subset_sizes_favoring_local_and": [
+        1,
+        2
+      ],
+      "subset_sizes_favoring_shared_and": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subset_sizes_tied_and": [],
+      "variant": "B02"
+    },
+    {
+      "analysis": "PRIMARY",
+      "average_or_local_noninferior_all_sizes": true,
+      "case_marginals": [
+        {
+          "case_key": "095d07e6c6a6b418",
+          "fixed_count": 80,
+          "local_hits": 9,
+          "shared_hits": 10
+        },
+        {
+          "case_key": "63a23f52ccdcd546",
+          "fixed_count": 81,
+          "local_hits": 16,
+          "shared_hits": 15
+        },
+        {
+          "case_key": "6862fae3f3c27725",
+          "fixed_count": 80,
+          "local_hits": 10,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "80c2bad39beec7cc",
+          "fixed_count": 80,
+          "local_hits": 16,
+          "shared_hits": 16
+        },
+        {
+          "case_key": "8baa4eab526b2481",
+          "fixed_count": 79,
+          "local_hits": 10,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "c1c73991d617f258",
+          "fixed_count": 79,
+          "local_hits": 9,
+          "shared_hits": 8
+        },
+        {
+          "case_key": "c8aa7290d1be9939",
+          "fixed_count": 79,
+          "local_hits": 6,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "cfb7145b9d3bb846",
+          "fixed_count": 81,
+          "local_hits": 13,
+          "shared_hits": 14
+        },
+        {
+          "case_key": "d4cdb8d1a44e6212",
+          "fixed_count": 82,
+          "local_hits": 13,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "eb75672c183c2dda",
+          "fixed_count": 78,
+          "local_hits": 8,
+          "shared_hits": 9
+        }
+      ],
+      "equal_total_but_different_case_sets": [
+        {
+          "local_only": [
+            "c1c73991d617f258"
+          ],
+          "seed": "SEED_21",
+          "shared_only": [
+            "eb75672c183c2dda"
+          ],
+          "total_hits": 8
+        },
+        {
+          "local_only": [
+            "cfb7145b9d3bb846"
+          ],
+          "seed": "SEED_28",
+          "shared_only": [
+            "c8aa7290d1be9939"
+          ],
+          "total_hits": 6
+        },
+        {
+          "local_only": [
+            "6862fae3f3c27725",
+            "c1c73991d617f258"
+          ],
+          "seed": "SEED_29",
+          "shared_only": [
+            "c8aa7290d1be9939",
+            "d4cdb8d1a44e6212"
+          ],
+          "total_hits": 8
+        },
+        {
+          "local_only": [
+            "6862fae3f3c27725"
+          ],
+          "seed": "SEED_31",
+          "shared_only": [
+            "c8aa7290d1be9939"
+          ],
+          "total_hits": 8
+        }
+      ],
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "local_totals": [
+        7,
+        8,
+        5,
+        6,
+        6,
+        8,
+        7,
+        7,
+        7,
+        7,
+        9,
+        7,
+        6,
+        8,
+        4,
+        8
+      ],
+      "named_pairs": 45,
+      "pair_marginal_joint_reversals": [
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 6,
+              "case_a_hit_labels": [
+                "SEED_16",
+                "SEED_17",
+                "SEED_19",
+                "SEED_22",
+                "SEED_23",
+                "SEED_26",
+                "SEED_27",
+                "SEED_29",
+                "SEED_30",
+                "SEED_31"
+              ],
+              "case_a_hits": 10,
+              "case_b_hit_labels": [
+                "SEED_16",
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_21",
+                "SEED_23",
+                "SEED_24",
+                "SEED_26",
+                "SEED_29"
+              ],
+              "case_b_hits": 9,
+              "covariance": {
+                "fraction": "3/128",
+                "value": 0.0234375
+              },
+              "marginal_product": {
+                "fraction": "45/128",
+                "value": 0.3515625
+              },
+              "or_hits": 13
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_22",
+                "SEED_24",
+                "SEED_25",
+                "SEED_26",
+                "SEED_27",
+                "SEED_30"
+              ],
+              "case_a_hits": 9,
+              "case_b_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_22",
+                "SEED_24",
+                "SEED_26",
+                "SEED_27",
+                "SEED_30"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "7/32",
+                "value": 0.21875
+              },
+              "marginal_product": {
+                "fraction": "9/32",
+                "value": 0.28125
+              },
+              "or_hits": 9
+            }
+          },
+          "both_marginals_strictly_higher": true,
+          "case_a": "6862fae3f3c27725",
+          "case_b": "c1c73991d617f258",
+          "fixed_counts": [
+            80,
+            79
+          ],
+          "labels": [
+            "SEED_16",
+            "SEED_17",
+            "SEED_18",
+            "SEED_19",
+            "SEED_20",
+            "SEED_21",
+            "SEED_22",
+            "SEED_23",
+            "SEED_24",
+            "SEED_25",
+            "SEED_26",
+            "SEED_27",
+            "SEED_28",
+            "SEED_29",
+            "SEED_30",
+            "SEED_31"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "covariance": {
+              "fraction": "-25/128",
+              "value": -0.1953125
+            },
+            "marginal_product": {
+              "fraction": "9/128",
+              "value": 0.0703125
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_16",
+                "SEED_20",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_25",
+                "SEED_26",
+                "SEED_28",
+                "SEED_29",
+                "SEED_31"
+              ],
+              "case_a_hits": 10,
+              "case_b_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_20",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_24",
+                "SEED_25",
+                "SEED_26",
+                "SEED_28",
+                "SEED_30",
+                "SEED_31"
+              ],
+              "case_b_hits": 13,
+              "covariance": {
+                "fraction": "-1/128",
+                "value": -0.0078125
+              },
+              "marginal_product": {
+                "fraction": "65/128",
+                "value": 0.5078125
+              },
+              "or_hits": 15
+            },
+            "SHARED": {
+              "and_hits": 9,
+              "case_a_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_28",
+                "SEED_29",
+                "SEED_31"
+              ],
+              "case_a_hits": 9,
+              "case_b_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_28",
+                "SEED_29",
+                "SEED_31"
+              ],
+              "case_b_hits": 9,
+              "covariance": {
+                "fraction": "63/256",
+                "value": 0.24609375
+              },
+              "marginal_product": {
+                "fraction": "81/256",
+                "value": 0.31640625
+              },
+              "or_hits": 9
+            }
+          },
+          "both_marginals_strictly_higher": true,
+          "case_a": "8baa4eab526b2481",
+          "case_b": "d4cdb8d1a44e6212",
+          "fixed_counts": [
+            79,
+            82
+          ],
+          "labels": [
+            "SEED_16",
+            "SEED_17",
+            "SEED_18",
+            "SEED_19",
+            "SEED_20",
+            "SEED_21",
+            "SEED_22",
+            "SEED_23",
+            "SEED_24",
+            "SEED_25",
+            "SEED_26",
+            "SEED_27",
+            "SEED_28",
+            "SEED_29",
+            "SEED_30",
+            "SEED_31"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-65/256",
+              "value": -0.25390625
+            },
+            "marginal_product": {
+              "fraction": "49/256",
+              "value": 0.19140625
+            }
+          }
+        }
+      ],
+      "panel": "TRANSFER",
+      "positive_cases": 10,
+      "shared_totals": [
+        1,
+        9,
+        9,
+        10,
+        4,
+        8,
+        10,
+        8,
+        6,
+        4,
+        6,
+        6,
+        6,
+        8,
+        5,
+        8
+      ],
+      "subset_sizes_favoring_local_and": [
+        1
+      ],
+      "subset_sizes_favoring_shared_and": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "subset_sizes_tied_and": [],
+      "variant": "B01"
+    },
+    {
+      "analysis": "PRIMARY",
+      "average_or_local_noninferior_all_sizes": true,
+      "case_marginals": [
+        {
+          "case_key": "095d07e6c6a6b418",
+          "fixed_count": 90,
+          "local_hits": 9,
+          "shared_hits": 10
+        },
+        {
+          "case_key": "63a23f52ccdcd546",
+          "fixed_count": 92,
+          "local_hits": 16,
+          "shared_hits": 15
+        },
+        {
+          "case_key": "6862fae3f3c27725",
+          "fixed_count": 90,
+          "local_hits": 11,
+          "shared_hits": 11
+        },
+        {
+          "case_key": "80c2bad39beec7cc",
+          "fixed_count": 91,
+          "local_hits": 16,
+          "shared_hits": 16
+        },
+        {
+          "case_key": "8baa4eab526b2481",
+          "fixed_count": 89,
+          "local_hits": 11,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "c1c73991d617f258",
+          "fixed_count": 91,
+          "local_hits": 11,
+          "shared_hits": 10
+        },
+        {
+          "case_key": "c8aa7290d1be9939",
+          "fixed_count": 89,
+          "local_hits": 8,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "cfb7145b9d3bb846",
+          "fixed_count": 91,
+          "local_hits": 15,
+          "shared_hits": 14
+        },
+        {
+          "case_key": "d4cdb8d1a44e6212",
+          "fixed_count": 94,
+          "local_hits": 13,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "eb75672c183c2dda",
+          "fixed_count": 90,
+          "local_hits": 8,
+          "shared_hits": 9
+        }
+      ],
+      "equal_total_but_different_case_sets": [
+        {
+          "local_only": [
+            "c1c73991d617f258"
+          ],
+          "seed": "SEED_21",
+          "shared_only": [
+            "eb75672c183c2dda"
+          ],
+          "total_hits": 8
+        },
+        {
+          "local_only": [
+            "6862fae3f3c27725",
+            "c1c73991d617f258"
+          ],
+          "seed": "SEED_29",
+          "shared_only": [
+            "c8aa7290d1be9939",
+            "d4cdb8d1a44e6212"
+          ],
+          "total_hits": 8
+        },
+        {
+          "local_only": [
+            "6862fae3f3c27725"
+          ],
+          "seed": "SEED_31",
+          "shared_only": [
+            "c8aa7290d1be9939"
+          ],
+          "total_hits": 8
+        }
+      ],
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "local_totals": [
+        8,
+        8,
+        6,
+        7,
+        7,
+        8,
+        8,
+        7,
+        8,
+        7,
+        9,
+        7,
+        6,
+        8,
+        6,
+        8
+      ],
+      "named_pairs": 45,
+      "pair_marginal_joint_reversals": [
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_16",
+                "SEED_17",
+                "SEED_19",
+                "SEED_20",
+                "SEED_22",
+                "SEED_23",
+                "SEED_26",
+                "SEED_27",
+                "SEED_29",
+                "SEED_30",
+                "SEED_31"
+              ],
+              "case_a_hits": 11,
+              "case_b_hit_labels": [
+                "SEED_16",
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_24",
+                "SEED_26",
+                "SEED_29",
+                "SEED_30"
+              ],
+              "case_b_hits": 11,
+              "covariance": {
+                "fraction": "7/256",
+                "value": 0.02734375
+              },
+              "marginal_product": {
+                "fraction": "121/256",
+                "value": 0.47265625
+              },
+              "or_hits": 14
+            },
+            "SHARED": {
+              "and_hits": 10,
+              "case_a_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_22",
+                "SEED_23",
+                "SEED_24",
+                "SEED_25",
+                "SEED_26",
+                "SEED_27",
+                "SEED_28",
+                "SEED_30"
+              ],
+              "case_a_hits": 11,
+              "case_b_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_22",
+                "SEED_23",
+                "SEED_24",
+                "SEED_25",
+                "SEED_26",
+                "SEED_27",
+                "SEED_30"
+              ],
+              "case_b_hits": 10,
+              "covariance": {
+                "fraction": "25/128",
+                "value": 0.1953125
+              },
+              "marginal_product": {
+                "fraction": "55/128",
+                "value": 0.4296875
+              },
+              "or_hits": 11
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "6862fae3f3c27725",
+          "case_b": "c1c73991d617f258",
+          "fixed_counts": [
+            90,
+            91
+          ],
+          "labels": [
+            "SEED_16",
+            "SEED_17",
+            "SEED_18",
+            "SEED_19",
+            "SEED_20",
+            "SEED_21",
+            "SEED_22",
+            "SEED_23",
+            "SEED_24",
+            "SEED_25",
+            "SEED_26",
+            "SEED_27",
+            "SEED_28",
+            "SEED_29",
+            "SEED_30",
+            "SEED_31"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "covariance": {
+              "fraction": "-43/256",
+              "value": -0.16796875
+            },
+            "marginal_product": {
+              "fraction": "11/256",
+              "value": 0.04296875
+            }
+          }
+        }
+      ],
+      "panel": "TRANSFER",
+      "positive_cases": 10,
+      "shared_totals": [
+        1,
+        9,
+        9,
+        10,
+        4,
+        8,
+        10,
+        10,
+        6,
+        5,
+        6,
+        6,
+        7,
+        8,
+        5,
+        8
+      ],
+      "subset_sizes_favoring_local_and": [
+        1
+      ],
+      "subset_sizes_favoring_shared_and": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "subset_sizes_tied_and": [],
+      "variant": "B02"
+    },
+    {
+      "analysis": "FIXED_COUNT",
+      "average_or_local_noninferior_all_sizes": true,
+      "case_marginals": [
+        {
+          "case_key": "033f10866e9fcde8",
+          "fixed_count": 79,
+          "local_hits": 11,
+          "shared_hits": 8
+        },
+        {
+          "case_key": "1f3bea24c806f3fc",
+          "fixed_count": 79,
+          "local_hits": 14,
+          "shared_hits": 10
+        },
+        {
+          "case_key": "3054cd4e48e4c14a",
+          "fixed_count": 81,
+          "local_hits": 15,
+          "shared_hits": 12
+        },
+        {
+          "case_key": "3667fa48f838ada4",
+          "fixed_count": 81,
+          "local_hits": 12,
+          "shared_hits": 6
+        },
+        {
+          "case_key": "495b34c46ea6cf4a",
+          "fixed_count": 80,
+          "local_hits": 12,
+          "shared_hits": 6
+        },
+        {
+          "case_key": "687e14bf8499933a",
+          "fixed_count": 79,
+          "local_hits": 10,
+          "shared_hits": 6
+        },
+        {
+          "case_key": "6e3342ba9f05a793",
+          "fixed_count": 80,
+          "local_hits": 8,
+          "shared_hits": 8
+        },
+        {
+          "case_key": "6fdaf4aa34d8a42f",
+          "fixed_count": 81,
+          "local_hits": 10,
+          "shared_hits": 6
+        },
+        {
+          "case_key": "8d51fb6e98870a2f",
+          "fixed_count": 80,
+          "local_hits": 15,
+          "shared_hits": 14
+        },
+        {
+          "case_key": "a0265ead130dcd35",
+          "fixed_count": 80,
+          "local_hits": 10,
+          "shared_hits": 6
+        },
+        {
+          "case_key": "f2c26d1cc6193124",
+          "fixed_count": 80,
+          "local_hits": 14,
+          "shared_hits": 10
+        }
+      ],
+      "equal_total_but_different_case_sets": [],
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "local_totals": [
+        7,
+        9,
+        8,
+        10,
+        8,
+        8,
+        10,
+        9,
+        6,
+        7,
+        8,
+        8,
+        9,
+        9,
+        7,
+        8
+      ],
+      "named_pairs": 55,
+      "pair_marginal_joint_reversals": [
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 6,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 11,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "1/32",
+                "value": 0.03125
+              },
+              "marginal_product": {
+                "fraction": "11/32",
+                "value": 0.34375
+              },
+              "or_hits": 13
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "1/4",
+                "value": 0.25
+              },
+              "marginal_product": {
+                "fraction": "1/4",
+                "value": 0.25
+              },
+              "or_hits": 8
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "033f10866e9fcde8",
+          "case_b": "6e3342ba9f05a793",
+          "fixed_counts": [
+            79,
+            80
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "covariance": {
+              "fraction": "-7/32",
+              "value": -0.21875
+            },
+            "marginal_product": {
+              "fraction": "3/32",
+              "value": 0.09375
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 6,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_09",
+                "SEED_10",
+                "SEED_11",
+                "SEED_12",
+                "SEED_13",
+                "SEED_15"
+              ],
+              "case_a_hits": 14,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "-1/16",
+                "value": -0.0625
+              },
+              "marginal_product": {
+                "fraction": "7/16",
+                "value": 0.4375
+              },
+              "or_hits": 16
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14"
+              ],
+              "case_a_hits": 10,
+              "case_b_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "3/16",
+                "value": 0.1875
+              },
+              "marginal_product": {
+                "fraction": "5/16",
+                "value": 0.3125
+              },
+              "or_hits": 10
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "1f3bea24c806f3fc",
+          "case_b": "6e3342ba9f05a793",
+          "fixed_counts": [
+            79,
+            80
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "covariance": {
+              "fraction": "-1/4",
+              "value": -0.25
+            },
+            "marginal_product": {
+              "fraction": "1/8",
+              "value": 0.125
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 7,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_09",
+                "SEED_10",
+                "SEED_11",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 15,
+              "covariance": {
+                "fraction": "-1/32",
+                "value": -0.03125
+              },
+              "marginal_product": {
+                "fraction": "15/32",
+                "value": 0.46875
+              },
+              "or_hits": 16
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 14,
+              "covariance": {
+                "fraction": "1/16",
+                "value": 0.0625
+              },
+              "marginal_product": {
+                "fraction": "7/16",
+                "value": 0.4375
+              },
+              "or_hits": 14
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "6e3342ba9f05a793",
+          "case_b": "8d51fb6e98870a2f",
+          "fixed_counts": [
+            80,
+            80
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-3/32",
+              "value": -0.09375
+            },
+            "marginal_product": {
+              "fraction": "1/32",
+              "value": 0.03125
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 6,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_08",
+                "SEED_09",
+                "SEED_10",
+                "SEED_11",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 14,
+              "covariance": {
+                "fraction": "-1/16",
+                "value": -0.0625
+              },
+              "marginal_product": {
+                "fraction": "7/16",
+                "value": 0.4375
+              },
+              "or_hits": 16
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14"
+              ],
+              "case_b_hits": 10,
+              "covariance": {
+                "fraction": "3/16",
+                "value": 0.1875
+              },
+              "marginal_product": {
+                "fraction": "5/16",
+                "value": 0.3125
+              },
+              "or_hits": 10
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "6e3342ba9f05a793",
+          "case_b": "f2c26d1cc6193124",
+          "fixed_counts": [
+            80,
+            80
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "covariance": {
+              "fraction": "-1/4",
+              "value": -0.25
+            },
+            "marginal_product": {
+              "fraction": "1/8",
+              "value": 0.125
+            }
+          }
+        }
+      ],
+      "panel": "DEVELOPMENT",
+      "positive_cases": 11,
+      "shared_totals": [
+        9,
+        11,
+        6,
+        6,
+        2,
+        2,
+        11,
+        5,
+        11,
+        0,
+        5,
+        0,
+        2,
+        11,
+        9,
+        2
+      ],
+      "subset_sizes_favoring_local_and": [
+        1,
+        2,
+        3
+      ],
+      "subset_sizes_favoring_shared_and": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subset_sizes_tied_and": [],
+      "variant": "B01"
+    },
+    {
+      "analysis": "FIXED_COUNT",
+      "average_or_local_noninferior_all_sizes": true,
+      "case_marginals": [
+        {
+          "case_key": "033f10866e9fcde8",
+          "fixed_count": 89,
+          "local_hits": 11,
+          "shared_hits": 8
+        },
+        {
+          "case_key": "1f3bea24c806f3fc",
+          "fixed_count": 90,
+          "local_hits": 14,
+          "shared_hits": 11
+        },
+        {
+          "case_key": "3054cd4e48e4c14a",
+          "fixed_count": 91,
+          "local_hits": 15,
+          "shared_hits": 13
+        },
+        {
+          "case_key": "3667fa48f838ada4",
+          "fixed_count": 92,
+          "local_hits": 12,
+          "shared_hits": 8
+        },
+        {
+          "case_key": "495b34c46ea6cf4a",
+          "fixed_count": 91,
+          "local_hits": 13,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "687e14bf8499933a",
+          "fixed_count": 89,
+          "local_hits": 10,
+          "shared_hits": 8
+        },
+        {
+          "case_key": "6e3342ba9f05a793",
+          "fixed_count": 91,
+          "local_hits": 8,
+          "shared_hits": 8
+        },
+        {
+          "case_key": "6fdaf4aa34d8a42f",
+          "fixed_count": 92,
+          "local_hits": 10,
+          "shared_hits": 8
+        },
+        {
+          "case_key": "8d51fb6e98870a2f",
+          "fixed_count": 91,
+          "local_hits": 16,
+          "shared_hits": 14
+        },
+        {
+          "case_key": "a0265ead130dcd35",
+          "fixed_count": 90,
+          "local_hits": 13,
+          "shared_hits": 7
+        },
+        {
+          "case_key": "f2c26d1cc6193124",
+          "fixed_count": 91,
+          "local_hits": 14,
+          "shared_hits": 11
+        }
+      ],
+      "equal_total_but_different_case_sets": [],
+      "labels": [
+        "SEED_00",
+        "SEED_01",
+        "SEED_02",
+        "SEED_03",
+        "SEED_04",
+        "SEED_05",
+        "SEED_06",
+        "SEED_07",
+        "SEED_08",
+        "SEED_09",
+        "SEED_10",
+        "SEED_11",
+        "SEED_12",
+        "SEED_13",
+        "SEED_14",
+        "SEED_15"
+      ],
+      "local_totals": [
+        7,
+        10,
+        9,
+        10,
+        8,
+        9,
+        10,
+        9,
+        7,
+        7,
+        8,
+        8,
+        9,
+        9,
+        8,
+        8
+      ],
+      "named_pairs": 55,
+      "pair_marginal_joint_reversals": [
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 6,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 11,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "1/32",
+                "value": 0.03125
+              },
+              "marginal_product": {
+                "fraction": "11/32",
+                "value": 0.34375
+              },
+              "or_hits": 13
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "1/4",
+                "value": 0.25
+              },
+              "marginal_product": {
+                "fraction": "1/4",
+                "value": 0.25
+              },
+              "or_hits": 8
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "033f10866e9fcde8",
+          "case_b": "6e3342ba9f05a793",
+          "fixed_counts": [
+            89,
+            91
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "covariance": {
+              "fraction": "-7/32",
+              "value": -0.21875
+            },
+            "marginal_product": {
+              "fraction": "3/32",
+              "value": 0.09375
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 6,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_09",
+                "SEED_10",
+                "SEED_11",
+                "SEED_12",
+                "SEED_13",
+                "SEED_15"
+              ],
+              "case_a_hits": 14,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "-1/16",
+                "value": -0.0625
+              },
+              "marginal_product": {
+                "fraction": "7/16",
+                "value": 0.4375
+              },
+              "or_hits": 16
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 11,
+              "case_b_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "5/32",
+                "value": 0.15625
+              },
+              "marginal_product": {
+                "fraction": "11/32",
+                "value": 0.34375
+              },
+              "or_hits": 11
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "1f3bea24c806f3fc",
+          "case_b": "6e3342ba9f05a793",
+          "fixed_counts": [
+            90,
+            91
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "covariance": {
+              "fraction": "-7/32",
+              "value": -0.21875
+            },
+            "marginal_product": {
+              "fraction": "3/32",
+              "value": 0.09375
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 7,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_11",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 12,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_13",
+                "SEED_15"
+              ],
+              "case_b_hits": 10,
+              "covariance": {
+                "fraction": "-1/32",
+                "value": -0.03125
+              },
+              "marginal_product": {
+                "fraction": "15/32",
+                "value": 0.46875
+              },
+              "or_hits": 15
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_06",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "1/4",
+                "value": 0.25
+              },
+              "marginal_product": {
+                "fraction": "1/4",
+                "value": 0.25
+              },
+              "or_hits": 8
+            }
+          },
+          "both_marginals_strictly_higher": true,
+          "case_a": "3667fa48f838ada4",
+          "case_b": "6fdaf4aa34d8a42f",
+          "fixed_counts": [
+            92,
+            92
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-9/32",
+              "value": -0.28125
+            },
+            "marginal_product": {
+              "fraction": "7/32",
+              "value": 0.21875
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 4,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_05",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_09",
+                "SEED_12",
+                "SEED_13"
+              ],
+              "case_a_hits": 10,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "-1/16",
+                "value": -0.0625
+              },
+              "marginal_product": {
+                "fraction": "5/16",
+                "value": 0.3125
+              },
+              "or_hits": 14
+            },
+            "SHARED": {
+              "and_hits": 5,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_06",
+                "SEED_08",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "1/16",
+                "value": 0.0625
+              },
+              "marginal_product": {
+                "fraction": "1/4",
+                "value": 0.25
+              },
+              "or_hits": 11
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "687e14bf8499933a",
+          "case_b": "6e3342ba9f05a793",
+          "fixed_counts": [
+            89,
+            91
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "marginal_product": {
+              "fraction": "1/16",
+              "value": 0.0625
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 6,
+              "case_a_hit_labels": [
+                "SEED_00",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_10",
+                "SEED_11",
+                "SEED_14"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_03",
+                "SEED_04",
+                "SEED_05",
+                "SEED_06",
+                "SEED_08",
+                "SEED_09",
+                "SEED_10",
+                "SEED_11",
+                "SEED_12",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 14,
+              "covariance": {
+                "fraction": "-1/16",
+                "value": -0.0625
+              },
+              "marginal_product": {
+                "fraction": "7/16",
+                "value": 0.4375
+              },
+              "or_hits": 16
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_00",
+                "SEED_01",
+                "SEED_02",
+                "SEED_03",
+                "SEED_06",
+                "SEED_07",
+                "SEED_08",
+                "SEED_10",
+                "SEED_13",
+                "SEED_14",
+                "SEED_15"
+              ],
+              "case_b_hits": 11,
+              "covariance": {
+                "fraction": "5/32",
+                "value": 0.15625
+              },
+              "marginal_product": {
+                "fraction": "11/32",
+                "value": 0.34375
+              },
+              "or_hits": 11
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "6e3342ba9f05a793",
+          "case_b": "f2c26d1cc6193124",
+          "fixed_counts": [
+            91,
+            91
+          ],
+          "labels": [
+            "SEED_00",
+            "SEED_01",
+            "SEED_02",
+            "SEED_03",
+            "SEED_04",
+            "SEED_05",
+            "SEED_06",
+            "SEED_07",
+            "SEED_08",
+            "SEED_09",
+            "SEED_10",
+            "SEED_11",
+            "SEED_12",
+            "SEED_13",
+            "SEED_14",
+            "SEED_15"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "covariance": {
+              "fraction": "-7/32",
+              "value": -0.21875
+            },
+            "marginal_product": {
+              "fraction": "3/32",
+              "value": 0.09375
+            }
+          }
+        }
+      ],
+      "panel": "DEVELOPMENT",
+      "positive_cases": 11,
+      "shared_totals": [
+        9,
+        11,
+        6,
+        8,
+        2,
+        2,
+        11,
+        5,
+        11,
+        0,
+        9,
+        0,
+        2,
+        11,
+        9,
+        9
+      ],
+      "subset_sizes_favoring_local_and": [
+        1,
+        2,
+        3
+      ],
+      "subset_sizes_favoring_shared_and": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "subset_sizes_tied_and": [],
+      "variant": "B02"
+    },
+    {
+      "analysis": "FIXED_COUNT",
+      "average_or_local_noninferior_all_sizes": true,
+      "case_marginals": [
+        {
+          "case_key": "095d07e6c6a6b418",
+          "fixed_count": 80,
+          "local_hits": 8,
+          "shared_hits": 10
+        },
+        {
+          "case_key": "63a23f52ccdcd546",
+          "fixed_count": 81,
+          "local_hits": 16,
+          "shared_hits": 14
+        },
+        {
+          "case_key": "6862fae3f3c27725",
+          "fixed_count": 80,
+          "local_hits": 10,
+          "shared_hits": 8
+        },
+        {
+          "case_key": "80c2bad39beec7cc",
+          "fixed_count": 80,
+          "local_hits": 16,
+          "shared_hits": 16
+        },
+        {
+          "case_key": "8baa4eab526b2481",
+          "fixed_count": 79,
+          "local_hits": 10,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "c1c73991d617f258",
+          "fixed_count": 79,
+          "local_hits": 8,
+          "shared_hits": 8
+        },
+        {
+          "case_key": "c8aa7290d1be9939",
+          "fixed_count": 79,
+          "local_hits": 6,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "cfb7145b9d3bb846",
+          "fixed_count": 81,
+          "local_hits": 13,
+          "shared_hits": 13
+        },
+        {
+          "case_key": "d4cdb8d1a44e6212",
+          "fixed_count": 82,
+          "local_hits": 13,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "eb75672c183c2dda",
+          "fixed_count": 78,
+          "local_hits": 7,
+          "shared_hits": 9
+        }
+      ],
+      "equal_total_but_different_case_sets": [
+        {
+          "local_only": [
+            "c1c73991d617f258"
+          ],
+          "seed": "SEED_21",
+          "shared_only": [
+            "eb75672c183c2dda"
+          ],
+          "total_hits": 8
+        },
+        {
+          "local_only": [
+            "c8aa7290d1be9939",
+            "d4cdb8d1a44e6212"
+          ],
+          "seed": "SEED_24",
+          "shared_only": [
+            "095d07e6c6a6b418",
+            "6862fae3f3c27725"
+          ],
+          "total_hits": 6
+        },
+        {
+          "local_only": [
+            "cfb7145b9d3bb846"
+          ],
+          "seed": "SEED_28",
+          "shared_only": [
+            "c8aa7290d1be9939"
+          ],
+          "total_hits": 6
+        },
+        {
+          "local_only": [
+            "6862fae3f3c27725",
+            "c1c73991d617f258"
+          ],
+          "seed": "SEED_29",
+          "shared_only": [
+            "c8aa7290d1be9939",
+            "d4cdb8d1a44e6212"
+          ],
+          "total_hits": 8
+        }
+      ],
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "local_totals": [
+        7,
+        7,
+        5,
+        6,
+        6,
+        8,
+        7,
+        7,
+        6,
+        7,
+        9,
+        7,
+        6,
+        8,
+        4,
+        7
+      ],
+      "named_pairs": 45,
+      "pair_marginal_joint_reversals": [
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 5,
+              "case_a_hit_labels": [
+                "SEED_16",
+                "SEED_17",
+                "SEED_19",
+                "SEED_22",
+                "SEED_23",
+                "SEED_26",
+                "SEED_27",
+                "SEED_29",
+                "SEED_30",
+                "SEED_31"
+              ],
+              "case_a_hits": 10,
+              "case_b_hit_labels": [
+                "SEED_16",
+                "SEED_18",
+                "SEED_19",
+                "SEED_21",
+                "SEED_23",
+                "SEED_24",
+                "SEED_26",
+                "SEED_29"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "0",
+                "value": 0.0
+              },
+              "marginal_product": {
+                "fraction": "5/16",
+                "value": 0.3125
+              },
+              "or_hits": 13
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_22",
+                "SEED_24",
+                "SEED_26",
+                "SEED_27",
+                "SEED_30"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_22",
+                "SEED_24",
+                "SEED_26",
+                "SEED_27",
+                "SEED_30"
+              ],
+              "case_b_hits": 8,
+              "covariance": {
+                "fraction": "1/4",
+                "value": 0.25
+              },
+              "marginal_product": {
+                "fraction": "1/4",
+                "value": 0.25
+              },
+              "or_hits": 8
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "6862fae3f3c27725",
+          "case_b": "c1c73991d617f258",
+          "fixed_counts": [
+            80,
+            79
+          ],
+          "labels": [
+            "SEED_16",
+            "SEED_17",
+            "SEED_18",
+            "SEED_19",
+            "SEED_20",
+            "SEED_21",
+            "SEED_22",
+            "SEED_23",
+            "SEED_24",
+            "SEED_25",
+            "SEED_26",
+            "SEED_27",
+            "SEED_28",
+            "SEED_29",
+            "SEED_30",
+            "SEED_31"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-3/16",
+              "value": -0.1875
+            },
+            "covariance": {
+              "fraction": "-1/4",
+              "value": -0.25
+            },
+            "marginal_product": {
+              "fraction": "1/16",
+              "value": 0.0625
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 7,
+              "case_a_hit_labels": [
+                "SEED_16",
+                "SEED_17",
+                "SEED_19",
+                "SEED_22",
+                "SEED_23",
+                "SEED_26",
+                "SEED_27",
+                "SEED_29",
+                "SEED_30",
+                "SEED_31"
+              ],
+              "case_a_hits": 10,
+              "case_b_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_20",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_24",
+                "SEED_25",
+                "SEED_26",
+                "SEED_27",
+                "SEED_28",
+                "SEED_29",
+                "SEED_31"
+              ],
+              "case_b_hits": 13,
+              "covariance": {
+                "fraction": "-9/128",
+                "value": -0.0703125
+              },
+              "marginal_product": {
+                "fraction": "65/128",
+                "value": 0.5078125
+              },
+              "or_hits": 16
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_22",
+                "SEED_24",
+                "SEED_26",
+                "SEED_27",
+                "SEED_30"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_20",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_24",
+                "SEED_26",
+                "SEED_27",
+                "SEED_29",
+                "SEED_30",
+                "SEED_31"
+              ],
+              "case_b_hits": 13,
+              "covariance": {
+                "fraction": "3/32",
+                "value": 0.09375
+              },
+              "marginal_product": {
+                "fraction": "13/32",
+                "value": 0.40625
+              },
+              "or_hits": 13
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "6862fae3f3c27725",
+          "case_b": "cfb7145b9d3bb846",
+          "fixed_counts": [
+            80,
+            81
+          ],
+          "labels": [
+            "SEED_16",
+            "SEED_17",
+            "SEED_18",
+            "SEED_19",
+            "SEED_20",
+            "SEED_21",
+            "SEED_22",
+            "SEED_23",
+            "SEED_24",
+            "SEED_25",
+            "SEED_26",
+            "SEED_27",
+            "SEED_28",
+            "SEED_29",
+            "SEED_30",
+            "SEED_31"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-21/128",
+              "value": -0.1640625
+            },
+            "marginal_product": {
+              "fraction": "13/128",
+              "value": 0.1015625
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_16",
+                "SEED_20",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_25",
+                "SEED_26",
+                "SEED_28",
+                "SEED_29",
+                "SEED_31"
+              ],
+              "case_a_hits": 10,
+              "case_b_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_20",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_24",
+                "SEED_25",
+                "SEED_26",
+                "SEED_28",
+                "SEED_30",
+                "SEED_31"
+              ],
+              "case_b_hits": 13,
+              "covariance": {
+                "fraction": "-1/128",
+                "value": -0.0078125
+              },
+              "marginal_product": {
+                "fraction": "65/128",
+                "value": 0.5078125
+              },
+              "or_hits": 15
+            },
+            "SHARED": {
+              "and_hits": 9,
+              "case_a_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_28",
+                "SEED_29",
+                "SEED_31"
+              ],
+              "case_a_hits": 9,
+              "case_b_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_28",
+                "SEED_29",
+                "SEED_31"
+              ],
+              "case_b_hits": 9,
+              "covariance": {
+                "fraction": "63/256",
+                "value": 0.24609375
+              },
+              "marginal_product": {
+                "fraction": "81/256",
+                "value": 0.31640625
+              },
+              "or_hits": 9
+            }
+          },
+          "both_marginals_strictly_higher": true,
+          "case_a": "8baa4eab526b2481",
+          "case_b": "d4cdb8d1a44e6212",
+          "fixed_counts": [
+            79,
+            82
+          ],
+          "labels": [
+            "SEED_16",
+            "SEED_17",
+            "SEED_18",
+            "SEED_19",
+            "SEED_20",
+            "SEED_21",
+            "SEED_22",
+            "SEED_23",
+            "SEED_24",
+            "SEED_25",
+            "SEED_26",
+            "SEED_27",
+            "SEED_28",
+            "SEED_29",
+            "SEED_30",
+            "SEED_31"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-65/256",
+              "value": -0.25390625
+            },
+            "marginal_product": {
+              "fraction": "49/256",
+              "value": 0.19140625
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 6,
+              "case_a_hit_labels": [
+                "SEED_16",
+                "SEED_18",
+                "SEED_19",
+                "SEED_21",
+                "SEED_23",
+                "SEED_24",
+                "SEED_26",
+                "SEED_29"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_20",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_24",
+                "SEED_25",
+                "SEED_26",
+                "SEED_27",
+                "SEED_28",
+                "SEED_29",
+                "SEED_31"
+              ],
+              "case_b_hits": 13,
+              "covariance": {
+                "fraction": "-1/32",
+                "value": -0.03125
+              },
+              "marginal_product": {
+                "fraction": "13/32",
+                "value": 0.40625
+              },
+              "or_hits": 15
+            },
+            "SHARED": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_22",
+                "SEED_24",
+                "SEED_26",
+                "SEED_27",
+                "SEED_30"
+              ],
+              "case_a_hits": 8,
+              "case_b_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_20",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_24",
+                "SEED_26",
+                "SEED_27",
+                "SEED_29",
+                "SEED_30",
+                "SEED_31"
+              ],
+              "case_b_hits": 13,
+              "covariance": {
+                "fraction": "3/32",
+                "value": 0.09375
+              },
+              "marginal_product": {
+                "fraction": "13/32",
+                "value": 0.40625
+              },
+              "or_hits": 13
+            }
+          },
+          "both_marginals_strictly_higher": false,
+          "case_a": "c1c73991d617f258",
+          "case_b": "cfb7145b9d3bb846",
+          "fixed_counts": [
+            79,
+            81
+          ],
+          "labels": [
+            "SEED_16",
+            "SEED_17",
+            "SEED_18",
+            "SEED_19",
+            "SEED_20",
+            "SEED_21",
+            "SEED_22",
+            "SEED_23",
+            "SEED_24",
+            "SEED_25",
+            "SEED_26",
+            "SEED_27",
+            "SEED_28",
+            "SEED_29",
+            "SEED_30",
+            "SEED_31"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "covariance": {
+              "fraction": "-1/8",
+              "value": -0.125
+            },
+            "marginal_product": {
+              "fraction": "0",
+              "value": 0.0
+            }
+          }
+        }
+      ],
+      "panel": "TRANSFER",
+      "positive_cases": 10,
+      "shared_totals": [
+        1,
+        9,
+        9,
+        10,
+        4,
+        8,
+        10,
+        8,
+        6,
+        1,
+        6,
+        6,
+        6,
+        8,
+        5,
+        8
+      ],
+      "subset_sizes_favoring_local_and": [
+        1
+      ],
+      "subset_sizes_favoring_shared_and": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "subset_sizes_tied_and": [],
+      "variant": "B01"
+    },
+    {
+      "analysis": "FIXED_COUNT",
+      "average_or_local_noninferior_all_sizes": true,
+      "case_marginals": [
+        {
+          "case_key": "095d07e6c6a6b418",
+          "fixed_count": 90,
+          "local_hits": 9,
+          "shared_hits": 10
+        },
+        {
+          "case_key": "63a23f52ccdcd546",
+          "fixed_count": 92,
+          "local_hits": 16,
+          "shared_hits": 15
+        },
+        {
+          "case_key": "6862fae3f3c27725",
+          "fixed_count": 90,
+          "local_hits": 10,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "80c2bad39beec7cc",
+          "fixed_count": 91,
+          "local_hits": 16,
+          "shared_hits": 16
+        },
+        {
+          "case_key": "8baa4eab526b2481",
+          "fixed_count": 89,
+          "local_hits": 10,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "c1c73991d617f258",
+          "fixed_count": 91,
+          "local_hits": 11,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "c8aa7290d1be9939",
+          "fixed_count": 89,
+          "local_hits": 7,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "cfb7145b9d3bb846",
+          "fixed_count": 91,
+          "local_hits": 15,
+          "shared_hits": 14
+        },
+        {
+          "case_key": "d4cdb8d1a44e6212",
+          "fixed_count": 94,
+          "local_hits": 13,
+          "shared_hits": 9
+        },
+        {
+          "case_key": "eb75672c183c2dda",
+          "fixed_count": 90,
+          "local_hits": 8,
+          "shared_hits": 9
+        }
+      ],
+      "equal_total_but_different_case_sets": [
+        {
+          "local_only": [
+            "c1c73991d617f258"
+          ],
+          "seed": "SEED_21",
+          "shared_only": [
+            "eb75672c183c2dda"
+          ],
+          "total_hits": 8
+        },
+        {
+          "local_only": [
+            "cfb7145b9d3bb846"
+          ],
+          "seed": "SEED_28",
+          "shared_only": [
+            "c8aa7290d1be9939"
+          ],
+          "total_hits": 6
+        },
+        {
+          "local_only": [
+            "6862fae3f3c27725",
+            "c1c73991d617f258"
+          ],
+          "seed": "SEED_29",
+          "shared_only": [
+            "c8aa7290d1be9939",
+            "d4cdb8d1a44e6212"
+          ],
+          "total_hits": 8
+        },
+        {
+          "local_only": [
+            "6862fae3f3c27725"
+          ],
+          "seed": "SEED_31",
+          "shared_only": [
+            "c8aa7290d1be9939"
+          ],
+          "total_hits": 8
+        }
+      ],
+      "labels": [
+        "SEED_16",
+        "SEED_17",
+        "SEED_18",
+        "SEED_19",
+        "SEED_20",
+        "SEED_21",
+        "SEED_22",
+        "SEED_23",
+        "SEED_24",
+        "SEED_25",
+        "SEED_26",
+        "SEED_27",
+        "SEED_28",
+        "SEED_29",
+        "SEED_30",
+        "SEED_31"
+      ],
+      "local_totals": [
+        8,
+        8,
+        5,
+        7,
+        6,
+        8,
+        8,
+        7,
+        7,
+        7,
+        9,
+        7,
+        6,
+        8,
+        6,
+        8
+      ],
+      "named_pairs": 45,
+      "pair_marginal_joint_reversals": [
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_16",
+                "SEED_17",
+                "SEED_19",
+                "SEED_22",
+                "SEED_23",
+                "SEED_26",
+                "SEED_27",
+                "SEED_29",
+                "SEED_30",
+                "SEED_31"
+              ],
+              "case_a_hits": 10,
+              "case_b_hit_labels": [
+                "SEED_16",
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_24",
+                "SEED_26",
+                "SEED_29",
+                "SEED_30"
+              ],
+              "case_b_hits": 11,
+              "covariance": {
+                "fraction": "9/128",
+                "value": 0.0703125
+              },
+              "marginal_product": {
+                "fraction": "55/128",
+                "value": 0.4296875
+              },
+              "or_hits": 13
+            },
+            "SHARED": {
+              "and_hits": 9,
+              "case_a_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_22",
+                "SEED_24",
+                "SEED_25",
+                "SEED_26",
+                "SEED_27",
+                "SEED_30"
+              ],
+              "case_a_hits": 9,
+              "case_b_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_22",
+                "SEED_24",
+                "SEED_25",
+                "SEED_26",
+                "SEED_27",
+                "SEED_30"
+              ],
+              "case_b_hits": 9,
+              "covariance": {
+                "fraction": "63/256",
+                "value": 0.24609375
+              },
+              "marginal_product": {
+                "fraction": "81/256",
+                "value": 0.31640625
+              },
+              "or_hits": 9
+            }
+          },
+          "both_marginals_strictly_higher": true,
+          "case_a": "6862fae3f3c27725",
+          "case_b": "c1c73991d617f258",
+          "fixed_counts": [
+            90,
+            91
+          ],
+          "labels": [
+            "SEED_16",
+            "SEED_17",
+            "SEED_18",
+            "SEED_19",
+            "SEED_20",
+            "SEED_21",
+            "SEED_22",
+            "SEED_23",
+            "SEED_24",
+            "SEED_25",
+            "SEED_26",
+            "SEED_27",
+            "SEED_28",
+            "SEED_29",
+            "SEED_30",
+            "SEED_31"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-45/256",
+              "value": -0.17578125
+            },
+            "marginal_product": {
+              "fraction": "29/256",
+              "value": 0.11328125
+            }
+          }
+        },
+        {
+          "arms": {
+            "CASE_LOCAL": {
+              "and_hits": 8,
+              "case_a_hit_labels": [
+                "SEED_16",
+                "SEED_20",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_25",
+                "SEED_26",
+                "SEED_28",
+                "SEED_29",
+                "SEED_31"
+              ],
+              "case_a_hits": 10,
+              "case_b_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_20",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_24",
+                "SEED_25",
+                "SEED_26",
+                "SEED_28",
+                "SEED_30",
+                "SEED_31"
+              ],
+              "case_b_hits": 13,
+              "covariance": {
+                "fraction": "-1/128",
+                "value": -0.0078125
+              },
+              "marginal_product": {
+                "fraction": "65/128",
+                "value": 0.5078125
+              },
+              "or_hits": 15
+            },
+            "SHARED": {
+              "and_hits": 9,
+              "case_a_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_28",
+                "SEED_29",
+                "SEED_31"
+              ],
+              "case_a_hits": 9,
+              "case_b_hit_labels": [
+                "SEED_17",
+                "SEED_18",
+                "SEED_19",
+                "SEED_21",
+                "SEED_22",
+                "SEED_23",
+                "SEED_28",
+                "SEED_29",
+                "SEED_31"
+              ],
+              "case_b_hits": 9,
+              "covariance": {
+                "fraction": "63/256",
+                "value": 0.24609375
+              },
+              "marginal_product": {
+                "fraction": "81/256",
+                "value": 0.31640625
+              },
+              "or_hits": 9
+            }
+          },
+          "both_marginals_strictly_higher": true,
+          "case_a": "8baa4eab526b2481",
+          "case_b": "d4cdb8d1a44e6212",
+          "fixed_counts": [
+            89,
+            94
+          ],
+          "labels": [
+            "SEED_16",
+            "SEED_17",
+            "SEED_18",
+            "SEED_19",
+            "SEED_20",
+            "SEED_21",
+            "SEED_22",
+            "SEED_23",
+            "SEED_24",
+            "SEED_25",
+            "SEED_26",
+            "SEED_27",
+            "SEED_28",
+            "SEED_29",
+            "SEED_30",
+            "SEED_31"
+          ],
+          "local_minus_shared": {
+            "and_frequency": {
+              "fraction": "-1/16",
+              "value": -0.0625
+            },
+            "covariance": {
+              "fraction": "-65/256",
+              "value": -0.25390625
+            },
+            "marginal_product": {
+              "fraction": "49/256",
+              "value": 0.19140625
+            }
+          }
+        }
+      ],
+      "panel": "TRANSFER",
+      "positive_cases": 10,
+      "shared_totals": [
+        1,
+        9,
+        9,
+        10,
+        4,
+        8,
+        10,
+        8,
+        6,
+        5,
+        6,
+        6,
+        6,
+        8,
+        5,
+        8
+      ],
+      "subset_sizes_favoring_local_and": [
+        1,
+        2
+      ],
+      "subset_sizes_favoring_shared_and": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "subset_sizes_tied_and": [],
+      "variant": "B02"
+    }
+  ],
+  "computations": {
+    "comparisons": 8,
+    "finite_formula_codechecks": 3586,
+    "new_cases_or_seeds": 0,
+    "packing_tokenization_model_calls": 0,
+    "pair_comparisons": 400,
+    "source_query_reruns": 0,
+    "subset_comparison_rows": 12280,
+    "subset_size_profile_rows": 84
+  },
+  "counterexample": {
+    "arms": {
+      "CASE_LOCAL": {
+        "and_hits": 8,
+        "case_a_hit_labels": [
+          "SEED_16",
+          "SEED_17",
+          "SEED_19",
+          "SEED_22",
+          "SEED_23",
+          "SEED_26",
+          "SEED_27",
+          "SEED_29",
+          "SEED_30",
+          "SEED_31"
+        ],
+        "case_a_hits": 10,
+        "case_b_hit_labels": [
+          "SEED_16",
+          "SEED_17",
+          "SEED_18",
+          "SEED_19",
+          "SEED_21",
+          "SEED_22",
+          "SEED_23",
+          "SEED_24",
+          "SEED_26",
+          "SEED_29",
+          "SEED_30"
+        ],
+        "case_b_hits": 11,
+        "covariance": {
+          "fraction": "9/128",
+          "value": 0.0703125
+        },
+        "marginal_product": {
+          "fraction": "55/128",
+          "value": 0.4296875
+        },
+        "or_hits": 13
+      },
+      "SHARED": {
+        "and_hits": 9,
+        "case_a_hit_labels": [
+          "SEED_17",
+          "SEED_18",
+          "SEED_19",
+          "SEED_22",
+          "SEED_24",
+          "SEED_25",
+          "SEED_26",
+          "SEED_27",
+          "SEED_30"
+        ],
+        "case_a_hits": 9,
+        "case_b_hit_labels": [
+          "SEED_17",
+          "SEED_18",
+          "SEED_19",
+          "SEED_22",
+          "SEED_24",
+          "SEED_25",
+          "SEED_26",
+          "SEED_27",
+          "SEED_30"
+        ],
+        "case_b_hits": 9,
+        "covariance": {
+          "fraction": "63/256",
+          "value": 0.24609375
+        },
+        "marginal_product": {
+          "fraction": "81/256",
+          "value": 0.31640625
+        },
+        "or_hits": 9
+      }
+    },
+    "both_marginals_strictly_higher": true,
+    "case_a": "6862fae3f3c27725",
+    "case_b": "c1c73991d617f258",
+    "fixed_counts": [
+      90,
+      91
+    ],
+    "labels": [
+      "SEED_16",
+      "SEED_17",
+      "SEED_18",
+      "SEED_19",
+      "SEED_20",
+      "SEED_21",
+      "SEED_22",
+      "SEED_23",
+      "SEED_24",
+      "SEED_25",
+      "SEED_26",
+      "SEED_27",
+      "SEED_28",
+      "SEED_29",
+      "SEED_30",
+      "SEED_31"
+    ],
+    "local_minus_shared": {
+      "and_frequency": {
+        "fraction": "-1/16",
+        "value": -0.0625
+      },
+      "covariance": {
+        "fraction": "-45/256",
+        "value": -0.17578125
+      },
+      "marginal_product": {
+        "fraction": "29/256",
+        "value": 0.11328125
+      }
+    }
+  },
+  "evidence": {
+    "count_matching_groups": 300,
+    "input_zip_sha256": "263f81adc3230bb4849a7b436022b5861cdc83ececd49d4bb26c675307bd5063",
+    "original_rows_crosschecked": 9600,
+    "positive_cases": {
+      "DEVELOPMENT": 11,
+      "TRANSFER": 10
+    },
+    "selection_member_sha256": "be0006b025f605e5c0d9180942c04d6c1aff2ce9ea853d7dc9ce8f74fababc2d",
+    "selection_rows": 9600,
+    "source_provenance": {
+      "member_sha256": {
+        "DEV_CASE_LOCAL.csv": "5d7949e23e94750e1cd4f772a784ef319c6282743f6b4f34b8559e2689adcf1f",
+        "DEV_SHARED.csv": "eabfbb090e89e5fba08f1f1bd7d372dd390b3e798f9ccbc6ab25bad8e6632794",
+        "FIXED_COUNT_SELECTIONS.csv": "be0006b025f605e5c0d9180942c04d6c1aff2ce9ea853d7dc9ce8f74fababc2d",
+        "TRANSFER_SELECTIONS.csv": "12e83f325852928fd0f93fb9493dd451a50428d1bb4e744de6d4d5d17c22bcd6",
+        "WITNESS_SUMMARY.csv": "dfc725f1da72e70bff81a663606f500fb3c9bb7917d41bc4a89ed9b91b07dbb4"
+      },
+      "parent_manuscript_sha256": "11108f18fc1ce8c5992b6e8b7a2c691205f29aebed2e9c0a7d5a6010d4bc0cd1",
+      "source_files": {
+        "08_EXISTING_V4_RESULTS.csv": "eabfbb090e89e5fba08f1f1bd7d372dd390b3e798f9ccbc6ab25bad8e6632794",
+        "CASE_LOCAL_RESULTS.csv": "5d7949e23e94750e1cd4f772a784ef319c6282743f6b4f34b8559e2689adcf1f",
+        "FIXED_COUNT_RESULT.zip": "df08f1d7e3dc43b564752fe4f7df643ece13e3dc8deb15a6dcbd149cd3390037",
+        "NEXT_CASE_TRANSFER_RESULT.zip": "7919d4bc6b8142d1ff2cc96e823bb3bc6d7348ffe6925a7a789231fdea94a228"
+      }
+    }
+  },
+  "interpretation": {
+    "analysis": "Post-hoc Boolean compositions of stored per-case EXISTS witnesses",
+    "events": "Cases were not shown to be logically related incidents. AND/OR describe imposed preservation requirements only",
+    "identity": "Full T distributions characterize symmetric count utilities, not requirements for named case subsets",
+    "independence": "No independence assumption or product approximation used for reported empirical AND/OR",
+    "modification": "Original source/results/environments unchanged",
+    "novelty": "Known dependence/provenance identities; contribution is telemetry-specific empirical diagnosis",
+    "uncertainty": "16 fixed labels; exact enumeration does not create independent data or a population probability estimate",
+    "workload": "Uniform equal weight over all q-subsets is an analytic reference, not an observed operating workload"
+  },
+  "status": "COMPLETE_POST_HOC_IDENTITY_AWARE_BOOLEAN_COMPOSITION"
+}

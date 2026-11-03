@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-31",
+  "analysis": "DESCRIPTIVE_STORED_OUTPUT_ALGEBRA",
+  "source_sha256": {
+    "FIXED_COUNT_RESULT.zip": "df08f1d7e3dc43b564752fe4f7df643ece13e3dc8deb15a6dcbd149cd3390037",
+    "QUERY_REPLAY_RESULT.zip": "3b937f17f2be1d63912e408f2676b72b8dc4637e57910942b685d39f9ff319e8",
+    "NEXT_CASE_TRANSFER_RESULT.zip": "7919d4bc6b8142d1ff2cc96e823bb3bc6d7348ffe6925a7a789231fdea94a228"
+  },
+  "count_rows_used": 25600,
+  "summary_rows": 64,
+  "source_gold_case_query_pairs": 200,
+  "identity": "m-c = max(m-k,0) + min(m,k)-c",
+  "invariants": [
+    "integer gold consistent across existing nonzero-error rows",
+    "0 <= retained positives <= min(gold,k)",
+    "decomposition equals existing error on all selected rows"
+  ],
+  "interpretation": "cardinality-only lower bound, not token-feasible oracle; residual is not proven avoidable under actual packing",
+  "new_raw_queries": 0,
+  "new_experiments": 0,
+  "new_settings": 0,
+  "original_results_modified": false,
+  "p_values_or_population_inference": null
+}
